@@ -1,0 +1,153 @@
+PREFIX : <https://linked.data.gov.au/dataset/bdr/statsprops/>
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/statsprops>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:BiodiversityRecordsCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of ABIS Biodiversity Records class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BiodiversityRecords Count"@en ;
+.
+
+:DatasetsCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of ABIS Dataset (schema:Dataset) class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Datasets Count"@en ;
+.
+
+:ObservationsCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of ABIS Observation class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observations Count"@en ;
+.
+
+:OccurrencesCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of ABIS Occurrence class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Occurrences Count"@en ;
+.
+
+:SamplesCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of SOSA Sample class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Samples Count"@en ;
+.
+
+:SamplingsCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of SOSA Sampling class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Samplings Count"@en ;
+.
+
+:SiteCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of TERN Site class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Site Count"@en ;
+.
+
+:SiteVisitCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of TERN SiteVisit class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SiteVisit Count"@en ;
+.
+
+:SubmissionCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of ABIS Submission (tern:RDFDataset) class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Submission Count"@en ;
+.
+
+:SurveyCount
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :DataStatistic ;
+    skos:definition "The number of TERN Survey class instances within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Survey Count"@en ;
+.
+
+:DataStatistic
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A statistic of data within a given scope"@en ;
+    skos:historyNote "Defined by BDR admin" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data Statistic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Statistical Properties - These are observable properties that describe statistics of BDR Datasets."@en ;
+    skos:hasTopConcept :DataStatistic ;
+    skos:historyNote "This vocabulary was developed for the Biodiversity Data Repository as a catch-all vocab/register of observable properties which are not characterised elsewhere" ;
+    skos:prefLabel "BDR Statistical Properties"@en ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2024-07-10"^^xsd:date ;
+    schema:dateModified "2026-08-31"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.

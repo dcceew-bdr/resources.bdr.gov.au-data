@@ -1,0 +1,325 @@
+PREFIX : <https://linked.data.gov.au/def/nsl/tnu-types/>
+PREFIX cs: <https://linked.data.gov.au/def/nsl/tnu-types>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:comb-et-stat-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :stat-nov ;
+    skos:definition "comb-et-stat-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Comb Et Stat Nov"@en ;
+.
+
+:doubtful-nomenclatural-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "doubtful-nomenclatural-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Doubtful Nomenclatural Synonym"@en ;
+.
+
+:doubtful-pro-parte-taxonomic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "doubtful-pro-parte-taxonomic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Doubtful Pro Parte Taxonomic Synonym"@en ;
+.
+
+:doubtful-taxonomic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "doubtful-taxonomic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Doubtful Taxonomic Synonym"@en ;
+.
+
+:explicit-autonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :autonym ;
+    skos:definition "explicit-autonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Explicit Autonym"@en ;
+.
+
+:heterotypic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "heterotypic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Heterotypic Synonym"@en ;
+.
+
+:homotypic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "homotypic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Homotypic Synonym"@en ;
+.
+
+:implicit-autonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :autonym ;
+    skos:definition "implicit-autonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Implicit Autonym"@en ;
+.
+
+:nom-et-stat-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :stat-nov ;
+    skos:definition "nom-et-stat-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nom Et Stat Nov"@en ;
+.
+
+:nomenclatural-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "nomenclatural-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nomenclatural Synonym"@en ;
+.
+
+:primary-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "primary-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Primary Synonym"@en ;
+.
+
+:pro-parte-nomenclatural-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "pro-parte-nomenclatural-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pro Parte Nomenclatural Synonym"@en ;
+.
+
+:pro-parte-taxonomic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "pro-parte-taxonomic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pro Parte Taxonomic Synonym"@en ;
+.
+
+:replaced-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "replaced-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Replaced Synonym"@en ;
+.
+
+:taxonomic-synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :synonym ;
+    skos:definition "taxonomic-synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Taxonomic Synonym"@en ;
+.
+
+:alternative-name
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "alternative-name"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Alternative Name"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:basionym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "basionym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Basionym"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:comb-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "comb-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Comb Nov"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:isonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "isonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Isonym"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nom-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "nom-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nom Nov"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:orthographic-variant
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "orthographic-variant"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Orthographic Variant"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:primary-reference
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "primary-reference"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Primary Reference"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:replacement-name
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "replacement-name"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Replacement Name"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:secondary-reference
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "secondary-reference"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Secondary Reference"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tax-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "tax-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tax Nov"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:valid-name
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "valid-name"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Valid Name"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:autonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "autonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Autonym"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stat-nov
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "stat-nov"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stat Nov"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:synonym
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "synonym"@en ;
+    skos:historyNote "Defined by the BDR Team based on text literals in the NSL graph." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Synonym"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition "Vocabulary of types for TaxonNameUsage instances in the NSL, as used in the BDR."@en ;
+    skos:hasTopConcept
+        :alternative-name ,
+        :autonym ,
+        :basionym ,
+        :comb-nov ,
+        :isonym ,
+        :nom-nov ,
+        :orthographic-variant ,
+        :primary-reference ,
+        :replacement-name ,
+        :secondary-reference ,
+        :stat-nov ,
+        :synonym ,
+        :tax-nov ,
+        :valid-name ;
+    skos:historyNote "This vocabulary was developed by the BDR team for the use in the NSL integration within the BDR." ;
+    skos:prefLabel "NSL TaxonNameUsage Types"@en ;
+    skos:scopeNote "This is used the for soft-typing instances of TaxonNameUsage via the schema:additionalType property." ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2025-05-20"^^xsd:date ;
+    schema:dateModified "2026-08-31"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.
