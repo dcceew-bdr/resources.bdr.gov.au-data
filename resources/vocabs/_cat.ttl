@@ -22,9 +22,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/epbc-ts-cats> ,
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ;
-    schema:name "BDR Vocabularies" ;
+    schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
 
 <https://def.isotc211.org/codeset/RoleCode>
