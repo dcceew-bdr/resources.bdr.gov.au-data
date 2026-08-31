@@ -1,7 +1,7 @@
 # resources.bdr.gov.au Data
 
 This repository contains the static (file-based) data available at <https://resources.bdr.gov.au> which is the catalogue 
-of reference data supporting the [biodiversity Data repository](https://bdr.gov.au). It also contains information about 
+of reference data supporting the [Biodiversity Data repository](https://bdr.gov.au). It also contains information about 
 all other resources listed in that catalogue, whether it contains the static data or not.
 
 Content here is _not_ the main data of the BDR - observations of species occurrence - which is available from 
@@ -11,7 +11,6 @@ Content here is _not_ the main data of the BDR - observations of species occurre
 
 The resources are managed using [kgm](https://kurrawong.github.io/kgm/), so there is a manifest at `resources/manifest.ttl`
 that links to and indicates roles for all the static resources.
-
 
 ## License & Copyright
 
