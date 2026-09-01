@@ -1,0 +1,22 @@
+PREFIX cs: <https://linked.data.gov.au/def/tern-cv/6ea67eea-c2ae-4240-952a-fdb95b2df8ab>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/tern-cv/c7fb8405-3906-4056-a004-b6ce44d018c5>
+    a skos:Concept ;
+    skos:definition "TBD"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Queensland wildlife"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2021-05-06"^^xsd:date ;
+    dcterms:modified "2021-11-01"^^xsd:date ;
+    skos:hasTopConcept <https://linked.data.gov.au/def/tern-cv/c7fb8405-3906-4056-a004-b6ce44d018c5> ;
+    skos:prefLabel "Conservation Status Jurisdictions"@en ;
+        dcterms:creator <https://linked.data.gov.au/org/tern> ;
+    dcterms:publisher  <https://linked.data.gov.au/org/tern> ;
+.

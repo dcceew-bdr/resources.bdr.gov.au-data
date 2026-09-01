@@ -158,7 +158,7 @@ ror:030c92375
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The Australian Museum is an NSW Government organisation operating under the Department of Creative Industries"@en ;
+    skos:definition "The Australian Museum is an NSW Government Organization operating under the Department of Creative Industries"@en ;
     skos:inScheme cs: ;
     skos:notation "85 407 224 698"^^id:ausbn ;
     skos:prefLabel "Australian Museum"@en ;
@@ -214,13 +214,13 @@ Since its founding in 1869, the Museum has advanced its global mission to discov
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """The Australian Biodiversity Information Governance Group (AusBIGG) comprises Australian Commonwealth, State &amp; Territory and environmental research organisations involved in the collection and management of biodiversity information.
+    skos:definition """The Australian Biodiversity Information Governance Group (AusBIGG) comprises Australian Commonwealth, State &amp; Territory and environmental research Organizations involved in the collection and management of biodiversity information.
 
 AusBIGG was established in 2021 and its main role, as of 2023, is the governance of the Australian Biodiversity Information Standard.""" ;
     skos:inScheme cs: ;
     skos:prefLabel "Australian Biodiversity Information Governance Group" ;
     skos:topConceptOf cs: ;
-    schema:description """The Australian Biodiversity Information Governance Group (AusBIGG) comprises Australian Commonwealth, State &amp; Territory and environmental research organisations involved in the collection and management of biodiversity information.
+    schema:description """The Australian Biodiversity Information Governance Group (AusBIGG) comprises Australian Commonwealth, State &amp; Territory and environmental research Organizations involved in the collection and management of biodiversity information.
 
 AusBIGG was established in 2021 and its main role, as of 2023, is the governance of the Australian Biodiversity Information Standard.""" ;
     schema:name "Australian Biodiversity Information Governance Group" ;
@@ -318,7 +318,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Australian Bird science and conservation organisation."@en ;
+    skos:definition "Australian Bird science and conservation Organization."@en ;
     skos:historyNote "Added by BDR Admin for the use in the BDR, from AGLDWG Orgs Catalogue https://catalogue.linked.data.gov.au/index.php/org/birdlife" ;
     skos:inScheme cs: ;
     skos:notation "75 149 124 774"^^id:ausbn ;
@@ -415,7 +415,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Gaia Resources provides a range of services around technology consulting to organisations that work with the environment"@en ;
+    skos:definition "Gaia Resources provides a range of services around technology consulting to Organizations that work with the environment"@en ;
     skos:inScheme cs: ;
     skos:notation "94 119 508 824"^^id:ausbn ;
     skos:prefLabel "Gaia Resources"@en ;
@@ -485,7 +485,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Organisation found in ABR but not online"@en ;
+    skos:definition "Organization found in ABR but not online"@en ;
     skos:inScheme cs: ;
     skos:notation "56 756 200 363"^^id:ausbn ;
     skos:prefLabel "Lockyer Catchment Association Inc"@en ;
@@ -525,7 +525,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The Mahogany Glider Recovery Team (MGRT) provides advice and coordinates actions identified in the Mahogany Glider Recovery Plan. The MGRT includes representatives from organisations with a direct interest in the recovery of the Mahogany Glider, including those involved in funding and those participating in actions that support the recovery of the species."@en ;
+    skos:definition "The Mahogany Glider Recovery Team (MGRT) provides advice and coordinates actions identified in the Mahogany Glider Recovery Plan. The MGRT includes representatives from Organizations with a direct interest in the recovery of the Mahogany Glider, including those involved in funding and those participating in actions that support the recovery of the species."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mahogany Glider Recovery Team"@en ;
     skos:topConceptOf cs: ;
@@ -552,7 +552,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The Mary River Catchment Coordination Association is a very active Integrated Catchment Management organisation overseen by the Mary River Catchment Coordinating Committee (MRCCC), which comprises interest sector representatives from 30 community, industry and government sectors with interests in sustainable natural resource management. Today the group reaches out to thousands of catchment residents through our stakeholder delegates and associated networks throughout the catchment."@en ;
+    skos:definition "The Mary River Catchment Coordination Association is a very active Integrated Catchment Management Organization overseen by the Mary River Catchment Coordinating Committee (MRCCC), which comprises interest sector representatives from 30 community, industry and government sectors with interests in sustainable natural resource management. Today the group reaches out to thousands of catchment residents through our stakeholder delegates and associated networks throughout the catchment."@en ;
     skos:inScheme cs: ;
     skos:notation "23 009 920 786 "^^id:ausbn ;
     skos:prefLabel "Mary River Catchment Coordination Association"@en ;
@@ -566,7 +566,7 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """For more than 160 years, the people of Victoria have turned to their State museum to connect the past and the present, and to imagine the future. As Australia's largest public museum organisation, we inspire audiences to engage in life’s deep mysteries and big questions.
+    skos:definition """For more than 160 years, the people of Victoria have turned to their State museum to connect the past and the present, and to imagine the future. As Australia's largest public museum Organization, we inspire audiences to engage in life’s deep mysteries and big questions.
 
 Our museums present unique and exceptional experiences for more than 2 million visitors each year, who come from all over Australia and around the world to be inspired and to learn about themselves and the universe we inhabit.
 
@@ -628,7 +628,7 @@ We care for more than 80 million objects spanning billions of years and welcome 
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """The National Parks Association of NSW (commonly known as NPA) is a member-based conservation organisation and registered charity. Our mission is protecting nature through community action.
+    skos:definition """The National Parks Association of NSW (commonly known as NPA) is a member-based conservation Organization and registered charity. Our mission is protecting nature through community action.
 
 We are committed to protecting, conserving and restoring the integrity and diversity of nature, its biodiversity, geodiversity, supporting ecological processes and associated cultural values. We complement our conservation work by providing rewarding and enjoyable opportunities for people to experience, appreciate, study and care for nature."""@en ;
     skos:inScheme cs: ;
@@ -831,7 +831,7 @@ We do this by connecting industries, the community and government to grow our ec
     rdfs:isDefinedBy cs: ;
     skos:definition """Our department recognises the enormous value a clean environment, innovative society and visitor economy, and vibrant culture contributes to our lives.
 
-As a diverse organisation, the department brings together key areas of work to achieve our objectives for a better Queensland."""@en ;
+As a diverse Organization, the department brings together key areas of work to achieve our objectives for a better Queensland."""@en ;
     skos:inScheme cs: ;
     skos:notation "46 640 294 485"^^id:ausbn ;
     skos:prefLabel "Department of Environment Tourism Science and Innovation"@en ;
@@ -975,7 +975,7 @@ Botanic Gardens of Sydney is the registered business name of the Royal Botanic G
     rdfs:isDefinedBy cs: ;
     skos:definition """Royal Botanic Gardens Victoria plays a leading role in the conservation of plants through biodiversity research, programs to protect rare and threatened plants, and the study of habitats. This work is supported by education and visitor programs about the importance of plants to life.
 
-The organisation encompasses two diverse sites at Melbourne and Cranbourne and the State Botanical Collection housed at the National Herbarium of Victoria. Royal Botanic Gardens Victoria is managed by the Royal Botanic Gardens Board Victoria, which is responsible to the Minister for Environment."""@en ;
+The Organization encompasses two diverse sites at Melbourne and Cranbourne and the State Botanical Collection housed at the National Herbarium of Victoria. Royal Botanic Gardens Victoria is managed by the Royal Botanic Gardens Board Victoria, which is responsible to the Minister for Environment."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Royal Botanic Gardens Victoria"@en ;
     skos:topConceptOf cs: ;
@@ -988,7 +988,7 @@ The organisation encompasses two diverse sites at Melbourne and Cranbourne and t
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Reef Catchments is the Natural Resource Management (NRM) organisation for the Mackay Whitsunday Isaac region. We facilitate change and work for long-term solutions to sustain, protect, and improve our region’s natural resources and environment, both now and into the future."@en ;
+    skos:definition "Reef Catchments is the Natural Resource Management (NRM) Organization for the Mackay Whitsunday Isaac region. We facilitate change and work for long-term solutions to sustain, protect, and improve our region’s natural resources and environment, both now and into the future."@en ;
     skos:inScheme cs: ;
     skos:notation "26 873 357 348"^^id:ausbn ;
     skos:prefLabel "Reef Catchments"@en ;
@@ -1072,7 +1072,7 @@ The herbarium is responsible for Electronic Flora of South Australia. It also pr
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """Science for Wildlife is a leading not-for-profit conservation organisation working to ensure a future for wildlife and the places they call home.
+    skos:definition """Science for Wildlife is a leading not-for-profit conservation Organization working to ensure a future for wildlife and the places they call home.
 
 Bringing the best available science to wildlife conservation in Australia and beyond, through the creation and sharing of ecological knowledge we empower people to participate in conservation that has an on-the-ground, enduring impact. Working with iconic and important species in key areas, our research and conservation work is designed to bring broader ecosystem benefits, maximising gains for many other animals and their habitats. We work beyond fences, at a landscape scale to bring real world solutions to conservation challenges. Our work is highly regarded by government and industry partners and informs conservation policy and action both nationally and globally."""@en ;
     skos:inScheme cs: ;
@@ -1145,7 +1145,7 @@ Membership is open to all, with the only requirements being that they are intere
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """Tasmanian Museum and Art Gallery (TMAG) is Tasmania's leading natural and cultural heritage organisation. It is a combined museum, art gallery and herbarium which safeguards the physical evidence of Tasmania's natural and cultural heritage, and the cultural identity of Tasmanians.
+    skos:definition """Tasmanian Museum and Art Gallery (TMAG) is Tasmania's leading natural and cultural heritage Organization. It is a combined museum, art gallery and herbarium which safeguards the physical evidence of Tasmania's natural and cultural heritage, and the cultural identity of Tasmanians.
 
 TMAG is Australia's second-oldest museum and has its origins in the collections of Australia's oldest scientific society, the Royal Society of Tasmania, established in 1843.  The first permanent home of the museum opened on the corner of Argyle and Macquarie streets in 1863 and the museum has gradually expanded from this corner to occupy the entire city block."""@en ;
     skos:inScheme cs: ;
@@ -1297,7 +1297,7 @@ TMAG is Australia's second-oldest museum and has its origins in the collections 
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """A joint venture partnership with leading Western Australian science research organisations, with multi-disciplinary research expertise.
+    skos:definition """A joint venture partnership with leading Western Australian science research Organizations, with multi-disciplinary research expertise.
 
 An independent, collaboration mechanism to facilitate end user driven, relevant biodiversity science research.
 
@@ -1314,7 +1314,7 @@ Funded by the Western Australian Government’s Department of Jobs, Tourism, Sci
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """The Western Australian Museum is the State's premier cultural organisation, housing WA's scientific and cultural collection.
+    skos:definition """The Western Australian Museum is the State's premier cultural Organization, housing WA's scientific and cultural collection.
 
 For over 120 years the Museum has been making the State's natural and social heritage accessible and engaging through research, exhibition and public programs.
 
@@ -1404,7 +1404,7 @@ Today, the Museum has seven public locations across the state - and a Collection
 <https://linked.data.gov.au/org/tern>
     a
         skos:Concept ,
-        schema:Organisation ;
+        schema:Organization ;
     rdfs:isDefinedBy cs: ;
     skos:broader <https://linked.data.gov.au/org/dcceew> ;
     skos:definition "Terrestrial Ecosystems Research Network"@en ;
@@ -1471,7 +1471,7 @@ This is one of the successor Departments to the Department of Agriculture, Water
 
 cs:
     a skos:ConceptScheme ;
-    skos:definition "Organisations known to own & submit data to the Biodiversity Date Repository"@en ;
+    skos:definition "Organizations known to own & submit data to the Biodiversity Date Repository"@en ;
     skos:hasTopConcept
         <http://www.publish.csiro.au> ,
         <https://kurrawong.ai> ,
@@ -1572,13 +1572,13 @@ cs:
 
 2025-08: Added from data supplied to the BDR from jurisdictions via https://submit.bdr.gov.au in mid-2025" ,
 
-This vocabulary was initially developed for the Biodiversity Data Repository and is live in that it grows with new data submissions from new organisations""" ,
+This vocabulary was initially developed for the Biodiversity Data Repository and is live in that it grows with new data submissions from new Organizations""" ,
         "Added from data supplied to tne BDR from jurisdictions via https://submit.bdr.gov.au in mid-2025" ,
-        "This vocabulary was developed for the Biodiversity Data Repository and is live in that it grows with new data submissions from new organisations" ;
-    skos:prefLabel "BDR Organisations"@en ;
+        "This vocabulary was developed for the Biodiversity Data Repository and is live in that it grows with new data submissions from new Organizations" ;
+    skos:prefLabel "BDR Organizations"@en ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-09"^^xsd:date ;
-    schema:dateModified "2026-08-31"^^xsd:date ;
+    schema:dateModified "2026-09-01"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "1" ;

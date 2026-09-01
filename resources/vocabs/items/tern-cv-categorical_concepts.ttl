@@ -1,0 +1,2651 @@
+PREFIX cs: <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/tern-cv/037ebe73-b79c-40bc-acd9-508d9b6b837c>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A small rounded mound or hillock rising above the ground surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hummock"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/056ba18c-fc60-42a5-8bfe-70462cdabc29>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/6fdaf26d-6205-46ff-bf4b-bd1e3e2ff19c" ;
+    skos:definition "Refers to animal microhabitat – inside a hollow or cavity of a fallen log."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/6fdaf26d-6205-46ff-bf4b-bd1e3e2ff19c" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/6fdaf26d-6205-46ff-bf4b-bd1e3e2ff19c" ;
+    skos:prefLabel "habitat position - in log"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/070dc685-5a1e-48b6-afd6-61df35b924df>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Coarse-grained banded crystalline rock formed during high-grade regional metamorphism; most have a granitic composition with minerals separating into schistose bands of micas and amphiboles and granulose bands of quartz and feldspar." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of gneiss origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "230" ;
+    skos:prefLabel "gneiss"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/08a7cd76-2035-4747-b834-d4b8eff5fe23>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/251a36ed-9b41-43ea-a4a3-032f38ac11d3" ;
+    skos:definition "Refers to animal microhabitat – positioned on the outer surface of a termite mound."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/251a36ed-9b41-43ea-a4a3-032f38ac11d3" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/251a36ed-9b41-43ea-a4a3-032f38ac11d3" ;
+    skos:prefLabel "habitat position - on termite mound"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/08d949b3-1743-487c-b0e8-db808f469700>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Non-clastic sedimentary rock consisting essentially of the carbonate minerals calcite and dolomite; may be organic, detrital or chemically precipitated." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of limestone origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "111" ;
+    skos:prefLabel "limestone"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/09c3f062-0e9b-4d36-b1c1-11136aa09ea8>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/56cc819c-6dbb-575d-a422-3809da923354" ;
+    skos:definition "In the direction of that part of the horizon where the sun sets; towards the cardinal point which is 90 degrees clockwise from the south point."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/56cc819c-6dbb-575d-a422-3809da923354" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/56cc819c-6dbb-575d-a422-3809da923354" ;
+    skos:notation "W" ;
+    skos:prefLabel "compass direction - west"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0a48a52a-26d9-405c-9a11-4f46aecdd13e>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition "Refers to the surface strew cover class in the 10 - 30% range."@en ;
+    skos:inScheme cs: ;
+    skos:notation "2" ;
+    skos:prefLabel "10 - 30%"@en ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0cba8d9f-71c7-41b6-8dff-eeae07393231>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Rocks which result from the consolidation of sediment derived from the wastage of pre-existing rocks and/or from organic accumulations and chemical precipitates; distinguished from loose sediments by the degree of lithification." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of sedimentary origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "100" ;
+    skos:prefLabel "sedimentary"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0ea08a7d-0da0-4080-ae45-c97d7b309a1a>
+    a skos:Concept ;
+    dcterms:created "2024-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-19"^^xsd:date ;
+    dcterms:source "National Committee on Soil, Terrain (Australia), & CSIRO Publishing. (2009). Australian soil and land survey field handbook (No.1). CSIRO PUBLISHING. Third Edition" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Ground stratum comprises of sparse tussock grass (0.7m tall), with a crown cover of 25% and crown separation ratio of 0.8."@en ;
+    skos:historyNote "Added this collection based on the Third Edition of the 'Yellow Book' (Australian soil and land survey field handbook)" ;
+    skos:inScheme cs: ;
+    skos:notation "G" ;
+    skos:prefLabel "ground stratum"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/6e5ce9f0-0774-4c04-b167-09527b196d86> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0edf259a-03e4-4a6c-b874-fafc57837107>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/376ed104-9970-4955-8c85-2f6f2e23190f" ;
+    skos:definition "Refers to animal microhabitat – on top of the water surface of a dam, pool, or similar waterbody."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/376ed104-9970-4955-8c85-2f6f2e23190f" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/376ed104-9970-4955-8c85-2f6f2e23190f" ;
+    skos:prefLabel "habitat position - on surface of dam or pool"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0f8d5c21-1fbb-4f65-95ee-4b6b76723833>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Smooth plastic bolus, handles like stiff plasticine, and can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Clay is a type of soil that contains a mix of sand, silt, and clay, with the clay being a significant component ranging from 50% or higher in proportion."@en ;
+    skos:inScheme cs: ;
+    skos:notation "HC" ;
+    skos:prefLabel "heavy clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/0fbadb72-8bbd-49ab-bf3b-2e4dd15c9bad>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/e611ec7c-ae72-560e-bf6c-d47b46485d18" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'northwest' corner of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/e611ec7c-ae72-560e-bf6c-d47b46485d18" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/e611ec7c-ae72-560e-bf6c-d47b46485d18" ;
+    skos:notation "NW" ;
+    skos:prefLabel "basal sweep sampling point - northwest"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/1152bb5b-d853-4066-8e3b-ec035cc705dd>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/2422196d-05ca-4f62-8023-c14e69377b62" ;
+    skos:definition "The set of behaviours involved in searching for, identifying, and acquiring food resources."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/2422196d-05ca-4f62-8023-c14e69377b62" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/2422196d-05ca-4f62-8023-c14e69377b62" ;
+    skos:notation "FRG" ;
+    skos:prefLabel "foraging"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/12594b9d-384a-475f-a9e9-95ac314ad3ca>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/8c466aba-a29b-4d6d-8ec1-99fa19d50186" ;
+    skos:definition "Refers to animal microhabitat – beneath bark layers of a tree or log."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/8c466aba-a29b-4d6d-8ec1-99fa19d50186" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/8c466aba-a29b-4d6d-8ec1-99fa19d50186" ;
+    skos:prefLabel "habitat position - under bark"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/12bdb098-b886-482c-9a9b-47f572df746a>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "battery"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "battery"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/12ea770e-88c5-44a2-892d-995236eb7231>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/f8205401-c97c-59ed-a8a9-1ca3257e0cf8" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'northeast' corner of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/f8205401-c97c-59ed-a8a9-1ca3257e0cf8" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/f8205401-c97c-59ed-a8a9-1ca3257e0cf8" ;
+    skos:notation "NE" ;
+    skos:prefLabel "basal sweep sampling point - northeast"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/13da1c6c-a722-48d8-a238-9144c77726f3>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "No information or data collected."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NC" ;
+    skos:prefLabel "not collected"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/29e0c16d-54f9-4673-bf12-d82876aab2c8> ,
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/74cf6e1d-c192-4114-b3e5-bd97a870d77c> ,
+        <https://linked.data.gov.au/def/tern-cv/a6c536be-901f-48f5-83a4-2e6eec216889> ,
+        <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ,
+        <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/14f9be08-a738-47ac-b9fa-eb41337c918a>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/df23fcb9-1268-4178-a485-d0ce122aa28e" ;
+    skos:definition "Refers to animal microhabitat – located on or within a man-made structure (e.g., building, fence, pole)."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/df23fcb9-1268-4178-a485-d0ce122aa28e" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/df23fcb9-1268-4178-a485-d0ce122aa28e" ;
+    skos:prefLabel "habitat position - human structure"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/16260caf-4f2f-47a5-85fd-c73c8de69f94>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "No value or empty."@en ;
+    skos:inScheme cs: ;
+    skos:notation "9" ;
+    skos:prefLabel "nil"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/74cf6e1d-c192-4114-b3e5-bd97a870d77c> ,
+        <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/19f8fe17-bb2b-4b5a-bb78-33bc62e383de>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:description "A medium to coarse-grained higher-grade regionally metamorphosed rock exhibiting pronounced foliation due to reorientation of platy minerals such as micas." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of schist origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "240" ;
+    skos:prefLabel "schist"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/1b9164ea-9fd6-4487-a9a0-13f151285948>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera is prepared and available for installation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ready to be deployed"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/1d45f3ec-8291-421a-aaf0-6d6c39f29175>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Bolus coherent and rather spongy: smooth feel when manipulated but with no obvious sandiness or 'silkiness': may be somewhat greasy to the touch if much organic matter present: ribbon about 25mm." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Loam is a type of soil that is contains a balanced mix of sand and silt with about 25% clay conent."@en ;
+    skos:inScheme cs: ;
+    skos:notation "L" ;
+    skos:prefLabel "loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2059f9e1-653e-495f-87c1-8e1e3bdffca2>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/58e3b1a6-38a5-472f-a858-b2e5581653bb" ;
+    skos:definition "Refers to animal microhabitat – located directly on the ground surface."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/58e3b1a6-38a5-472f-a858-b2e5581653bb" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/58e3b1a6-38a5-472f-a858-b2e5581653bb" ;
+    skos:prefLabel "habitat position - on ground"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/25f59851-479f-420b-9dd2-34b1bf6cab05>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/8391e15f-2902-5613-be42-61184ded7275" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'west' end of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/8391e15f-2902-5613-be42-61184ded7275" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/8391e15f-2902-5613-be42-61184ded7275" ;
+    skos:notation "W" ;
+    skos:prefLabel "basal sweep sampling point - west"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/26e40e36-517e-44ae-ada3-a2fa9f24a6e2>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Plastic bolus; smooth to touch; slight resistance to shearing between thumb and fore-finger; will form ribbon of 50 - 75 mm. Clay content in the range from about 35 - 40%." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Light clay is a type of soil texture that contains a mixture of silt and sand particles with more than 35 - 40% clay content."@en ;
+    skos:inScheme cs: ;
+    skos:notation "LC" ;
+    skos:prefLabel "light clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2b57fa6f-5c16-4eeb-8365-ae0ebd4b21bf>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of quartz (SiO<sub>2</sub>) origin, the most common silica mineral."@en ;
+    skos:inScheme cs: ;
+    skos:notation "310" ;
+    skos:prefLabel "quartz"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2c1e5022-7823-4cf6-b3f8-a792df74a99c>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "A detrital sedimentary rock with mainly sand-sized particles consisting of rock fragments, quartz and feldspar set in a finer-grained matrix." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of sandstone origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "120" ;
+    skos:prefLabel "sandstone"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2ca0549e-f828-41b0-bb44-05035fcba149>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "lt. sandy clay loam"@en ;
+    skos:inScheme cs: ;
+    skos:notation "SCL-" ;
+    skos:note "A user-defined soil texture type." ;
+    skos:prefLabel "lt. sandy clay loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2f6ca158-f3be-4a3b-ab57-d846047fe3e2>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Bolus coherent but very sandy to touch: will form ribbon of 15-25 mm: dominant sand grains are of medium size and are readily visible." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sandy loam is a type of soil that contains a balanced mix of sand, silt, and clay, with sand being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SL" ;
+    skos:prefLabel "sandy loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/34433228-c36c-4706-9aae-e79d1aa15b29>
+    a skos:Concept ;
+    dcterms:created "2024-09-30"^^xsd:date ;
+    dcterms:description "Slight coherence: sand grains of medium size, sticky to fingers, will form minimal ribbon of 5-15 mm, discolours fingers with clay stain. Clay content in the range from 5 - 10%." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Clayey sand is a type of soil that contains a mix of sand, clay, and silt, with sand being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CS" ;
+    skos:prefLabel "clayey sand"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/35334e82-2010-47e3-8ce5-d9702f89c5d6>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Any miscellaneous, not listed under standard lithology types."@en ;
+    skos:inScheme cs: ;
+    skos:notation "400" ;
+    skos:prefLabel "miscellaneous"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/354d807b-30b9-4142-b7dd-22ab1864668a>
+    a skos:Concept ;
+    dcterms:created "2024-09-30"^^xsd:date ;
+    dcterms:description "Slight coherence, sand grains of medium size: can be sheared between thumb and forefinger to give minimal ribbon of about 3 mm. They have about 5% clay content" ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Loamy sand is a type of soil that contains a high percentage of sand, along with smaller amounts of silt and clay."@en ;
+    skos:inScheme cs: ;
+    skos:notation "LS" ;
+    skos:prefLabel "loamy sand"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/37f87d71-962f-4e3a-8c83-083ecec1eeea>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/32ab0403-9510-4b8c-b16a-dff23f3eecb0" ;
+    skos:definition "Refers to animal microhabitat – occupying or present in a small waterbody, such as a pool."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/32ab0403-9510-4b8c-b16a-dff23f3eecb0" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/32ab0403-9510-4b8c-b16a-dff23f3eecb0" ;
+    skos:prefLabel "habitat position - pool"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/3895d0ee-dbfb-4c31-96f4-44d57cdd8cc7>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of granite origin, a coarse-acidic plutonic igneous rock."@en ;
+    skos:inScheme cs: ;
+    skos:notation "330" ;
+    skos:prefLabel "granite"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/39805604-07d7-48b0-9642-da81131d6916>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Fine Sandy Loam is a type of soil that contains a balanced mix of sand, silt, and clay, with sand being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "FSL" ;
+    skos:prefLabel "fine sandy loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/3ab50b8f-4a9a-4f1d-8d11-8341a1197eb1>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Fine-grained regionally metamorphosed argillaceous rock which has a well-developed planar cleavage (slaty cleavage) and splits readily into thin plates." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of slate origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "210" ;
+    skos:prefLabel "slate"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/3e85554b-ddf5-4953-b394-12dd084dc831>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/72e36449-10fe-5e01-a360-a57ce1d8312d" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'north' end of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/72e36449-10fe-5e01-a360-a57ce1d8312d" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/72e36449-10fe-5e01-a360-a57ce1d8312d" ;
+    skos:notation "N" ;
+    skos:prefLabel "basal sweep sampling point - north"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/4003ce8c-2f0d-4639-8a78-5ea948723b52>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Fine-grained detrital sedimentary rock composed mainly of silt or clay respectively; will not easily split into layers." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of siltstone origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "130" ;
+    skos:prefLabel "siltstone"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/422279b6-4e3f-4d7a-af4d-c802a1d4c788>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sandy clay is a granular material composed of finely divided rock and mineral particles. It is defined by its grain size, which is smaller than gravel but coarser than silt."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SC" ;
+    skos:prefLabel "sandy clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/422837a9-7630-4476-8846-8e833ef5d09a>
+    a skos:Concept ;
+    dcterms:created "2024-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-19"^^xsd:date ;
+    dcterms:source "National Committee on Soil, Terrain (Australia), & CSIRO Publishing. (2009). Australian soil and land survey field handbook (No.1). CSIRO PUBLISHING. Third Edition" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mid-stratum 1 comprise of sparse trees (11m tall), with a crown cover of 22% and crown separation ratio of 1.5."@en ;
+    skos:historyNote "Added this collection based on the Third Edition of the 'Yellow Book' (Australian soil and land survey field handbook)" ;
+    skos:inScheme cs: ;
+    skos:notation "M1" ;
+    skos:prefLabel "mid-stratum 1"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/6e5ce9f0-0774-4c04-b167-09527b196d86> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/442eb45e-0214-4a83-89f5-9de9806bdd55>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:description "Limestone which has been recrystallised by heat and pressure during metamorphic processes." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of recrystallised limestone (marble) origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "250" ;
+    skos:prefLabel "marble"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/44cfc554-726b-4fa5-9231-50533fd3cffc>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/5ded2d3b-4dc3-4168-9359-658dc7912903" ;
+    skos:definition "Refers to animal microhabitat – flying or moving above the forest canopy."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/5ded2d3b-4dc3-4168-9359-658dc7912903" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/5ded2d3b-4dc3-4168-9359-658dc7912903" ;
+    skos:prefLabel "habitat position - over canopy"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/463c9860-90df-4cec-9a61-714e5f4a47ac>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/fedb9eb0-1f1a-46e4-a149-2ca2fa62a16d" ;
+    skos:definition "Refers to animal microhabitat – situated on or within leafy vegetation."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/fedb9eb0-1f1a-46e4-a149-2ca2fa62a16d" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/fedb9eb0-1f1a-46e4-a149-2ca2fa62a16d" ;
+    skos:prefLabel "habitat position - foliage"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/507a271b-6408-48af-a4f8-bda7df86c85f>
+    a skos:Concept ;
+    dcterms:created "2024-09-30"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition ">50%"@en ;
+    skos:inScheme cs: ;
+    skos:notation "3" ;
+    skos:prefLabel ">50%"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/523a9755-964f-4c68-9b63-e5ad2bf9348c>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A lithology of rock material formed from water flowing over weathered systems."@en ;
+    skos:inScheme cs: ;
+    skos:notation "410" ;
+    skos:prefLabel "outwash material"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5343c10e-0d49-4c90-80c0-84cfe94c8a4b>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Silty light clay is a type of soil that contains a significant amount of silt and clay, with silt being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ZLC" ;
+    skos:prefLabel "silty light clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/55559143-80da-407c-a9c2-384c5555e390>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "fine sandy clay loam"@en ;
+    skos:inScheme cs: ;
+    skos:notation "FSCL" ;
+    skos:note "A user-defined soil texture type." ;
+    skos:prefLabel "fine sandy clay loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/567ae341-67ac-4e24-ac09-a81c5136b497>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/57fcb90d-0c0b-41f9-a438-bd083d61e672" ;
+    skos:definition "Refers to animal microhabitat – located on exposed rock surfaces."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/57fcb90d-0c0b-41f9-a438-bd083d61e672" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/57fcb90d-0c0b-41f9-a438-bd083d61e672" ;
+    skos:prefLabel "habitat position - on rock"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/56e1b776-bd74-4d9b-b9c3-3ef394baac47>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/5befc831-f2c6-4369-9c60-1c3afd8562d1" ;
+    skos:definition "Refers to animal microhabitat – positioned on the lower branches of a tree or shrub."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/5befc831-f2c6-4369-9c60-1c3afd8562d1" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/5befc831-f2c6-4369-9c60-1c3afd8562d1" ;
+    skos:prefLabel "habitat position - lower branch"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5834360c-2718-4f55-a085-5d09f7dbe695>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/9e77b791-fc2b-45e4-85e6-50efcad17795" ;
+    skos:definition "Refers to animal microhabitat – located on the higher branches of a tree."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/9e77b791-fc2b-45e4-85e6-50efcad17795" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/9e77b791-fc2b-45e4-85e6-50efcad17795" ;
+    skos:prefLabel "habitat position - upper branch"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/59bc172f-c59b-4608-bb33-726cdc200334>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "uninterruptible power supply"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uninterruptible power supply"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5c5d55c8-3b24-4832-be5d-4f08e1ab85b9>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "gird electricity + uninterruptible power supply"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gird electricity + uninterruptible power supply"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5d4c23da-e4d1-4d28-9970-ea7c9fc62d62>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:definition "When an animal, usually a bird or bat, rests or sleeps while perched or settled in a shelter or specific location."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "roosting"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5f661f12-1f19-4777-8539-8bfbad2b9486>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2024-10-03"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
+    skos:inScheme cs: ;
+    skos:notation "BRK" ;
+    skos:prefLabel "breakaway"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/5fce7029-f8c1-499b-9ecb-7c6dac35895c>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to any 'Other' categorical value/variable/class not listed in the present collection."@en ;
+    skos:inScheme cs: ;
+    skos:notation "990" ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/60bfd12a-fde4-487b-b7ba-73aa28b15daa>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/bafad317-2081-458c-a4c8-e3fc1ab08232" ;
+    skos:definition "Animal seen carrying nesting material, or directly using material to build a nest."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/bafad317-2081-458c-a4c8-e3fc1ab08232" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/bafad317-2081-458c-a4c8-e3fc1ab08232" ;
+    skos:notation "BDN" ;
+    skos:prefLabel "building nest"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/631836e2-8516-423b-babb-4b991c5ba3cb>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/c6f2e7a2-ee56-4832-9e47-912a5f13818b" ;
+    skos:definition "Refers to animal microhabitat – found along the boundary of a habitat feature, such as forest edge, water’s edge, or vegetation boundary."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/c6f2e7a2-ee56-4832-9e47-912a5f13818b" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/c6f2e7a2-ee56-4832-9e47-912a5f13818b" ;
+    skos:prefLabel "habitat position - around edge"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/660fabf3-5864-40f5-99b5-73879587b26b>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Not applicable to any categorical value."@en ;
+    skos:inScheme cs: ;
+    skos:notation "N/A" ;
+    skos:prefLabel "not applicable"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/74cf6e1d-c192-4114-b3e5-bd97a870d77c> ,
+        <https://linked.data.gov.au/def/tern-cv/a6c536be-901f-48f5-83a4-2e6eec216889> ,
+        <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/662fc0c0-c1b8-4065-9c12-b41d1098974f>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "spring mound"@en ;
+    skos:inScheme cs: ;
+    skos:notation "307" ;
+    skos:prefLabel "spring mound"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/665075f2-c678-4068-843b-cd8e4165f3b2>
+    a skos:Concept ;
+    dcterms:created "2024-10-28"^^xsd:date ;
+    dcterms:description "Dominant/codominant overstorey species are defined as species that dominate the tallest stratum with a canopy cover >5%.  If there are no layers that have a canopy cover >5% then the dominant/codominant overstorey species are defined as species that dominate the tallest layer which has the maximum recorded cover/abundance. " ;
+    dcterms:modified "2025-09-19"^^xsd:date ;
+    dcterms:source "National Committee on Soil, Terrain (Australia), & CSIRO Publishing. (2009). Australian soil and land survey field handbook (No.1). CSIRO PUBLISHING. Third Edition" ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Overstorey" ;
+    skos:definition "Dominant stratum comprises of very tall mid-dense trees (above 21m), with a crown cover of 67% and crown separation ratio of 0.1."@en ;
+    skos:historyNote "Added this collection based on the Third Edition of the 'Yellow Book' (Australian soil and land survey field handbook)" ;
+    skos:inScheme cs: ;
+    skos:notation "U" ;
+    skos:prefLabel "dominant stratum"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/6e5ce9f0-0774-4c04-b167-09527b196d86> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/66e62d38-3630-40b8-b02f-90d6fea0af4c>
+    a skos:Concept ;
+    dcterms:created "2024-09-30"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition "Refers to the outcrop cover class in the 10 - 50% range."@en ;
+    skos:inScheme cs: ;
+    skos:notation "2" ;
+    skos:prefLabel "10 - 50%"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/66f5da74-41a8-44be-82c2-334ed451ad28>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera is currently installed and operating in the field."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "deployed"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/66ff3837-d904-4861-8fcb-8e9fcaeae3bb>
+    a skos:Concept ;
+    dcterms:created "2025-09-03"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/f4445dd3-6c4c-54ea-be31-61e651442209" ;
+    skos:definition "Denotes the cardinal direction (315°), halfway between south and east, is the opposite of northwest."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/f4445dd3-6c4c-54ea-be31-61e651442209" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/f4445dd3-6c4c-54ea-be31-61e651442209" ;
+    skos:notation "SE" ;
+    skos:prefLabel "compass direction - southeast"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/6766f97d-f93d-408c-94fc-b2a8d6e66e0d>
+    a skos:Concept ;
+    dcterms:created "2024-10-04"^^xsd:date ;
+    dcterms:modified "2025-01-07"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Surface strews (stones) of size class that is not apparent to classify into any specific size classes."@en ;
+    skos:inScheme cs: ;
+    skos:notation "9" ;
+    skos:prefLabel "none apparent"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/68792d85-c2f6-42a3-9b36-441a53228494>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "solar panel"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solar panel"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/68ea82da-c78d-4edf-aeb4-6dbd86f714be>
+    a skos:Concept ;
+    dcterms:created "2025-09-03"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/9f1e5344-fb46-5f36-afd0-dceae586839c" ;
+    skos:definition "Denotes the cardinal direction (315°), halfway between north and west, is the opposite of southeast."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/9f1e5344-fb46-5f36-afd0-dceae586839c" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/9f1e5344-fb46-5f36-afd0-dceae586839c" ;
+    skos:notation "NW" ;
+    skos:prefLabel "compass direction - northwest"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/6cae0217-5493-4ae4-a5a4-b3372b3a5d0d>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/4610f178-bbd5-4d55-b781-72403d5ecac9" ;
+    skos:definition "Refers to animal microhabitat – beneath the layer of fallen leaves on the ground."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/4610f178-bbd5-4d55-b781-72403d5ecac9" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/4610f178-bbd5-4d55-b781-72403d5ecac9" ;
+    skos:prefLabel "habitat position - under leaf litter"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/6d9d5409-bc95-40a6-a725-f1a1cd138719>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera positioned at an angle to the ground surface (not vertical)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oblique"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/6e8bbade-c88b-4f5b-9cc8-685309735d2b>
+    a skos:Concept ;
+    dcterms:created "2024-10-02"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    dcterms:source "Speight, J.G. and Isbell, R.F. (2009). Australian Soil and Land Survey Field Handbook. The National Committee on Soil and Terrain, CSIRO Publishing. pp 264." ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Landform element that stands above all, or almost all, points in the adjacent terrain. It is characteristically smoothly convex upwards in downslope profile or in contour, or both. The margin of a crest element should be drawn at the limit of observed curvature."@en ;
+    skos:inScheme cs: ;
+    skos:notation "C" ;
+    skos:prefLabel "crest"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/73557558-5b11-433c-b3e2-f3545d9c72d2>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Unable to be identified/determined into a specific categorical value."@en ;
+    skos:inScheme cs: ;
+    skos:notation "777" ;
+    skos:prefLabel "not Identified"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/73bdebf6-3780-483e-8ebd-d7412e1f14f4>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "A fine-grained detrital sedimentary rock which is laminated and easily split into layers." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is derived from fine-grained detrital sedimentary rock."@en ;
+    skos:inScheme cs: ;
+    skos:notation "140" ;
+    skos:prefLabel "shale"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/750a46e3-b6e4-4347-8a3d-225b0702325c>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "No information or data entered in the data sheet."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NE" ;
+    skos:prefLabel "not entered"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/74cf6e1d-c192-4114-b3e5-bd97a870d77c> ,
+        <https://linked.data.gov.au/def/tern-cv/a6c536be-901f-48f5-83a4-2e6eec216889> ,
+        <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ,
+        <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/76e7a047-8b27-4a49-87fd-30d94376cfe9>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/f22f3722-89ee-5416-a296-113cccbe8647" ;
+    skos:definition "In the direction of the part of the horizon on the right-hand side of a person facing the rising sun; towards or in the direction of the point or pole on the earth's surface which lies on the earth's axis of rotation and at which the heavens appear to turn clockwise about a point directly overhead."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/f22f3722-89ee-5416-a296-113cccbe8647" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/f22f3722-89ee-5416-a296-113cccbe8647" ;
+    skos:notation "S" ;
+    skos:prefLabel "compass direction - south"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/77914be6-972e-4c31-9976-34e93343f8aa>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/0172a80b-e550-4a97-aba4-6f4f46bcc1da" ;
+    skos:definition "Refers to animal microhabitat – situated on the bark surface of a standing or fallen dead tree."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/0172a80b-e550-4a97-aba4-6f4f46bcc1da" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/0172a80b-e550-4a97-aba4-6f4f46bcc1da" ;
+    skos:prefLabel "habitat position - bark of dead tree"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/7952eabd-6218-46f1-a8b2-ebb0f5557257>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/ea2b9003-a9a3-4a05-89dc-0ee64b10b449" ;
+    skos:definition "Refers to animal microhabitat – beneath herbaceous plants growing at ground level."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/ea2b9003-a9a3-4a05-89dc-0ee64b10b449" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/ea2b9003-a9a3-4a05-89dc-0ee64b10b449" ;
+    skos:prefLabel "habitat position - under plants on ground"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/7abec315-4bb4-4692-930c-d2d209ba36ae>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/6e86deaf-d61b-4c87-9436-d3b9c4e1bdb4" ;
+    skos:definition "A behavioural response in which an animal is drawn toward a stimulus, such as bait, call playback, scent, or other cues, indicating interest or orientation toward the source."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/6e86deaf-d61b-4c87-9436-d3b9c4e1bdb4" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/6e86deaf-d61b-4c87-9436-d3b9c4e1bdb4" ;
+    skos:notation "ATT" ;
+    skos:prefLabel "attracted"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/7e5f0dda-d0f6-44fa-b113-cba696c185e3>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Calcareous materials, particularly soils, contain significant amounts of calcium carbonate. Describes rocks composed largely of, or cemented by, calcium carbonate. A calcareous soil is one containing carbonate in sufficient quantity to effervesce visibly when treated with cold dilute (N) hydrochloric acid." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of calcareous origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "110" ;
+    skos:prefLabel "calcareous material"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/80ad03a6-6ac1-41a8-8d7b-0af0db165c95>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Strongly indurated siliceous material cemented by and largely composed of forms of silica including quartz, chalcedony, opal and chert." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of silcrete origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "170" ;
+    skos:prefLabel "silicrete"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/80dca974-96bb-4ec6-9b9b-a2322e559ec0>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/df58bcc5-34d9-5020-a519-bc83b18824db" ;
+    skos:definition "The spatial point location, denoting the 'centre' of the study plot and is equidistant from the plot corners."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/df58bcc5-34d9-5020-a519-bc83b18824db" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/df58bcc5-34d9-5020-a519-bc83b18824db" ;
+    skos:notation "C" ;
+    skos:prefLabel "basal sweep sampling point - plot centre"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/80ec4da3-c753-40c1-82b2-dbed633fa74a>
+    a skos:Concept ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-04"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Land or property owned by individuals, companies, or non-government organisations, including institutions such as universities or private trusts. Access is controlled by the owner."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "private"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8276dc47-7bcd-43b1-bbdd-a98bdbae01ba>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "No bolus test - desribed as a brownish or blackish, fibrous substance produced by anaerobic decay of vegetation and found in bogs." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Accumulation of partially decayed organic material. Varies in the level of decomposition of the material and its content of mineral soil particles."@en ;
+    skos:inScheme cs: ;
+    skos:notation "P" ;
+    skos:prefLabel "peat"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/835c0754-c494-490c-aae4-e700ce3fe4bd>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The layer of vegetation beneath the main canopy of a forest."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "understorey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/861767be-bd0f-4f56-86ee-f0e7d4d9799f>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/695213db-6756-48ae-8faa-292f9fa20ca1" ;
+    skos:definition "Refers to animal microhabitat – flying or moving in the airspace above the observer."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/695213db-6756-48ae-8faa-292f9fa20ca1" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/695213db-6756-48ae-8faa-292f9fa20ca1" ;
+    skos:prefLabel "habitat position - overhead"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/88de2ddb-302d-43b4-b3e3-de0a8a6fb757>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera is installed and its data feed has been verified."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "deployed and seen"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8b8273ee-c788-479a-bd0e-92528147bf69>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/37f76e59-11f5-48a5-81d2-4dbfbdee372e" ;
+    skos:definition "Refers to animal microhabitat – inside a cavity in a tree, log, or structure."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/37f76e59-11f5-48a5-81d2-4dbfbdee372e" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/37f76e59-11f5-48a5-81d2-4dbfbdee372e" ;
+    skos:prefLabel "habitat position - hollow"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8bd3dde6-e14e-41f5-9121-81ed6b05d42a>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:description "Rocks which have solidified from molten magma at or below the earth's surface; grains are characteristically crystalline and interlocking; crystal size decreases with increasing rate of cooling of the molten rock material." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of igneous rocks."@en ;
+    skos:inScheme cs: ;
+    skos:notation "300" ;
+    skos:prefLabel "igneous"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8cf7009f-ae60-4a3b-819b-728ef4aa0eea>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/48fe7e4e-2de1-4c9f-b6ca-b0bf7ca216d5" ;
+    skos:definition "Refers to animal microhabitat – relative position does not fit predefined categories; specify separately."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/48fe7e4e-2de1-4c9f-b6ca-b0bf7ca216d5" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/48fe7e4e-2de1-4c9f-b6ca-b0bf7ca216d5" ;
+    skos:prefLabel "habitat position - other"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8f8beb6a-8097-4a7b-90bb-68bd6219da80>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition "Refers to the percent cover class of land surface strew or outcrop below 10%."@en ;
+    skos:inScheme cs: ;
+    skos:notation "1" ;
+    skos:prefLabel "<10%"@en ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/74cf6e1d-c192-4114-b3e5-bd97a870d77c> ,
+        <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/924f2222-8926-449d-b2b6-07c97ec44c06>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/c3897673-2e1b-4eb9-96e4-d3d952ad07e5" ;
+    skos:definition "The act of consuming food, including locating, handling, and ingesting natural food sources or provided food items."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/c3897673-2e1b-4eb9-96e4-d3d952ad07e5" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/c3897673-2e1b-4eb9-96e4-d3d952ad07e5" ;
+    skos:notation "FDG" ;
+    skos:prefLabel "feeding"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/95c0c736-ecae-483c-bde2-a427f8b7821c>
+    a skos:Concept ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-04"^^xsd:date ;
+    dcterms:source "Neldner, V.J., Wilson, B.A., Dillewaard, H.A., Ryan, T.S., Butler, D.W., McDonald, W.J.F, Addicott,E.P. and Appelman, C.N. (2019) Methodology for survey and mapping of regional ecosystems and vegetation communities in Queensland. Version 5.0. Updated March 2019. Queensland Herbarium, Queensland Department of Environment and Science, Brisbane. p72 https://publications.qld.gov.au/dataset/d8244c14-d879-4a11-878c-2b6d4f01a932/resource/6dee78ab-c12c-4692-9842-b7257c2511e4" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Indicates the presence of animal grazing activity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "present"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9648448b-cb2b-4bdd-a15b-7d58952101ac>
+    a skos:Concept ;
+    dcterms:created "2024-09-30"^^xsd:date ;
+    dcterms:description "Coherence nil to very slight, cannot be moulded: sand grains of medium size, single sand grains adhere to fingers." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sand is a granular material composed of finely divided rock and mineral particles. It is defined by its grain size, which is smaller than gravel but coarser than silt."@en ;
+    skos:inScheme cs: ;
+    skos:notation "S" ;
+    skos:prefLabel "sand"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/96539a5e-dd81-4a06-8b7f-943728b73c49>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind and consolidated by stabilising effects of vegetation."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CON" ;
+    skos:prefLabel "consolidated dunefield"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9908c3ca-e79b-486b-81f3-f427075db518>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Extensive flat surface found in hot deserts consisting of salts that have accumulated in a shallow saline lake or playa. Evaporation then produces a crust of varying hardness."@en ;
+    skos:inScheme cs: ;
+    skos:notation "540" ;
+    skos:prefLabel "salt crust"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/99a403eb-6c5c-48fd-936a-0f8f04ec176a>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "doline" ;
+    skos:definition "Steep-sided closed depression eroded by solution directed towards an underground drainage way, or by collapse consequent on such solution. A typical element of a karst landform pattern."@en ;
+    skos:inScheme cs: ;
+    skos:notation "I" ;
+    skos:prefLabel "sinkhole"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9afd1344-8aa4-4e54-8a15-e9a97a80337d>
+    a skos:Concept ;
+    dcterms:created "2025-09-03"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/1822dbd3-3f96-5f45-9a03-b95235ede90f" ;
+    skos:definition "Denotes the cardinal direction (45°), halfway between north and east, is the opposite of southwest."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/1822dbd3-3f96-5f45-9a03-b95235ede90f" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/1822dbd3-3f96-5f45-9a03-b95235ede90f" ;
+    skos:notation "NE" ;
+    skos:prefLabel "compass direction - northeast"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9b2938d7-9055-4fd1-a186-d9f2709eebfa>
+    a skos:Concept ;
+    dcterms:created "2024-10-04"^^xsd:date ;
+    dcterms:modified "2025-01-07"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Surface strews (stones) of size class in the range of 51 - 250 mm."@en ;
+    skos:inScheme cs: ;
+    skos:notation "2" ;
+    skos:prefLabel "cobble"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9c1a0c63-5f1e-434e-b09f-c934153c86fc>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'east' end of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:notation "E" ;
+    skos:prefLabel "basal sweep sampling point - east"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9d517c58-4c91-420a-99d8-992fd31d5d27>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:definition "In the direction of that part of the horizon where the sun rises; in the direction of the earth's diurnal rotation about the polar axis"@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/0cad1fc8-0741-5dc8-90f5-7a4c6c7fba5f" ;
+    skos:notation "E" ;
+    skos:prefLabel "compass direction - east"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9e0c973d-4472-4044-ae56-b6df356c69b0>
+    a skos:Concept ;
+    dcterms:created "2024-10-28"^^xsd:date ;
+    dcterms:modified "2025-09-19"^^xsd:date ;
+    dcterms:source "National Committee on Soil, Terrain (Australia), & CSIRO Publishing. (2009). Australian soil and land survey field handbook (No.1). CSIRO PUBLISHING. Third Edition" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mid-stratum 2 comprise of dwarf very sparse shrubs (2m), with a crown cover of 13% and crown separation ratio of 1.5."@en ;
+    skos:historyNote "Added this collection based on the Third Edition of the 'Yellow Book' (Australian soil and land survey field handbook)" ;
+    skos:inScheme cs: ;
+    skos:notation "M2" ;
+    skos:prefLabel "mid-stratum 2"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/6e5ce9f0-0774-4c04-b167-09527b196d86> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9e77d38a-8311-4eda-9705-c44d4281187c>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-01-07"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Surface strews (stones) of size class in the range of 5 - 50 mm."@en ;
+    skos:inScheme cs: ;
+    skos:notation "1" ;
+    skos:prefLabel "pebble"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9f1965c9-b11e-431e-9c9b-f848ecc0e0cb>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:definition "Refers to animal microhabitat – beneath a fallen log on the ground surface."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:prefLabel "habitat position - under log"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/9fc1e7ca-4e79-44a8-8d8e-33d61ce41d13>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/b920cd01-8432-4336-860b-a8ac14bc6852" ;
+    skos:definition "Refers to animal microhabitat – below the canopy level, within understory vegetation."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/b920cd01-8432-4336-860b-a8ac14bc6852" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/b920cd01-8432-4336-860b-a8ac14bc6852" ;
+    skos:prefLabel "habitat position - under canopy height"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/a5282fd8-8574-4ddd-85de-04a630a17289>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/7b199dad-aa3d-41ad-89a7-3a021d31e7ef" ;
+    skos:definition "When an animal is stationary and inactive, not engaged in movement, feeding, or other behaviours."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/7b199dad-aa3d-41ad-89a7-3a021d31e7ef" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/7b199dad-aa3d-41ad-89a7-3a021d31e7ef" ;
+    skos:notation "RST" ;
+    skos:prefLabel "resting"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/a5a35d9b-c63c-45ae-92b4-036466197110>
+    a skos:Concept ;
+    dcterms:created "2024-10-04"^^xsd:date ;
+    dcterms:modified "2025-01-07"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Surface strews (stones) of size class greater than 250 mm."@en ;
+    skos:inScheme cs: ;
+    skos:notation "3" ;
+    skos:prefLabel "boulder"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/a6d7e880-8f20-4348-854d-f42ad161593a>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/5d170594-df86-48c2-b4a6-8c94322e6527" ;
+    skos:definition "When an animal produces sounds, such as calls or songs, that can be heard by observers."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/5d170594-df86-48c2-b4a6-8c94322e6527" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/5d170594-df86-48c2-b4a6-8c94322e6527" ;
+    skos:notation "VCL" ;
+    skos:prefLabel "vocalisation or calling"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/a94639ca-0803-47f7-ac97-14daf839b430>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Loamy fine sandy soil is a type of soil that contains a balanced mix of fine sand, silt, and clay, with fine sand being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "LFS" ;
+    skos:note "A user-defined soil texture type." ;
+    skos:prefLabel "loam fine sandy"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/aa9a496d-ea39-46ff-8248-6adc725c1d07>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:description "A fine-grained, dark-coloured basic volcanic rock primarily composed of plagioclase and pyroxene (low silica and high ferromagnesian content)." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of volcanic origin with a high ferro-mangnesium content."@en ;
+    skos:inScheme cs: ;
+    skos:notation "320" ;
+    skos:prefLabel "basalt"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/af21a21b-355a-4505-889d-79f8783acfdb>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/6f7ccc8e-eb7f-479f-83d3-804c7a7bb112" ;
+    skos:definition "An animal moves through the air by flapping wings, gliding, or soaring."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/6f7ccc8e-eb7f-479f-83d3-804c7a7bb112" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/6f7ccc8e-eb7f-479f-83d3-804c7a7bb112" ;
+    skos:notation "FLY" ;
+    skos:prefLabel "flying"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/b4efc8fd-3038-4712-8bbf-de23c566313c>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Coherent plastic bolus, smooth to manipulate; will form ribbon of 40 - 50 mm. Approximate clay content in the 30 - 35% range." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Clay loam is a type of soil that contains a balanced mix of sand, silt, and clay, with clay being a significant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL" ;
+    skos:prefLabel "clay loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/b5480c0b-6848-4bcf-b791-6d35d9f74890>
+    a skos:Concept ;
+    dcterms:created "2024-10-17"^^xsd:date ;
+    dcterms:modified "2025-01-07"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "sheet"@en ;
+    skos:inScheme cs: ;
+    skos:notation "5" ;
+    skos:prefLabel "sheet"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/b704b8ee-0631-423f-9c1f-c4d1efb1f421>
+    a skos:Concept ;
+    dcterms:created "2024-09-27"^^xsd:date ;
+    dcterms:description "Hematite is a heavy and relatively hard oxide mineral, ferric oxide (Fe<sub>2</sub>O<sub>3</sub>), that constitutes the most important iron ore because of its high iron content (70 percent) and its abundance. Much hematite occurs in a soft, fine-grained, earthy form called red ochre or ruddle. Intermediate between these types are compact varieties, often with a reniform surface (kidney ore) or a fibrous structure (pencil ore). Red ochre is used as a paint pigment; a purified form, rouge, is used to polish plate glass."^^rdf:HTML ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Britannica, T. Editors of Encyclopaedia (2024, July 2). hematite. Encyclopedia Britannica. https://www.britannica.com/science/hematite" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of iron oxide origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "260" ;
+    skos:prefLabel "haematite"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/b77ac142-86e5-40b1-8643-78dc76ed0873>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Coherent plastic bolus: medium size sand grains visible in finer matrix: will form ribbon of 40-50mm." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "clay loam,  sandy"@en ;
+    skos:inScheme cs: ;
+    skos:notation "CLS" ;
+    skos:prefLabel "clay loam,  sandy"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/b883c2b1-e5f6-4d69-b13a-f8937bd12d2c>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/f17052aa-a247-4bbb-88e9-b4f7006c0b49" ;
+    skos:definition "Refers to animal microhabitat – flying or moving above the surface of a dam or pool."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/f17052aa-a247-4bbb-88e9-b4f7006c0b49" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/f17052aa-a247-4bbb-88e9-b4f7006c0b49" ;
+    skos:prefLabel "habitat position - over dam or pool"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ba46d400-5c49-4ca4-942b-b4e3853e36fb>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Smooth plastic bolus: handles like plasticine: can be moulded into rods without fracture: has moderate to firm resistance to ribboning shear: will form ribbon of 75 mm or more." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of soil characterised by a mixture of sand, silt and clay, with a significant component of clay content, above 50%."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MHC" ;
+    skos:prefLabel "medium heavy clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/bab4fc2b-8931-4d32-8fd0-36b588f8866d>
+    a skos:Concept ;
+    dcterms:created "2025-09-03"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/945f0667-7479-557b-80a5-6926b508a073" ;
+    skos:definition "Denotes the cardinal direction (225°), halfway between south and west, is the opposite of northeast."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/945f0667-7479-557b-80a5-6926b508a073" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/945f0667-7479-557b-80a5-6926b508a073" ;
+    skos:notation "SW" ;
+    skos:prefLabel "compass direction - southwest"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/bc0a6dab-273b-4c5a-a35a-c04e8da6a903>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/acb2f385-ca46-43f5-a2a3-05b10df74925" ;
+    skos:definition "Refers to animal microhabitat – beneath peeling or loose bark on a living tree."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/acb2f385-ca46-43f5-a2a3-05b10df74925" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/acb2f385-ca46-43f5-a2a3-05b10df74925" ;
+    skos:prefLabel "habitat position - loose bark of live tree"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/bcff6165-fd4f-4550-addd-88fb86abb54c>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera has been permanently removed from service."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "decommissioned"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c0714257-e942-4cd8-9dec-9b3ad52f9fd8>
+    a skos:Concept ;
+    dcterms:created "2024-09-29"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition "Refers to the surface strew cover class in the 30 - 70% range."@en ;
+    skos:inScheme cs: ;
+    skos:notation "3" ;
+    skos:prefLabel "30 - 70%"@en ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c0ee7d24-d5b6-4a69-a662-c9e411fa4969>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/60acb00b-caa1-58cd-918f-25eccb01262e" ;
+    skos:definition "In the direction of the part of the horizon on the left-hand side of a person facing the rising sun; towards or in the direction of the point or pole on the earth's surface which lies on the earth's axis of rotation and at which the heavens appear to turn anticlockwise about a point directly overhead."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/60acb00b-caa1-58cd-918f-25eccb01262e" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/60acb00b-caa1-58cd-918f-25eccb01262e" ;
+    skos:notation "N" ;
+    skos:prefLabel "compass direction - north"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c238ce1d-9f6d-4ba0-be42-34219d813a6d>
+    a skos:Concept ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-04"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Land or property owned and managed by a government authority (local, state, or federal) for public purposes. Access may be open to all (e.g., parks, reserves) or restricted (e.g., defence land, government facilities)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "public"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c28fee20-9321-4df2-9aac-ad4c1cd85c15>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Camera positioned directly downward, perpendicular to the ground surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "nadir"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c3ba4591-2d77-456c-a7f5-2dd0e7a045e8>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "generator"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "generator"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c7472135-6976-4e84-b04b-c6e17df31b20>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Plastic bolus is smooth to touch, slight to moderate resistance to ribboning shear. They will form ribbon of about 75 mm." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Light  medium clay is a type of soil texture with a clay percentage of about 40 - 45%, intermixed with sand and silt."@en ;
+    skos:inScheme cs: ;
+    skos:notation "LMC" ;
+    skos:prefLabel "light medium clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c7ba16c8-c9f5-4696-adb8-0b02c952206b>
+    a skos:Concept ;
+    dcterms:created "2024-10-17"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Discontinued, May 1995"@en ;
+    skos:inScheme cs: ;
+    skos:notation "DRL" ;
+    skos:prefLabel "drainage line"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/c9fc50c1-0294-410e-83df-967488cc738b>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/f2d4469b-bc11-47dd-8ef5-960525fd69ce" ;
+    skos:definition "A behavioural interaction in which an individual actively pursues another individual of the same species. This behaviour may occur in contexts such as aggression, dominance, territorial defence, or play."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/f2d4469b-bc11-47dd-8ef5-960525fd69ce" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/f2d4469b-bc11-47dd-8ef5-960525fd69ce" ;
+    skos:notation "CHC" ;
+    skos:prefLabel "chasing conspecific"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ca333def-abfc-42e6-87de-8d119b18d397>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A small area of grass that grows in a dense clump."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tussock"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/caf55f76-dc23-42e7-8a0c-a9c1ed8f7efd>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Smooth plastic bolus, handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Medium Clay is a type of soil that contains a mix of sand, silt, and clay, with the clay being a significant component ranging from 45 - 55%."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MC" ;
+    skos:prefLabel "medium clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ce1723a3-213b-4a63-8643-cbb75e38bf1f>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2024-10-17"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Low area between parallel dunes."@en ;
+    skos:inScheme cs: ;
+    skos:notation "212" ;
+    skos:prefLabel "interdune low"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/cf851d2c-3cbe-4578-b7f1-82240919be50>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/943d118c-1005-47aa-93b5-f0ad88247947" ;
+    skos:definition "When an animal moves past the observer or through the observation area without stopping or showing notable interaction"@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/943d118c-1005-47aa-93b5-f0ad88247947" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/943d118c-1005-47aa-93b5-f0ad88247947" ;
+    skos:notation "PSS" ;
+    skos:prefLabel "passing"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/cfe8a60c-ad21-4173-b591-5e66e2b29cdf>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Coherent bolus: very smooth to often silky when manipulated: will form ribbon of about 25 mm. Clay and silt are about 25% or more." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Silty loam is a type of soil that contains a balanced mix of sand, silt, and clay, with silt being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ZL" ;
+    skos:prefLabel "silty loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/cfffbc4e-0c34-4275-85df-bf3ba8a40910>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Silty clay is a type of soil that contains a significant amount of both silt and clay."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ZC" ;
+    skos:prefLabel "silty clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d00676c2-528c-40fb-95db-3e681f6ea81d>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/0488dab6-dea8-530e-9928-65b84cc892dd" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'southwest' corner of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/0488dab6-dea8-530e-9928-65b84cc892dd" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/0488dab6-dea8-530e-9928-65b84cc892dd" ;
+    skos:notation "SW" ;
+    skos:prefLabel "basal sweep sampling point - southwest"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d188ee8e-b4dd-429c-b131-87003d5afe49>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/eecaf5c4-a950-4366-a543-12a57a5f8637" ;
+    skos:definition "A reproductive behaviour in which a male and female (or, in some species, individuals of compatible sexes) engage in courtship and copulation, resulting in the transfer of gametes"@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/eecaf5c4-a950-4366-a543-12a57a5f8637" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/eecaf5c4-a950-4366-a543-12a57a5f8637" ;
+    skos:notation "MAT" ;
+    skos:prefLabel "mating"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d1a0624b-6b8e-40e3-b8c6-a34da77abb40>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/c10521cc-9bb7-4ab4-825d-06fd2dc4cba7" ;
+    skos:definition "Refers to animal microhabitat – occupying the vertical level of the forest canopy."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/c10521cc-9bb7-4ab4-825d-06fd2dc4cba7" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/c10521cc-9bb7-4ab4-825d-06fd2dc4cba7" ;
+    skos:prefLabel "habitat position - at canopy height"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d33a5b55-3ee9-4f19-86b3-2bc693271db2>
+    a skos:Concept ;
+    dcterms:created "2025-08-31"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/a840bf0e-55ca-4ff0-b53d-d5f7ee64da0e" ;
+    skos:definition "A stationary posture in which an animal (commonly birds or bats) rests upon or is supported by a raised surface (e.g., branch, wire, rock), typically involving minimal movement"@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/a840bf0e-55ca-4ff0-b53d-d5f7ee64da0e" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/a840bf0e-55ca-4ff0-b53d-d5f7ee64da0e" ;
+    skos:notation "PCH" ;
+    skos:prefLabel "perched"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d4bfc3aa-8615-40ce-89d9-0ea035f15f66>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/96e347de-db50-47e6-a8c3-cf3da0758c5d" ;
+    skos:definition "Refers to animal microhabitat – beneath plants rooted in or growing over leaf litter."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/96e347de-db50-47e6-a8c3-cf3da0758c5d" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/96e347de-db50-47e6-a8c3-cf3da0758c5d" ;
+    skos:prefLabel "habitat position - under plants on litter"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d57d8abc-915e-4bf4-8bb2-1d39f1b07ef7>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/881877da-95ac-4a93-bd2f-314979749196" ;
+    skos:definition "Refers to animal microhabitat – within decomposing leaves and organic matter on the ground."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/881877da-95ac-4a93-bd2f-314979749196" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/881877da-95ac-4a93-bd2f-314979749196" ;
+    skos:prefLabel "habitat position - in leaf litter"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d62b7848-8ad6-4012-9da5-fbf3e5d936d7>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:definition "Refers to animal microhabitat – beneath rock surfaces or boulders."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/a608ae96-f9ef-4e8f-a533-ea8d94eaeb1b" ;
+    skos:prefLabel "habitat position - under rock"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/d8acd5bc-7064-4e52-9046-225aa3711dda>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "perched swamp"@en ;
+    skos:inScheme cs: ;
+    skos:notation "521" ;
+    skos:prefLabel "perched swamp"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/db622df9-b8e3-4c91-8a4d-f41d9f4d388d>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/20b65a7c-3128-55ee-b761-4428dc76ca5d" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'south' end of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/20b65a7c-3128-55ee-b761-4428dc76ca5d" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/20b65a7c-3128-55ee-b761-4428dc76ca5d" ;
+    skos:notation "S" ;
+    skos:prefLabel "basal sweep sampling point - south"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dbad21ab-f5d8-4c42-9bd3-c4cf20b033b4>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/a21f8c45-ff04-4c60-ba5b-65780ad63c64" ;
+    skos:definition "Refers to animal microhabitat – positioned on top of a fallen log."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/a21f8c45-ff04-4c60-ba5b-65780ad63c64" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/a21f8c45-ff04-4c60-ba5b-65780ad63c64" ;
+    skos:prefLabel "habitat position - on log"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dbd84d0f-b05a-4fae-a30e-4f4b276e0ed3>
+    a skos:Concept ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-04"^^xsd:date ;
+    dcterms:source "Neldner, V.J., Wilson, B.A., Dillewaard, H.A., Ryan, T.S., Butler, D.W., McDonald, W.J.F, Addicott,E.P. and Appelman, C.N. (2019) Methodology for survey and mapping of regional ecosystems and vegetation communities in Queensland. Version 5.0. Updated March 2019. Queensland Herbarium, Queensland Department of Environment and Science, Brisbane. p72 https://publications.qld.gov.au/dataset/d8244c14-d879-4a11-878c-2b6d4f01a932/resource/6dee78ab-c12c-4692-9842-b7257c2511e4" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Indicates no apparent animal grazing activity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "not apparent"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dc617c51-62c1-4fcd-a918-0f65a3d62e1e>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/db827f6a-16ce-4e50-ae52-c12bac93a539" ;
+    skos:definition "Refers to animal microhabitat – located within leaves or vegetation, partially concealed by plant material."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/db827f6a-16ce-4e50-ae52-c12bac93a539" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/db827f6a-16ce-4e50-ae52-c12bac93a539" ;
+    skos:prefLabel "habitat position - amongst foliage"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dc6befb0-a4c5-4ca9-8e1e-e3b9678e6ffd>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Rocks that have been changed in their mineralogical, textural or small scale structural compositions by the action of heat and/or pressure." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of metamorphic origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "200" ;
+    skos:prefLabel "metamorphic"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dc89b341-1bf6-4a51-a1c9-63f484cb0370>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "skeletal"@en ;
+    skos:inScheme cs: ;
+    skos:notation "SKEL" ;
+    skos:note "A user-defined soil texture type." ;
+    skos:prefLabel "skeletal"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ddea6ce8-35b0-4131-8b95-15be51428a51>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/0c1cc9bd-3d65-497f-a20c-637f0fbcd59a" ;
+    skos:definition "Refers to animal microhabitat – inside a termite mound structure."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/0c1cc9bd-3d65-497f-a20c-637f0fbcd59a" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/0c1cc9bd-3d65-497f-a20c-637f0fbcd59a" ;
+    skos:prefLabel "habitat position - in termite mound"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/dfb37698-3280-48f8-a156-e8bc16777580>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A complex scroll type (scroll + scroll plain)."@en ;
+    skos:inScheme cs: ;
+    skos:notation "455" ;
+    skos:prefLabel "scroll complex"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e0959977-9aad-4300-bc2d-b6da564c8ddd>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "gird electricity"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gird electricity"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e0969eb7-7a2e-4b9e-9cf2-181970cae006>
+    a skos:Concept ;
+    dcterms:created "2025-09-04"^^xsd:date ;
+    dcterms:modified "2025-09-04"^^xsd:date ;
+    dcterms:source "Neldner, V.J., Wilson, B.A., Dillewaard, H.A., Ryan, T.S., Butler, D.W., McDonald, W.J.F, Addicott,E.P. and Appelman, C.N. (2019) Methodology for survey and mapping of regional ecosystems and vegetation communities in Queensland. Version 5.0. Updated March 2019. Queensland Herbarium, Queensland Department of Environment and Science, Brisbane. p72 https://publications.qld.gov.au/dataset/d8244c14-d879-4a11-878c-2b6d4f01a932/resource/6dee78ab-c12c-4692-9842-b7257c2511e4" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Indicates the animal grazing is severe enough to make a major impact on ground cover abundacne or composition."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "severe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e101566f-7911-4b45-9973-3cfc05d0a26f>
+    a skos:Concept ;
+    dcterms:created "2024-12-20"^^xsd:date ;
+    dcterms:modified "2024-12-20"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The uppermost layer of foliage in a forest or woodland."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "overstorey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e1db4f5b-158d-4f4a-ab94-4f7de67e2926>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:description "Coherent smooth bolus, plastic and often silky to the touch: will form ribbon of 40-50 mm. Clay content in the range of 30%-35%, and silt about 25% or more." ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sand is a granular material composed of finely divided rock and mineral particles. It is defined by its grain size, which is smaller than gravel but coarser than silt."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ZCL" ;
+    skos:prefLabel "silty clay loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e331f273-7abe-4b8f-83a4-1a2429a91beb>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/9f9d7733-bcac-4650-b678-fe5fc1ec71c8" ;
+    skos:definition "Refers to animal microhabitat – inside an underground tunnel or burrow."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/9f9d7733-bcac-4650-b678-fe5fc1ec71c8" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/9f9d7733-bcac-4650-b678-fe5fc1ec71c8" ;
+    skos:prefLabel "habitat position - in burrow"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e3b0aea1-289f-4a27-ae9b-f8c23cc65a02>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "ashplain"@en ;
+    skos:inScheme cs: ;
+    skos:notation "740" ;
+    skos:prefLabel "ashplain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e8dc6763-ab8d-442c-a0a2-cde4c784514e>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/b4bd6d09-2e8b-4a12-bf82-28fe30995281" ;
+    skos:definition "Refers to animal microhabitat – present within the uppermost layer of tree foliage."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/b4bd6d09-2e8b-4a12-bf82-28fe30995281" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/b4bd6d09-2e8b-4a12-bf82-28fe30995281" ;
+    skos:prefLabel "habitat position - canopy"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/e9e9b87f-c544-4a54-84bc-d3852f74a812>
+    a skos:Concept ;
+    dcterms:created "2025-08-28"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/nrm/3ef55e81-e3bd-5626-93da-fc84f5129d5f" ;
+    skos:definition "The spatial point location which represents the cardinal direction at the 'southeast' corner of the study plot, where sampling is conducted."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/nrm/3ef55e81-e3bd-5626-93da-fc84f5129d5f" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/nrm/3ef55e81-e3bd-5626-93da-fc84f5129d5f" ;
+    skos:notation "SE" ;
+    skos:prefLabel "basal sweep sampling point - southeast"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ee185578-7610-4007-abe4-8513dfeb63e9>
+    a skos:Concept ;
+    dcterms:created "2024-10-17"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ;
+    skos:definition "Refers to the surface strew cover class above 70%."@en ;
+    skos:inScheme cs: ;
+    skos:notation "4" ;
+    skos:prefLabel ">70%"@en ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/d88f250b-be35-4b1e-aa6c-274f7409af9d> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ee8812ff-0ce9-47ed-93b1-2f106055fff8>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/696546a0-789d-47d5-bd6e-97e26359b3fa" ;
+    skos:definition "Refers to animal microhabitat – beneath a fallen log, within the soil layer."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/696546a0-789d-47d5-bd6e-97e26359b3fa" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/696546a0-789d-47d5-bd6e-97e26359b3fa" ;
+    skos:prefLabel "habitat position - in soil under log"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/eee3cf46-c640-4519-87e8-256f6eb17b63>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Detrital sedimentary rock substantially composed of rounded particles which are >2 mm diameter." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is conglomerate."@en ;
+    skos:inScheme cs: ;
+    skos:notation "150" ;
+    skos:prefLabel "conglomerate"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f18202ea-203c-4bf6-87ab-824c910ccc2b>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/47db2766-aa86-4833-8d44-6826da1c8c48" ;
+    skos:definition "Refers to animal microhabitat – located on the trunk of a living tree."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/47db2766-aa86-4833-8d44-6826da1c8c48" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/47db2766-aa86-4833-8d44-6826da1c8c48" ;
+    skos:prefLabel "habitat position - on trunk"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f390dd43-fb63-439f-9700-5075b1cb7fa9>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/940fd701-14df-4f6e-86a3-7c4cdb342023" ;
+    skos:definition "Refers to animal microhabitat – occupying a narrow crack or opening in rock, bark, or other substrates."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/940fd701-14df-4f6e-86a3-7c4cdb342023" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/940fd701-14df-4f6e-86a3-7c4cdb342023" ;
+    skos:prefLabel "habitat position - crevice"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f3e11b15-54fd-4837-827f-7729fcd2976a>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "A soil in which an indurated iron-rich layer usually overlies a mottled clay and a pallid clay." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of laterite (iron-rich) origin."@en ;
+    skos:inScheme cs: ;
+    skos:notation "160" ;
+    skos:prefLabel "laterite (ironstone)"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f671966a-f12b-4000-a355-1fbb64167bb0>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sandy light clay is a type of soil that contains a significant amount of sand along with clay, but with a higher proportion of sand compared to typical clay soils."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SLC" ;
+    skos:prefLabel "sandy light clay"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f75147de-8327-47c3-bb80-3efe49af2b31>
+    a skos:Concept ;
+    dcterms:created "2024-10-03"^^xsd:date ;
+    dcterms:modified "2025-09-16"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A natural cavity, recess, chamber, or series of chambers and galleries beneath the surface of the earth, within a mountain, a ledge of rocks, etc., sometimes a similar cavity artificialy excavated."@en ;
+    skos:inScheme cs: ;
+    skos:notation "840" ;
+    skos:prefLabel "cave"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f8184bba-63b9-4175-8f82-6d6dfe94429e>
+    a skos:Concept ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:description "Regionally or thermally metamorphosed rock in which quartz is the primary constituent; grains have recrystallised into an interlocking mosaic texture with little or no trace of cementation." ;
+    dcterms:modified "2024-09-30"^^xsd:date ;
+    dcterms:source "Department of Environment and Heritage, NSW Government (2017). Glossary of Terms used in Soil and Landscape Science, Office of Environment and Heritage, ISBN 978-1-76039-930-6, pp. 92" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A type of lithology whose parent material is of quartzite origin, i.e., metamorphosed rock in which quartz is the primary constituent."@en ;
+    skos:inScheme cs: ;
+    skos:notation "220" ;
+    skos:prefLabel "quartzite"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf
+        <https://linked.data.gov.au/def/tern-cv/484ba140-52ca-4732-be9a-6a6274daf072> ,
+        <https://linked.data.gov.au/def/tern-cv/ea7a1310-763d-45c1-a695-d4c4f6fe20c0> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/f9b45616-48d8-45ff-8eda-b15b3227dc2d>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/0c7e3276-d404-4843-965d-8f25f96d6817" ;
+    skos:definition "Refers to animal microhabitat – beneath leaf litter, within the soil layer."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/0c7e3276-d404-4843-965d-8f25f96d6817" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/0c7e3276-d404-4843-965d-8f25f96d6817" ;
+    skos:prefLabel "habitat position - in soil under leaf litter"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/fb0bad50-0653-44ff-8b2d-d94d432ca569>
+    a skos:Concept ;
+    dcterms:created "2025-09-02"^^xsd:date ;
+    dcterms:modified "2025-09-09"^^xsd:date ;
+    dcterms:source "Australia, N. W. S. Guidelines for Vertebrate Surveys in South Australia." ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ;
+    skos:closeMatch "https://linked.data.gov.au/def/bdbsa-cv/1bf31234-724e-4338-9255-666caf84259b" ;
+    skos:definition "Refers to animal microhabitat – positioned close to or moving about near rock surfaces."@en ;
+    skos:exactMatch "https://linked.data.gov.au/def/bdbsa-cv/1bf31234-724e-4338-9255-666caf84259b" ;
+    skos:inScheme cs: ;
+    skos:mappingRelation "https://linked.data.gov.au/def/bdbsa-cv/1bf31234-724e-4338-9255-666caf84259b" ;
+    skos:prefLabel "habitat position - around rock"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/fc751cdd-bf6f-4245-b1c8-304ab3a9f2ef>
+    a skos:Concept ;
+    dcterms:created "2024-10-01"^^xsd:date ;
+    dcterms:modified "2024-10-01"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sandy clay loam is a type of soil that contains a balanced mix of sand, clay, and silt, with sand being the dominant component."@en ;
+    skos:inScheme cs: ;
+    skos:notation "SCL" ;
+    skos:prefLabel "sandy clay loam"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/ca038b3c-67e6-4644-9a57-eeab873336a3> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/fdf0c6fa-b903-4c79-ba5f-f1a6acfe0777>
+    a skos:Concept ;
+    dcterms:created "2024-10-28"^^xsd:date ;
+    dcterms:description "An emergent species is defined as a species that emerges above the overstorey and occupies a stratum that has a canopy cover less than 5%. Emergents are always in a layer taller than the dominant structure and therefore cannot be a part of the dominant structural layer eg. Banksia ornata shrubland with Eucalyptus arenacea emergents." ;
+    dcterms:modified "2025-09-19"^^xsd:date ;
+    dcterms:source "National Committee on Soil, Terrain (Australia), & CSIRO Publishing. (2009). Australian soil and land survey field handbook (No.1). CSIRO PUBLISHING. Third Edition" ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Emergent layer comprises of very tall trees (above 28m), with a crown cover of 3% and crown separation ratio of 4.0. "@en ;
+    skos:historyNote "Added this collection based on the Third Edition of the 'Yellow Book' (Australian soil and land survey field handbook)" ;
+    skos:inScheme cs: ;
+    skos:notation "E" ;
+    skos:prefLabel "emergent"@en ;
+    skos:topConceptOf cs: ;
+    tern:isMemberOf <https://linked.data.gov.au/def/tern-cv/6e5ce9f0-0774-4c04-b167-09527b196d86> ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/fef63d94-306f-4c97-8203-70842604d810>
+    a skos:Concept ;
+    dcterms:modified "2025-09-08"^^xsd:date ;
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/tern-cv/9b6e057f-271b-48f6-8c33-0528bf6b60df> ;
+    skos:altLabel "unrecorded" ;
+    skos:definition "not recorded"@en ;
+    skos:inScheme
+        <https://linked.data.gov.au/def/tern-cv/9b6e057f-271b-48f6-8c33-0528bf6b60df> ,
+        cs: ;
+    skos:notation
+        "U" ,
+        "UN" ,
+        "UNR" ;
+    skos:prefLabel "not recorded"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/ff4965f4-148f-40b9-8765-d278036b36e2>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ;
+    skos:definition "solar panel + battery"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solar panel + battery"@en ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "percentage value"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <https://linked.data.gov.au/def/tern-cv/0a48a52a-26d9-405c-9a11-4f46aecdd13e> ,
+        <https://linked.data.gov.au/def/tern-cv/507a271b-6408-48af-a4f8-bda7df86c85f> ,
+        <https://linked.data.gov.au/def/tern-cv/66e62d38-3630-40b8-b02f-90d6fea0af4c> ,
+        <https://linked.data.gov.au/def/tern-cv/8f8beb6a-8097-4a7b-90bb-68bd6219da80> ,
+        <https://linked.data.gov.au/def/tern-cv/c0714257-e942-4cd8-9dec-9b3ad52f9fd8> ,
+        <https://linked.data.gov.au/def/tern-cv/ee185578-7610-4007-abe4-8513dfeb63e9> ;
+    skos:prefLabel "percentage value"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "power source"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <https://linked.data.gov.au/def/tern-cv/12bdb098-b886-482c-9a9b-47f572df746a> ,
+        <https://linked.data.gov.au/def/tern-cv/59bc172f-c59b-4608-bb33-726cdc200334> ,
+        <https://linked.data.gov.au/def/tern-cv/5c5d55c8-3b24-4832-be5d-4f08e1ab85b9> ,
+        <https://linked.data.gov.au/def/tern-cv/68792d85-c2f6-42a3-9b36-441a53228494> ,
+        <https://linked.data.gov.au/def/tern-cv/c3ba4591-2d77-456c-a7f5-2dd0e7a045e8> ,
+        <https://linked.data.gov.au/def/tern-cv/e0959977-9aad-4300-bc2d-b6da564c8ddd> ,
+        <https://linked.data.gov.au/def/tern-cv/ff4965f4-148f-40b9-8765-d278036b36e2> ;
+    skos:prefLabel "power source"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "activity types"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <https://linked.data.gov.au/def/tern-cv/1152bb5b-d853-4066-8e3b-ec035cc705dd> ,
+        <https://linked.data.gov.au/def/tern-cv/5d4c23da-e4d1-4d28-9970-ea7c9fc62d62> ,
+        <https://linked.data.gov.au/def/tern-cv/60bfd12a-fde4-487b-b7ba-73aa28b15daa> ,
+        <https://linked.data.gov.au/def/tern-cv/7abec315-4bb4-4692-930c-d2d209ba36ae> ,
+        <https://linked.data.gov.au/def/tern-cv/924f2222-8926-449d-b2b6-07c97ec44c06> ,
+        <https://linked.data.gov.au/def/tern-cv/a5282fd8-8574-4ddd-85de-04a630a17289> ,
+        <https://linked.data.gov.au/def/tern-cv/a6d7e880-8f20-4348-854d-f42ad161593a> ,
+        <https://linked.data.gov.au/def/tern-cv/af21a21b-355a-4505-889d-79f8783acfdb> ,
+        <https://linked.data.gov.au/def/tern-cv/c9fc50c1-0294-410e-83df-967488cc738b> ,
+        <https://linked.data.gov.au/def/tern-cv/cf851d2c-3cbe-4578-b7f1-82240919be50> ,
+        <https://linked.data.gov.au/def/tern-cv/d188ee8e-b4dd-429c-b131-87003d5afe49> ,
+        <https://linked.data.gov.au/def/tern-cv/d33a5b55-3ee9-4f19-86b3-2bc693271db2> ;
+    skos:prefLabel "activity types"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4>
+    a skos:Concept ;
+    dcterms:created "2025-09-09"^^xsd:date ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "directions/positions"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <https://linked.data.gov.au/def/tern-cv/056ba18c-fc60-42a5-8bfe-70462cdabc29> ,
+        <https://linked.data.gov.au/def/tern-cv/08a7cd76-2035-4747-b834-d4b8eff5fe23> ,
+        <https://linked.data.gov.au/def/tern-cv/09c3f062-0e9b-4d36-b1c1-11136aa09ea8> ,
+        <https://linked.data.gov.au/def/tern-cv/0edf259a-03e4-4a6c-b874-fafc57837107> ,
+        <https://linked.data.gov.au/def/tern-cv/0fbadb72-8bbd-49ab-bf3b-2e4dd15c9bad> ,
+        <https://linked.data.gov.au/def/tern-cv/12594b9d-384a-475f-a9e9-95ac314ad3ca> ,
+        <https://linked.data.gov.au/def/tern-cv/12ea770e-88c5-44a2-892d-995236eb7231> ,
+        <https://linked.data.gov.au/def/tern-cv/14f9be08-a738-47ac-b9fa-eb41337c918a> ,
+        <https://linked.data.gov.au/def/tern-cv/2059f9e1-653e-495f-87c1-8e1e3bdffca2> ,
+        <https://linked.data.gov.au/def/tern-cv/25f59851-479f-420b-9dd2-34b1bf6cab05> ,
+        <https://linked.data.gov.au/def/tern-cv/37f87d71-962f-4e3a-8c83-083ecec1eeea> ,
+        <https://linked.data.gov.au/def/tern-cv/3e85554b-ddf5-4953-b394-12dd084dc831> ,
+        <https://linked.data.gov.au/def/tern-cv/44cfc554-726b-4fa5-9231-50533fd3cffc> ,
+        <https://linked.data.gov.au/def/tern-cv/463c9860-90df-4cec-9a61-714e5f4a47ac> ,
+        <https://linked.data.gov.au/def/tern-cv/567ae341-67ac-4e24-ac09-a81c5136b497> ,
+        <https://linked.data.gov.au/def/tern-cv/56e1b776-bd74-4d9b-b9c3-3ef394baac47> ,
+        <https://linked.data.gov.au/def/tern-cv/5834360c-2718-4f55-a085-5d09f7dbe695> ,
+        <https://linked.data.gov.au/def/tern-cv/631836e2-8516-423b-babb-4b991c5ba3cb> ,
+        <https://linked.data.gov.au/def/tern-cv/66ff3837-d904-4861-8fcb-8e9fcaeae3bb> ,
+        <https://linked.data.gov.au/def/tern-cv/68ea82da-c78d-4edf-aeb4-6dbd86f714be> ,
+        <https://linked.data.gov.au/def/tern-cv/6cae0217-5493-4ae4-a5a4-b3372b3a5d0d> ,
+        <https://linked.data.gov.au/def/tern-cv/76e7a047-8b27-4a49-87fd-30d94376cfe9> ,
+        <https://linked.data.gov.au/def/tern-cv/77914be6-972e-4c31-9976-34e93343f8aa> ,
+        <https://linked.data.gov.au/def/tern-cv/7952eabd-6218-46f1-a8b2-ebb0f5557257> ,
+        <https://linked.data.gov.au/def/tern-cv/80dca974-96bb-4ec6-9b9b-a2322e559ec0> ,
+        <https://linked.data.gov.au/def/tern-cv/861767be-bd0f-4f56-86ee-f0e7d4d9799f> ,
+        <https://linked.data.gov.au/def/tern-cv/8b8273ee-c788-479a-bd0e-92528147bf69> ,
+        <https://linked.data.gov.au/def/tern-cv/8cf7009f-ae60-4a3b-819b-728ef4aa0eea> ,
+        <https://linked.data.gov.au/def/tern-cv/9afd1344-8aa4-4e54-8a15-e9a97a80337d> ,
+        <https://linked.data.gov.au/def/tern-cv/9c1a0c63-5f1e-434e-b09f-c934153c86fc> ,
+        <https://linked.data.gov.au/def/tern-cv/9d517c58-4c91-420a-99d8-992fd31d5d27> ,
+        <https://linked.data.gov.au/def/tern-cv/9f1965c9-b11e-431e-9c9b-f848ecc0e0cb> ,
+        <https://linked.data.gov.au/def/tern-cv/9fc1e7ca-4e79-44a8-8d8e-33d61ce41d13> ,
+        <https://linked.data.gov.au/def/tern-cv/b883c2b1-e5f6-4d69-b13a-f8937bd12d2c> ,
+        <https://linked.data.gov.au/def/tern-cv/bab4fc2b-8931-4d32-8fd0-36b588f8866d> ,
+        <https://linked.data.gov.au/def/tern-cv/bc0a6dab-273b-4c5a-a35a-c04e8da6a903> ,
+        <https://linked.data.gov.au/def/tern-cv/c0ee7d24-d5b6-4a69-a662-c9e411fa4969> ,
+        <https://linked.data.gov.au/def/tern-cv/d00676c2-528c-40fb-95db-3e681f6ea81d> ,
+        <https://linked.data.gov.au/def/tern-cv/d1a0624b-6b8e-40e3-b8c6-a34da77abb40> ,
+        <https://linked.data.gov.au/def/tern-cv/d4bfc3aa-8615-40ce-89d9-0ea035f15f66> ,
+        <https://linked.data.gov.au/def/tern-cv/d57d8abc-915e-4bf4-8bb2-1d39f1b07ef7> ,
+        <https://linked.data.gov.au/def/tern-cv/d62b7848-8ad6-4012-9da5-fbf3e5d936d7> ,
+        <https://linked.data.gov.au/def/tern-cv/db622df9-b8e3-4c91-8a4d-f41d9f4d388d> ,
+        <https://linked.data.gov.au/def/tern-cv/dbad21ab-f5d8-4c42-9bd3-c4cf20b033b4> ,
+        <https://linked.data.gov.au/def/tern-cv/dc617c51-62c1-4fcd-a918-0f65a3d62e1e> ,
+        <https://linked.data.gov.au/def/tern-cv/ddea6ce8-35b0-4131-8b95-15be51428a51> ,
+        <https://linked.data.gov.au/def/tern-cv/e331f273-7abe-4b8f-83a4-1a2429a91beb> ,
+        <https://linked.data.gov.au/def/tern-cv/e8dc6763-ab8d-442c-a0a2-cde4c784514e> ,
+        <https://linked.data.gov.au/def/tern-cv/e9e9b87f-c544-4a54-84bc-d3852f74a812> ,
+        <https://linked.data.gov.au/def/tern-cv/ee8812ff-0ce9-47ed-93b1-2f106055fff8> ,
+        <https://linked.data.gov.au/def/tern-cv/f18202ea-203c-4bf6-87ab-824c910ccc2b> ,
+        <https://linked.data.gov.au/def/tern-cv/f390dd43-fb63-439f-9700-5075b1cb7fa9> ,
+        <https://linked.data.gov.au/def/tern-cv/f9b45616-48d8-45ff-8eda-b15b3227dc2d> ,
+        <https://linked.data.gov.au/def/tern-cv/fb0bad50-0653-44ff-8b2d-d94d432ca569> ;
+    skos:prefLabel "directions/positions"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2024-09-26"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/tern> ;
+    dcterms:modified "2024-09-26"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/tern> ;
+    skos:definition "Categorial Concepts"@en ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/def/tern-cv/037ebe73-b79c-40bc-acd9-508d9b6b837c> ,
+        <https://linked.data.gov.au/def/tern-cv/070dc685-5a1e-48b6-afd6-61df35b924df> ,
+        <https://linked.data.gov.au/def/tern-cv/08d949b3-1743-487c-b0e8-db808f469700> ,
+        <https://linked.data.gov.au/def/tern-cv/0cba8d9f-71c7-41b6-8dff-eeae07393231> ,
+        <https://linked.data.gov.au/def/tern-cv/0ea08a7d-0da0-4080-ae45-c97d7b309a1a> ,
+        <https://linked.data.gov.au/def/tern-cv/0f8d5c21-1fbb-4f65-95ee-4b6b76723833> ,
+        <https://linked.data.gov.au/def/tern-cv/13da1c6c-a722-48d8-a238-9144c77726f3> ,
+        <https://linked.data.gov.au/def/tern-cv/16260caf-4f2f-47a5-85fd-c73c8de69f94> ,
+        <https://linked.data.gov.au/def/tern-cv/19f8fe17-bb2b-4b5a-bb78-33bc62e383de> ,
+        <https://linked.data.gov.au/def/tern-cv/1b9164ea-9fd6-4487-a9a0-13f151285948> ,
+        <https://linked.data.gov.au/def/tern-cv/1d45f3ec-8291-421a-aaf0-6d6c39f29175> ,
+        <https://linked.data.gov.au/def/tern-cv/26e40e36-517e-44ae-ada3-a2fa9f24a6e2> ,
+        <https://linked.data.gov.au/def/tern-cv/2b57fa6f-5c16-4eeb-8365-ae0ebd4b21bf> ,
+        <https://linked.data.gov.au/def/tern-cv/2c1e5022-7823-4cf6-b3f8-a792df74a99c> ,
+        <https://linked.data.gov.au/def/tern-cv/2ca0549e-f828-41b0-bb44-05035fcba149> ,
+        <https://linked.data.gov.au/def/tern-cv/2f5b14a3-802b-46e2-8942-cd7733e6ab0d> ,
+        <https://linked.data.gov.au/def/tern-cv/2f6ca158-f3be-4a3b-ab57-d846047fe3e2> ,
+        <https://linked.data.gov.au/def/tern-cv/34433228-c36c-4706-9aae-e79d1aa15b29> ,
+        <https://linked.data.gov.au/def/tern-cv/35334e82-2010-47e3-8ce5-d9702f89c5d6> ,
+        <https://linked.data.gov.au/def/tern-cv/354d807b-30b9-4142-b7dd-22ab1864668a> ,
+        <https://linked.data.gov.au/def/tern-cv/3895d0ee-dbfb-4c31-96f4-44d57cdd8cc7> ,
+        <https://linked.data.gov.au/def/tern-cv/39805604-07d7-48b0-9642-da81131d6916> ,
+        <https://linked.data.gov.au/def/tern-cv/3ab50b8f-4a9a-4f1d-8d11-8341a1197eb1> ,
+        <https://linked.data.gov.au/def/tern-cv/3efff5f6-dcee-42af-a3a0-c89810656e10> ,
+        <https://linked.data.gov.au/def/tern-cv/4003ce8c-2f0d-4639-8a78-5ea948723b52> ,
+        <https://linked.data.gov.au/def/tern-cv/422279b6-4e3f-4d7a-af4d-c802a1d4c788> ,
+        <https://linked.data.gov.au/def/tern-cv/422837a9-7630-4476-8846-8e833ef5d09a> ,
+        <https://linked.data.gov.au/def/tern-cv/442eb45e-0214-4a83-89f5-9de9806bdd55> ,
+        <https://linked.data.gov.au/def/tern-cv/523a9755-964f-4c68-9b63-e5ad2bf9348c> ,
+        <https://linked.data.gov.au/def/tern-cv/5343c10e-0d49-4c90-80c0-84cfe94c8a4b> ,
+        <https://linked.data.gov.au/def/tern-cv/55559143-80da-407c-a9c2-384c5555e390> ,
+        <https://linked.data.gov.au/def/tern-cv/59a6d0d8-3862-421e-a2fb-9be749c10b3a> ,
+        <https://linked.data.gov.au/def/tern-cv/5f661f12-1f19-4777-8539-8bfbad2b9486> ,
+        <https://linked.data.gov.au/def/tern-cv/5fce7029-f8c1-499b-9ecb-7c6dac35895c> ,
+        <https://linked.data.gov.au/def/tern-cv/660fabf3-5864-40f5-99b5-73879587b26b> ,
+        <https://linked.data.gov.au/def/tern-cv/662fc0c0-c1b8-4065-9c12-b41d1098974f> ,
+        <https://linked.data.gov.au/def/tern-cv/665075f2-c678-4068-843b-cd8e4165f3b2> ,
+        <https://linked.data.gov.au/def/tern-cv/66f5da74-41a8-44be-82c2-334ed451ad28> ,
+        <https://linked.data.gov.au/def/tern-cv/6766f97d-f93d-408c-94fc-b2a8d6e66e0d> ,
+        <https://linked.data.gov.au/def/tern-cv/6d9d5409-bc95-40a6-a725-f1a1cd138719> ,
+        <https://linked.data.gov.au/def/tern-cv/6e8bbade-c88b-4f5b-9cc8-685309735d2b> ,
+        <https://linked.data.gov.au/def/tern-cv/73557558-5b11-433c-b3e2-f3545d9c72d2> ,
+        <https://linked.data.gov.au/def/tern-cv/73bdebf6-3780-483e-8ebd-d7412e1f14f4> ,
+        <https://linked.data.gov.au/def/tern-cv/750a46e3-b6e4-4347-8a3d-225b0702325c> ,
+        <https://linked.data.gov.au/def/tern-cv/7e5f0dda-d0f6-44fa-b113-cba696c185e3> ,
+        <https://linked.data.gov.au/def/tern-cv/80ad03a6-6ac1-41a8-8d7b-0af0db165c95> ,
+        <https://linked.data.gov.au/def/tern-cv/80ec4da3-c753-40c1-82b2-dbed633fa74a> ,
+        <https://linked.data.gov.au/def/tern-cv/8276dc47-7bcd-43b1-bbdd-a98bdbae01ba> ,
+        <https://linked.data.gov.au/def/tern-cv/835c0754-c494-490c-aae4-e700ce3fe4bd> ,
+        <https://linked.data.gov.au/def/tern-cv/88de2ddb-302d-43b4-b3e3-de0a8a6fb757> ,
+        <https://linked.data.gov.au/def/tern-cv/8b0617a7-f695-439c-a7aa-0868178306f4> ,
+        <https://linked.data.gov.au/def/tern-cv/8bd3dde6-e14e-41f5-9121-81ed6b05d42a> ,
+        <https://linked.data.gov.au/def/tern-cv/95c0c736-ecae-483c-bde2-a427f8b7821c> ,
+        <https://linked.data.gov.au/def/tern-cv/9648448b-cb2b-4bdd-a15b-7d58952101ac> ,
+        <https://linked.data.gov.au/def/tern-cv/96539a5e-dd81-4a06-8b7f-943728b73c49> ,
+        <https://linked.data.gov.au/def/tern-cv/9908c3ca-e79b-486b-81f3-f427075db518> ,
+        <https://linked.data.gov.au/def/tern-cv/99a403eb-6c5c-48fd-936a-0f8f04ec176a> ,
+        <https://linked.data.gov.au/def/tern-cv/9b2938d7-9055-4fd1-a186-d9f2709eebfa> ,
+        <https://linked.data.gov.au/def/tern-cv/9e0c973d-4472-4044-ae56-b6df356c69b0> ,
+        <https://linked.data.gov.au/def/tern-cv/9e77d38a-8311-4eda-9705-c44d4281187c> ,
+        <https://linked.data.gov.au/def/tern-cv/a5a35d9b-c63c-45ae-92b4-036466197110> ,
+        <https://linked.data.gov.au/def/tern-cv/a94639ca-0803-47f7-ac97-14daf839b430> ,
+        <https://linked.data.gov.au/def/tern-cv/aa9a496d-ea39-46ff-8248-6adc725c1d07> ,
+        <https://linked.data.gov.au/def/tern-cv/b4efc8fd-3038-4712-8bbf-de23c566313c> ,
+        <https://linked.data.gov.au/def/tern-cv/b5480c0b-6848-4bcf-b791-6d35d9f74890> ,
+        <https://linked.data.gov.au/def/tern-cv/b704b8ee-0631-423f-9c1f-c4d1efb1f421> ,
+        <https://linked.data.gov.au/def/tern-cv/b77ac142-86e5-40b1-8643-78dc76ed0873> ,
+        <https://linked.data.gov.au/def/tern-cv/ba46d400-5c49-4ca4-942b-b4e3853e36fb> ,
+        <https://linked.data.gov.au/def/tern-cv/bcff6165-fd4f-4550-addd-88fb86abb54c> ,
+        <https://linked.data.gov.au/def/tern-cv/c238ce1d-9f6d-4ba0-be42-34219d813a6d> ,
+        <https://linked.data.gov.au/def/tern-cv/c28fee20-9321-4df2-9aac-ad4c1cd85c15> ,
+        <https://linked.data.gov.au/def/tern-cv/c7472135-6976-4e84-b04b-c6e17df31b20> ,
+        <https://linked.data.gov.au/def/tern-cv/c7ba16c8-c9f5-4696-adb8-0b02c952206b> ,
+        <https://linked.data.gov.au/def/tern-cv/ca333def-abfc-42e6-87de-8d119b18d397> ,
+        <https://linked.data.gov.au/def/tern-cv/caf55f76-dc23-42e7-8a0c-a9c1ed8f7efd> ,
+        <https://linked.data.gov.au/def/tern-cv/ce1723a3-213b-4a63-8643-cbb75e38bf1f> ,
+        <https://linked.data.gov.au/def/tern-cv/cfe8a60c-ad21-4173-b591-5e66e2b29cdf> ,
+        <https://linked.data.gov.au/def/tern-cv/cfffbc4e-0c34-4275-85df-bf3ba8a40910> ,
+        <https://linked.data.gov.au/def/tern-cv/d8acd5bc-7064-4e52-9046-225aa3711dda> ,
+        <https://linked.data.gov.au/def/tern-cv/dbd84d0f-b05a-4fae-a30e-4f4b276e0ed3> ,
+        <https://linked.data.gov.au/def/tern-cv/dc6befb0-a4c5-4ca9-8e1e-e3b9678e6ffd> ,
+        <https://linked.data.gov.au/def/tern-cv/dc89b341-1bf6-4a51-a1c9-63f484cb0370> ,
+        <https://linked.data.gov.au/def/tern-cv/dfb37698-3280-48f8-a156-e8bc16777580> ,
+        <https://linked.data.gov.au/def/tern-cv/e0969eb7-7a2e-4b9e-9cf2-181970cae006> ,
+        <https://linked.data.gov.au/def/tern-cv/e101566f-7911-4b45-9973-3cfc05d0a26f> ,
+        <https://linked.data.gov.au/def/tern-cv/e1db4f5b-158d-4f4a-ab94-4f7de67e2926> ,
+        <https://linked.data.gov.au/def/tern-cv/e3b0aea1-289f-4a27-ae9b-f8c23cc65a02> ,
+        <https://linked.data.gov.au/def/tern-cv/eee3cf46-c640-4519-87e8-256f6eb17b63> ,
+        <https://linked.data.gov.au/def/tern-cv/f3e11b15-54fd-4837-827f-7729fcd2976a> ,
+        <https://linked.data.gov.au/def/tern-cv/f671966a-f12b-4000-a355-1fbb64167bb0> ,
+        <https://linked.data.gov.au/def/tern-cv/f75147de-8327-47c3-bb80-3efe49af2b31> ,
+        <https://linked.data.gov.au/def/tern-cv/f8184bba-63b9-4175-8f82-6d6dfe94429e> ,
+        <https://linked.data.gov.au/def/tern-cv/fc751cdd-bf6f-4245-b1c8-304ab3a9f2ef> ,
+        <https://linked.data.gov.au/def/tern-cv/fdf0c6fa-b903-4c79-ba5f-f1a6acfe0777> ,
+        <https://linked.data.gov.au/def/tern-cv/fef63d94-306f-4c97-8203-70842604d810> ;
+    skos:prefLabel "Categorical Concepts"@en ;
+.
