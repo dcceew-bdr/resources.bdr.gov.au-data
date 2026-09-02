@@ -70,7 +70,7 @@ sg:
     schema:copyrightHolder <https://linked.data.gov.au/org/dcceew> ;
     schema:name "BDR Profile of ABIS Core Validator" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:codeRepository "https://github.com/dcceew-bdr/bdr-catalogues/"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/resources.bdr.gov.au-data/"^^xsd:anyURI ;
     schema:hasPart
         :shape-01 ,
         :shape-02 ,

@@ -639,6 +639,21 @@ We are committed to protecting, conserving and restoring the integrity and diver
     schema:url "https://npansw.org.au"^^xsd:anyURI ;
 .
 
+<https://linked.data.gov.au/org/nrm-organisations>
+    a
+        skos:Concept ,
+        schema:Organization ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Australian Natural Research Management (NRM) Organisations" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Natural Research Management (NRM) Organisations"@en ;
+    skos:topConceptOf cs: ;
+    schema:description "Australian Natural Research Management (NRM) Organisations" ;
+    schema:identifier "https://ror.org/01db6n192"^^id:ror ;
+    schema:name "Natural Research Management (NRM) Organisations" ;
+    schema:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
+.
+
 <https://linked.data.gov.au/org/nsw-bionet>
     a
         skos:Concept ,
@@ -1514,6 +1529,7 @@ cs:
         <https://linked.data.gov.au/org/naturemapr> ,
         <https://linked.data.gov.au/org/nhm> ,
         <https://linked.data.gov.au/org/npansw> ,
+        <https://linked.data.gov.au/org/nrm-organisations> ,
         <https://linked.data.gov.au/org/nsw-bionet> ,
         <https://linked.data.gov.au/org/nsw-daff> ,
         <https://linked.data.gov.au/org/nsw-dcceew> ,
@@ -1578,7 +1594,7 @@ This vocabulary was initially developed for the Biodiversity Data Repository and
     skos:prefLabel "BDR Organizations"@en ;
     schema:creator <https://linked.data.gov.au/org/dcceew> ;
     schema:dateCreated "2024-07-09"^^xsd:date ;
-    schema:dateModified "2026-09-01"^^xsd:date ;
+    schema:dateModified "2026-09-02"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
     schema:version "1" ;
