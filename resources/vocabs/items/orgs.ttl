@@ -646,11 +646,11 @@ We are committed to protecting, conserving and restoring the integrity and diver
     rdfs:isDefinedBy cs: ;
     skos:definition "Australian Natural Resource Management (NRM) Organisations" ;
     skos:inScheme cs: ;
-    skos:prefLabel "Natural Research Resource (NRM) Organisations"@en ;
+    skos:prefLabel "Natural Resource (NRM) Organisations"@en ;
     skos:topConceptOf cs: ;
     schema:description "Australian Natural Resource Management (NRM) Organisations" ;
     schema:name "Natural Resource Management (NRM) Organisations" ;
-    schema:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
+    schema:url "https://nrmregionsaustralia.com.au"^^xsd:anyURI ;
 .
 
 <https://linked.data.gov.au/org/nsw-bionet>
@@ -1596,5 +1596,5 @@ This vocabulary was initially developed for the Biodiversity Data Repository and
     schema:dateModified "2026-09-02"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
