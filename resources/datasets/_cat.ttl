@@ -16,11 +16,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/dataset/asgsed3> ,
         <https://linked.data.gov.au/dataset/epbc/mig> ,
         <https://linked.data.gov.au/dataset/epbc/ts> ,
+        <https://linked.data.gov.au/dataset/ibra/7.1> ,
         <https://linked.data.gov.au/dataset/wons> ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Reference Datasets Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "2" ;
+    schema:version "3" ;
 .
 
 <https://linked.data.gov.au/dataset/asgsed3>
@@ -32,6 +33,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/epbc/ts>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+.
+
+<https://linked.data.gov.au/dataset/ibra/7.1>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
 

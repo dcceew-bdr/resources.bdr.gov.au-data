@@ -14,19 +14,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:hasPart
         <https://def.isotc211.org/codeset/RoleCode> ,
         <https://linked.data.gov.au/dataset/bdr/datatypes> ,
+        <https://linked.data.gov.au/dataset/bdr/obsprops> ,
         <https://linked.data.gov.au/dataset/bdr/orgs> ,
         <https://linked.data.gov.au/dataset/bdr/rescope> ,
         <https://linked.data.gov.au/dataset/bdr/sma> ,
         <https://linked.data.gov.au/dataset/bdr/smrr> ,
         <https://linked.data.gov.au/dataset/bdr/statsprops> ,
-        <https://linked.data.gov.au/def/abis/vocab-themes> ,
         <https://linked.data.gov.au/dataset/epbc/ts/cats> ,
+        <https://linked.data.gov.au/def/abis/vocab-themes> ,
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ,
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
     schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "7" ;
+    schema:version "8" ;
 .
 
 <https://def.isotc211.org/codeset/RoleCode>
@@ -34,6 +35,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/bdr/datatypes>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/obsprops>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
 
@@ -57,12 +62,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
 
-<https://linked.data.gov.au/def/abis/vocab-themes>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
-.
-
 <https://linked.data.gov.au/dataset/epbc/ts/cats>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+.
+
+<https://linked.data.gov.au/def/abis/vocab-themes>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
 .
 
 <https://linked.data.gov.au/def/nsl/tn-types>

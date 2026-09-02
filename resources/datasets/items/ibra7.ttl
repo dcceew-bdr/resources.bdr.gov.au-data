@@ -1,0 +1,34 @@
+PREFIX : <https://linked.data.gov.au/dataset/ibra/7.1/>
+PREFIX bdr-cat: <https://linked.data.gov.au/dataset/bdr/catalogues/>
+PREFIX d: <https://linked.data.gov.au/dataset/ibra/7.1>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX status: <https://def.isotc211.org/codeset/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:regions
+    schema:isPartOf d: ;
+.
+
+:subregions
+    schema:isPartOf d: ;
+.
+
+d:
+    a schema:Dataset ;
+    rdfs:member
+        :regions ,
+        :subregions ;
+    schema:citation
+        "https://fed.dcceew.gov.au/datasets/38e668537a2141be85b8418ac8b6f3ed_0"^^xsd:anyURI ,
+        "https://fed.dcceew.gov.au/datasets/a5a9a356105b4a728d0606194d8bdf38_0"^^xsd:anyURI ;
+    schema:codeRepository "https://github.com/dcceew-bdr/ibra-reference-dataset"^^xsd:anyURI ;
+    schema:creator <https://linked.data.gov.au/org/dcceew> ;
+    schema:dateCreated "2026-05-15"^^xsd:date ;
+    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:description "Interim Biogeographic Regionalisation for Australia (IBRA) Version 7.1 Regions and Subregions' geometries simplified/reduced for use within the BDR" ;
+    schema:isPartOf bdr-cat:ref-datasets ;
+    schema:name "IBRA 7.1 Region and Subregion Simplified geometries" ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+    schema:version "1" ;
+.

@@ -644,13 +644,12 @@ We are committed to protecting, conserving and restoring the integrity and diver
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Australian Natural Research Management (NRM) Organisations" ;
+    skos:definition "Australian Natural Resource Management (NRM) Organisations" ;
     skos:inScheme cs: ;
-    skos:prefLabel "Natural Research Management (NRM) Organisations"@en ;
+    skos:prefLabel "Natural Research Resource (NRM) Organisations"@en ;
     skos:topConceptOf cs: ;
-    schema:description "Australian Natural Research Management (NRM) Organisations" ;
-    schema:identifier "https://ror.org/01db6n192"^^id:ror ;
-    schema:name "Natural Research Management (NRM) Organisations" ;
+    schema:description "Australian Natural Resource Management (NRM) Organisations" ;
+    schema:name "Natural Resource Management (NRM) Organisations" ;
     schema:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
 .
 
