@@ -2,6 +2,7 @@ PREFIX cs: <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf9
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX tern: <https://w3id.org/tern/ontologies/tern/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -2546,10 +2547,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2024-09-26"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/tern> ;
-    dcterms:modified "2024-09-26"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/tern> ;
+    schema:dateCreated "2024-09-26"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/tern> ;
+    schema:dateModified "2026-09-02"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/tern> ;
+    schema:version "2" ;
     skos:definition "Categorial Concepts"@en ;
     skos:hasTopConcept
         <https://linked.data.gov.au/def/tern-cv/037ebe73-b79c-40bc-acd9-508d9b6b837c> ,

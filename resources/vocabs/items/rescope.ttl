@@ -1,5 +1,5 @@
 PREFIX : <https://linked.data.gov.au/dataset/bdr/rescope/>
-PREFIX cs: <https://linked.data.gov.au/dataset/bdr/rescols>
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/rescope>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -19,7 +19,7 @@ cs:
     schema:dateModified "2026-09-02"^^xsd:date ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "1" ;
+    schema:version "2" ;
 .
 
 :abis

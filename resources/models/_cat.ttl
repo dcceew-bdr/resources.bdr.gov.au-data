@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:name "Models Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "2" ;
+    schema:version "3" ;
 .
 
 <https://linked.data.gov.au/def/abis/rm>

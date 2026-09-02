@@ -1207,3 +1207,6 @@ schema:version
     schema:name "CSIRO" ;
 .
 
+sh:ShapesGraph
+    schema:name "Shapes Graph" ;
+.
