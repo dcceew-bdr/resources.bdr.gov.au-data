@@ -273,11 +273,11 @@ AusBIGG was established in 2021 and its main role, as of 2023, is the governance
         skos:Concept ,
         schema:Organization ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "The Biological Databases of South Australia (BDBSA) is South Australia's flora and fauna database that stores and manages specimen and observation records"@en ;
+    skos:definition "The Biodiversity Database of South Australia (BDBSA) is South Australia's flora and fauna database that stores and manages specimen and observation records"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Biological Databases of South Australia"@en ;
+    skos:prefLabel "Biodiversity Database of South Australia"@en ;
     skos:topConceptOf cs: ;
-    schema:name "Biological Databases of South Australia" ;
+    schema:name "Biodiversity Database of South Australia" ;
     schema:url "https://www.environment.sa.gov.au/topics/science/information-and-data/biological-databases-of-south-australia"^^xsd:anyURI ;
 .
 
