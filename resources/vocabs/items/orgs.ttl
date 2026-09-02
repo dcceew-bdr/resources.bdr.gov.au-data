@@ -1409,7 +1409,7 @@ Today, the Museum has seven public locations across the state - and a Collection
     skos:exactMatch <https://linked.data.gov.au/org/csiro-publishing> ;
     skos:inScheme cs: ;
     skos:prefLabel "CSIRO Publishing"@en ;
-    schema:identifier "https://ror.org/051hpv692"^^id:loc ;
+    schema:identifier "https://ror.org/051hpv692"^^id:ror ;
     schema:name "CSIRO Publishing" ;
     schema:parentOrganization <https://linked.data.gov.au/org/csiro> ;
     schema:url "https://www.publish.csiro.au/"^^xsd:anyURI ;
