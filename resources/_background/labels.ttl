@@ -1,0 +1,1209 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX void: <http://rdfs.org/ns/void#>
+
+<http://datashapes.org/dash>
+    schema:name "DASH Data Shapes Vocabulary" ;
+.
+
+dcterms:conformsTo
+    schema:name "Conforms To" ;
+.
+
+dcterms:contributor
+    schema:name "Contributor" ;
+.
+
+dcterms:created
+    schema:name "Date Created" ;
+.
+
+dcterms:creator
+    schema:name "Creator" ;
+.
+
+dcterms:date
+    schema:name "Date" ;
+.
+
+dcterms:hasPart
+    schema:name "Has Part" ;
+.
+
+dcterms:identifier
+    schema:name "Identifier" ;
+.
+
+dcterms:isPartOf
+    schema:name "Is Part Of" ;
+.
+
+dcterms:isReplacedBy
+    schema:name "Is Replaced By" ;
+.
+
+dcterms:issued
+    schema:name "Date Issued" ;
+.
+
+dcterms:license
+    schema:name "License" ;
+.
+
+dcterms:modified
+    schema:name "Date Modified" ;
+.
+
+dcterms:provenance
+    schema:name "Provenance" ;
+.
+
+dcterms:publisher
+    schema:name "Publisher" ;
+.
+
+dcterms:relation
+    schema:name "Relation" ;
+.
+
+dcterms:replaces
+    schema:name "Replaces" ;
+.
+
+dcterms:rights
+    schema:name "Rights" ;
+.
+
+dcterms:rightsHolder
+    schema:name "Rights Holder" ;
+.
+
+dcterms:source
+    schema:name "Source" ;
+.
+
+dcterms:subject
+    schema:name "Subject" ;
+.
+
+dcterms:title
+    schema:name "Title" ;
+.
+
+dcterms:type
+    schema:name "Type" ;
+.
+
+<http://purl.org/linked-data/registry#status>
+    schema:name "status"@en ;
+.
+
+vann:preferredNamespacePrefix
+    schema:name "Preferred Namespace Prefix" ;
+.
+
+vann:preferredNamespaceUri
+    schema:name "Preferred Namespace Uri" ;
+.
+
+<http://qudt.org/schema/qudt/Unit>
+    schema:name "Unit" ;
+.
+
+<http://qudt.org/schema/qudt/maxExclusive>
+    schema:name "max exclusive" ;
+.
+
+<http://qudt.org/schema/qudt/maxInclusive>
+    schema:name "max inclusive" ;
+.
+
+<http://qudt.org/schema/qudt/minExclusive>
+    schema:name "min exclusive" ;
+.
+
+<http://qudt.org/schema/qudt/minInclusive>
+    schema:name "min inclusive" ;
+.
+
+void:Dataset
+    schema:name "dataset" ;
+.
+
+void:inDataset
+    schema:name "in dataset" ;
+.
+
+void:subset
+    schema:name "has subset" ;
+.
+
+void:vocabulary
+    schema:name "vocabulary" ;
+.
+
+<http://www.opengis.net/ont/geosparql>
+    schema:name "GeoSPARQL Ontology" ;
+.
+
+geo:FeatureCollection
+    schema:name "Feature Collection" ;
+.
+
+geo:Geometry
+    schema:name "Geometry" ;
+.
+
+geo:GeometryCollection
+    schema:name "Geometry Collection" ;
+.
+
+geo:SpatialObjectCollection
+    schema:name "Spatial Object Collection" ;
+.
+
+geo:asDGGS
+    schema:name "as DGGS" ;
+.
+
+geo:asGML
+    schema:name "as GML" ;
+.
+
+geo:asGeoJSON
+    schema:name "as GeoJSON" ;
+.
+
+geo:asKML
+    schema:name "as KML" ;
+.
+
+geo:asWKT
+    schema:name "as WKT" ;
+.
+
+geo:coordinateDimension
+    schema:name "coordinate dimension" ;
+.
+
+geo:defaultGeometry
+    schema:name "default geometry" ;
+.
+
+geo:dggsLiteral
+    schema:name "DGGS Literal" ;
+.
+
+geo:dimension
+    schema:name "dimension" ;
+.
+
+geo:geoJSONLiteral
+    schema:name "GeoJSON Literal" ;
+.
+
+geo:gmlLiteral
+    schema:name "GML Literal" ;
+.
+
+geo:hasDefaultGeometry
+    schema:name "has default geometry" ;
+.
+
+geo:hasGeometry
+    schema:name "has geometry" ;
+.
+
+geo:hasMetricSpatialAccuracy
+    schema:name "has spatial accuracy in meters" ;
+.
+
+geo:hasMetricSpatialResolution
+    schema:name "has spatial resolution in meters" ;
+.
+
+geo:hasSerialization
+    schema:name "has serialization" ;
+.
+
+geo:hasSpatialAccuracy
+    schema:name "has spatial accuracy" ;
+.
+
+geo:hasSpatialResolution
+    schema:name "has spatial resolution" ;
+.
+
+geo:isEmpty
+    schema:name "is empty" ;
+.
+
+geo:isSimple
+    schema:name "is simple" ;
+.
+
+geo:kmlLiteral
+    schema:name "KML Literal" ;
+.
+
+geo:sfWithin
+    schema:name "within" ;
+.
+
+geo:spatialDimension
+    schema:name "spatial dimension" ;
+.
+
+geo:wktLiteral
+    schema:name "Well-known Text Literal" ;
+.
+
+rdf:Property
+    schema:name "Property" ;
+.
+
+rdf:Seq
+    schema:name "Sequence" ;
+.
+
+rdf:first
+    schema:name "first" ;
+.
+
+rdf:langString
+    schema:name "Lang String" ;
+.
+
+()
+    schema:name "nil" ;
+.
+
+rdf:rest
+    schema:name "rest" ;
+.
+
+rdf:type
+    schema:name "type" ;
+.
+
+rdf:value
+    schema:name "value" ;
+.
+
+owl:
+    schema:name "The OWL 2 Schema vocabulary (OWL 2)" ;
+.
+
+owl:AnnotationProperty
+    schema:name "Annotation Property" ;
+.
+
+owl:Axiom
+    schema:name "Axiom" ;
+.
+
+owl:Class
+    schema:name "Class" ;
+.
+
+owl:DatatypeProperty
+    schema:name "Datatype Property" ;
+.
+
+owl:FunctionalProperty
+    schema:name "Functional Property" ;
+.
+
+owl:NamedIndividual
+    schema:name "Named Individual" ;
+.
+
+owl:ObjectProperty
+    schema:name "Object Property" ;
+.
+
+owl:Ontology
+    schema:name "Ontology" ;
+.
+
+owl:TransitiveProperty
+    schema:name "Transitive Property" ;
+.
+
+owl:deprecated
+    schema:name "deprecated" ;
+.
+
+owl:imports
+    schema:name "imports" ;
+.
+
+owl:inverseOf
+    schema:name "inverse of" ;
+.
+
+owl:unionOf
+    schema:name "union of" ;
+.
+
+owl:versionIRI
+    schema:name "version IRI" ;
+.
+
+owl:versionInfo
+    schema:name "version Info" ;
+.
+
+<http://www.w3.org/2004/02/skos/core>
+    schema:name "SKOS Vocabulary" ;
+.
+
+skos:Collection
+    schema:name "Collection" ;
+.
+
+skos:Concept
+    schema:name "Concept" ;
+.
+
+skos:ConceptScheme
+    schema:name "Concept Scheme" ;
+.
+
+skos:altLabel
+    schema:name "alternative label" ;
+.
+
+skos:broader
+    schema:name "has broader" ;
+.
+
+skos:closeMatch
+    schema:name "has close match" ;
+.
+
+skos:definition
+    schema:name "definition" ;
+.
+
+skos:editorialNote
+    schema:name "editorial note" ;
+.
+
+skos:exactMatch
+    schema:name "has exact match" ;
+.
+
+skos:example
+    schema:name "example" ;
+.
+
+skos:hasTopConcept
+    schema:name "has top concept" ;
+.
+
+skos:historyNote
+    schema:name "history note" ;
+.
+
+skos:inScheme
+    schema:name "is in scheme" ;
+.
+
+skos:mappingRelation
+    schema:name "is in mapping relation with" ;
+.
+
+skos:member
+    schema:name "has member" ;
+.
+
+skos:narrower
+    schema:name "has narrower" ;
+.
+
+skos:notation
+    schema:name "notation" ;
+.
+
+skos:note
+    schema:name "note" ;
+.
+
+skos:prefLabel
+    schema:name "preferred label" ;
+.
+
+skos:relatedMatch
+    schema:name "has related match" ;
+.
+
+skos:scopeNote
+    schema:name
+        "Description" ,
+        "scope note" ;
+.
+
+skos:topConceptOf
+    schema:name "is top concept in scheme" ;
+.
+
+time:DurationDescription
+    schema:name "Duration description" ;
+.
+
+time:TemporalEntity
+    schema:name "Temporal entity" ;
+.
+
+time:TimePosition
+    schema:name "Time position" ;
+.
+
+time:hasBeginning
+    schema:name "has beginning" ;
+.
+
+time:hasDuration
+    schema:name "has duration" ;
+.
+
+time:hasEnd
+    schema:name "has end" ;
+.
+
+time:inDateTime
+    schema:name "in date-time description" ;
+.
+
+time:inTimePosition
+    schema:name "Time position" ;
+.
+
+time:inXSDDate
+    schema:name "in XSD date" ;
+.
+
+time:inXSDDateTimeStamp
+    schema:name "in XSD Date-Time-Stamp" ;
+.
+
+time:inXSDgYear
+    schema:name "in XSD g-Year" ;
+.
+
+time:inXSDgYearMonth
+    schema:name "in XSD g-YearMonth" ;
+.
+
+time:numericDuration
+    schema:name "Numeric value of temporal duration" ;
+.
+
+time:unitDay
+    schema:name "day" ;
+.
+
+time:unitHour
+    schema:name "hour" ;
+.
+
+time:unitMinute
+    schema:name "minute" ;
+.
+
+time:unitMonth
+    schema:name "month" ;
+.
+
+time:unitSecond
+    schema:name "second" ;
+.
+
+time:unitType
+    schema:name "temporal unit type" ;
+.
+
+time:unitWeek
+    schema:name "week" ;
+.
+
+time:unitYear
+    schema:name "year" ;
+.
+
+dcat:Dataset
+    schema:name "Dataset" ;
+.
+
+dcat:Distribution
+    schema:name "Distribution" ;
+.
+
+dcat:contactPoint
+    schema:name "contact point" ;
+.
+
+dcat:distribution
+    schema:name "distribution" ;
+.
+
+dcat:theme
+    schema:name "theme" ;
+.
+
+prof:hasArtifact
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    schema:name "has resource" ;
+.
+
+prof:hasRole
+    schema:name "has role" ;
+.
+
+prov:Activity
+    schema:name "Activity" ;
+.
+
+prov:Agent
+    schema:name "Agent" ;
+.
+
+prov:Entity
+    schema:name "Entity" ;
+.
+
+prov:agent
+    schema:name "agent" ;
+.
+
+prov:endedAtTime
+    schema:name "ended at time" ;
+.
+
+prov:entity
+    schema:name "entity" ;
+.
+
+prov:generated
+    schema:name "generated" ;
+.
+
+prov:hadPlan
+    schema:name "had plan" ;
+.
+
+prov:hadRole
+    schema:name "had role" ;
+.
+
+prov:qualifiedAssociation
+    schema:name "qualified association" ;
+.
+
+prov:qualifiedAttribution
+    schema:name "qualified attribution" ;
+.
+
+prov:qualifiedDerivation
+    schema:name "qualified derivation" ;
+.
+
+prov:startedAtTime
+    schema:name "started at time" ;
+.
+
+prov:wasAssociatedWith
+    schema:name "was associated with" ;
+.
+
+prov:wasAttributedTo
+    schema:name "was attributed to" ;
+.
+
+prov:wasDerivedFrom
+    schema:name "was derived from" ;
+.
+
+prov:wasInformedBy
+    schema:name "was informed by" ;
+.
+
+sh:
+    schema:name "W3C Shapes Constraint Language (SHACL) Vocabulary"@en ;
+.
+
+sh:BlankNode
+    schema:name "Blank node"@en ;
+.
+
+sh:BlankNodeOrIRI
+    schema:name "Blank node or IRI"@en ;
+.
+
+sh:BlankNodeOrLiteral
+    schema:name "Blank node or literal"@en ;
+.
+
+sh:IRI
+    schema:name "IRI"@en ;
+.
+
+sh:IRIOrLiteral
+    schema:name "IRI or literal"@en ;
+.
+
+sh:Literal
+    schema:name "Literal"@en ;
+.
+
+sh:NodeShape
+    schema:name "Node shape"@en ;
+.
+
+sh:PropertyShape
+    schema:name "Property shape"@en ;
+.
+
+sh:Violation
+    schema:name "Violation"@en ;
+.
+
+sh:Warning
+    schema:name "Warning"@en ;
+.
+
+sh:alternativePath
+    schema:name "alternative path"@en ;
+.
+
+sh:and
+    schema:name "and"@en ;
+.
+
+sh:class
+    schema:name "class"@en ;
+.
+
+sh:closed
+    schema:name "closed"@en ;
+.
+
+sh:datatype
+    schema:name "datatype"@en ;
+.
+
+sh:deactivated
+    schema:name "deactivated"@en ;
+.
+
+sh:declare
+    schema:name "declare"@en ;
+.
+
+sh:description
+    schema:name "description"@en ;
+.
+
+sh:disjoint
+    schema:name "disjoint"@en ;
+.
+
+sh:entailment
+    schema:name "entailment"@en ;
+.
+
+sh:equals
+    schema:name "equals"@en ;
+.
+
+sh:flags
+    schema:name "flags"@en ;
+.
+
+sh:hasValue
+    schema:name "has value"@en ;
+.
+
+sh:ignoredProperties
+    schema:name "ignored properties"@en ;
+.
+
+sh:in
+    schema:name "in"@en ;
+.
+
+sh:inversePath
+    schema:name "inverse path"@en ;
+.
+
+sh:languageIn
+    schema:name "language in"@en ;
+.
+
+sh:lessThan
+    schema:name "less than"@en ;
+.
+
+sh:lessThanOrEquals
+    schema:name "less than or equals"@en ;
+.
+
+sh:maxCount
+    schema:name "max count"@en ;
+.
+
+sh:maxExclusive
+    schema:name "max exclusive"@en ;
+.
+
+sh:maxInclusive
+    schema:name "max inclusive"@en ;
+.
+
+sh:maxLength
+    schema:name "max length"@en ;
+.
+
+sh:message
+    schema:name "message"@en ;
+.
+
+sh:minCount
+    schema:name "min count"@en ;
+.
+
+sh:minExclusive
+    schema:name "min exclusive"@en ;
+.
+
+sh:minInclusive
+    schema:name "min inclusive"@en ;
+.
+
+sh:minLength
+    schema:name "min length"@en ;
+.
+
+sh:name
+    schema:name "name"@en ;
+.
+
+sh:namespace
+    schema:name "namespace"@en ;
+.
+
+sh:node
+    schema:name "node"@en ;
+.
+
+sh:nodeKind
+    schema:name "node kind"@en ;
+.
+
+sh:not
+    schema:name "not"@en ;
+.
+
+sh:oneOrMorePath
+    schema:name "one or more path"@en ;
+.
+
+sh:or
+    schema:name "or"@en ;
+.
+
+sh:path
+    schema:name "path"@en ;
+.
+
+sh:pattern
+    schema:name "pattern"@en ;
+.
+
+sh:prefix
+    schema:name "prefix"@en ;
+.
+
+sh:property
+    schema:name "property"@en ;
+.
+
+sh:qualifiedMaxCount
+    schema:name "qualified max count"@en ;
+.
+
+sh:qualifiedMinCount
+    schema:name "qualified min count"@en ;
+.
+
+sh:qualifiedValueShape
+    schema:name "qualified value shape"@en ;
+.
+
+sh:qualifiedValueShapesDisjoint
+    schema:name "qualified value shapes disjoint"@en ;
+.
+
+sh:select
+    schema:name "select"@en ;
+.
+
+sh:severity
+    schema:name "severity"@en ;
+.
+
+sh:shapesGraph
+    schema:name "shapes graph"@en ;
+.
+
+sh:sparql
+    schema:name "constraint (in SPARQL)"@en ;
+.
+
+sh:targetClass
+    schema:name "target class"@en ;
+.
+
+sh:targetNode
+    schema:name "target node"@en ;
+.
+
+sh:targetObjectsOf
+    schema:name "target objects of"@en ;
+.
+
+sh:targetSubjectsOf
+    schema:name "target subjects of"@en ;
+.
+
+sh:uniqueLang
+    schema:name "unique languages"@en ;
+.
+
+sh:xone
+    schema:name "exactly one"@en ;
+.
+
+sh:zeroOrMorePath
+    schema:name "zero or more path"@en ;
+.
+
+sh:zeroOrOnePath
+    schema:name "zero or one path"@en ;
+.
+
+<http://www.w3.org/ns/shacl-shacl#PathNodeShape>
+    schema:name "Path Node Shape" ;
+.
+
+sosa:Actuation
+    schema:name "Actuation" ;
+.
+
+sosa:FeatureOfInterest
+    schema:name "Feature Of Interest" ;
+.
+
+sosa:ObservableProperty
+    schema:name "Observable Property" ;
+.
+
+sosa:Observation
+    schema:name "Observation" ;
+.
+
+sosa:ObservationCollection
+    schema:name "Collection of observations" ;
+.
+
+sosa:Platform
+    schema:name "Platform" ;
+.
+
+sosa:Procedure
+    schema:name "Procedure" ;
+.
+
+sosa:Result
+    schema:name "Result" ;
+.
+
+sosa:Sample
+    schema:name "Sample" ;
+.
+
+sosa:Sampler
+    schema:name "Sampler" ;
+.
+
+sosa:Sampling
+    schema:name "Sampling" ;
+.
+
+sosa:Sensor
+    schema:name "Sensor" ;
+.
+
+sosa:hasFeatureOfInterest
+    schema:name "has feature of interest" ;
+.
+
+sosa:hasMember
+    schema:name "member observation" ;
+.
+
+sosa:hasResult
+    schema:name "has result" ;
+.
+
+sosa:hasSample
+    schema:name "has sample" ;
+.
+
+sosa:hasSimpleResult
+    schema:name "has simple result" ;
+.
+
+sosa:hasUltimateFeatureOfInterest
+    schema:name "has ultimate feature of interest" ;
+.
+
+sosa:isFeatureOfInterestOf
+    schema:name "is feature of interest of" ;
+.
+
+sosa:isHostedBy
+    schema:name "is hosted by" ;
+.
+
+sosa:isResultOf
+    schema:name "is result of" ;
+.
+
+sosa:isSampleOf
+    schema:name "is sample of" ;
+.
+
+sosa:madeBySampler
+    schema:name "made by sampler" ;
+.
+
+sosa:madeBySensor
+    schema:name "made by sensor" ;
+.
+
+sosa:madeObservation
+    schema:name "made observation" ;
+.
+
+sosa:madeSampling
+    schema:name "made sampling" ;
+.
+
+sosa:observedProperty
+    schema:name "observed property" ;
+.
+
+sosa:observes
+    schema:name "observes" ;
+.
+
+sosa:phenomenonTime
+    schema:name "phenomenon time" ;
+.
+
+sosa:usedProcedure
+    schema:name "used procedure" ;
+.
+
+<https://linked.data.gov.au/def/bdr-pr/proj/validator>
+    schema:name "BDR Project Model Validator"@en ;
+.
+
+<https://prez.dev/Manifest>
+    schema:name "Manifest" ;
+.
+
+<https://schema.org>
+    schema:name "schema.org Ontology" ;
+.
+
+schema:DataCatalog
+    schema:name "Data Catalog" ;
+.
+
+schema:Float
+    schema:name "Float" ;
+.
+
+schema:Integer
+    schema:name "Integer" ;
+.
+
+schema:Organization
+    schema:name "Organization" ;
+.
+
+schema:Person
+    schema:name "Person" ;
+.
+
+schema:Project
+    schema:name "Project" ;
+.
+
+schema:affiliation
+    schema:name "affiliation" ;
+.
+
+schema:alternateName
+    schema:name "alternate name" ;
+.
+
+schema:citation
+    schema:name "citation" ;
+.
+
+schema:codeRepository
+    schema:name "code repository" ;
+.
+
+schema:contributor
+    schema:name "contributor" ;
+.
+
+schema:copyrightHolder
+    schema:name "copyright holder" ;
+.
+
+schema:copyrightNotice
+    schema:name "copyright notice" ;
+.
+
+schema:copyrightYear
+    schema:name "copyright year" ;
+.
+
+schema:creator
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:name "date created" ;
+.
+
+schema:dateIssued
+    schema:name "date issued" ;
+.
+
+schema:dateModified
+    schema:name "date modified" ;
+.
+
+schema:description
+    schema:name "description" ;
+.
+
+schema:email
+    schema:name "email" ;
+.
+
+schema:endDate
+    schema:name "end date" ;
+.
+
+schema:identifier
+    schema:name "identifier" ;
+.
+
+schema:isPartOf
+    schema:name "is part of" ;
+.
+
+schema:keywords
+    schema:name "keywords" ;
+.
+
+schema:license
+    schema:name "license" ;
+.
+
+schema:maintainer
+    schema:name "maintainer" ;
+.
+
+schema:model
+    schema:name "model" ;
+.
+
+schema:name
+    schema:name "name" ;
+.
+
+schema:parentOrganization
+    schema:name "parent organization" ;
+.
+
+schema:publisher
+    schema:name "publisher" ;
+.
+
+schema:sameAs
+    schema:name "same as" ;
+.
+
+schema:serialNumber
+    schema:name "serial number" ;
+.
+
+schema:spatial
+    schema:name "spatial" ;
+.
+
+schema:startDate
+    schema:name "start date" ;
+.
+
+schema:status
+    schema:name "status" ;
+.
+
+schema:subOrganization
+    schema:name "sub organization" ;
+.
+
+schema:temporalCoverage
+    schema:name "temporal coverage" ;
+.
+
+schema:url
+    schema:name "url" ;
+.
+
+schema:usageInfo
+    schema:name "usage info" ;
+.
+
+schema:version
+    schema:name "version" ;
+.
+
+<https://w3id.org/tern/resources/276dd611-5d74-4555-b20f-12f0f0b618a1>
+    schema:name "CSIRO" ;
+.
+

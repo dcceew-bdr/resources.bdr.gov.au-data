@@ -30,5 +30,19 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
         [
             prof:hasArtifact "models/non-ontpub/tern.ttl" ;
             prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            #dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
+            prof:hasArtifact "validators/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            #dcterms:conformsTo <https://linked.data.gov.au/def/valpub/validator> ;
+            prof:hasArtifact "validators/valpub/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "validators/_cat.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
         ] ;
 .
