@@ -44,5 +44,13 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
         [
             prof:hasArtifact "validators/_cat.ttl" ;
             prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
+            prof:hasArtifact "datasets/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "datasets/_cat.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
         ] ;
 .
