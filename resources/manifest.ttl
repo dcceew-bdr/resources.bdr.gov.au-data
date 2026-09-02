@@ -17,5 +17,18 @@ PREFIX prof: <http://www.w3.org/ns/dx/prof/>
             dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
             prof:hasArtifact "vocabs/items/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "models/_cat.ttl" ;
+            prof:hasRole mrr:CatalogueData ;
+        ] ,
+        [
+            dcterms:conformsTo <https://linked.data.gov.au/def/ontpub/validator> ;
+            prof:hasArtifact "models/items/*.ttl" ;
+            prof:hasRole mrr:ResourceData ;
+        ] ,
+        [
+            prof:hasArtifact "models/non-ontpub/tern.ttl" ;
+            prof:hasRole mrr:ResourceData ;
         ] ;
 .

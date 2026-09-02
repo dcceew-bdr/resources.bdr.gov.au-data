@@ -18,3 +18,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "Terrestrial Ecosystems Research Network" ;
     schema:url "https://tern.org.au"^^xsd:anyURI ;
 .
+
+<https://kurrawong.ai>
+    a schema:Organizaton ;
+    schema:name "KurrawongAI" ;
+    schema:url "https://kurrawong.ai"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr"^^xsd:anyURI ;
+.
