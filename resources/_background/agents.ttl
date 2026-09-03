@@ -20,7 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://kurrawong.ai>
-    a schema:Organizaton ;
+    a schema:Organization ;
     schema:name "KurrawongAI" ;
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
@@ -29,4 +29,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:Organization ;
     schema:name "Centre for Australian National Biodiversity Research" ;
     schema:url "https://www.anbg.gov.au/cpbr"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a schema:Person ;
+    schema:name "Nicholas J. Car" ;
+    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    schema:affiliation <https://kurrawong.ai> ;
 .
