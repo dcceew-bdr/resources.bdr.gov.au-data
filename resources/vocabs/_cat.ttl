@@ -34,7 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
     schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "9" ;
+    schema:version "10" ;
 .
 
 <https://def.isotc211.org/codeset/RoleCode>
@@ -78,6 +78,30 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/def/asgs/cat>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-land-surface>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-landform>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-location>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-soil-profile>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-substrate>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
+<https://linked.data.gov.au/def/asls-vegetation>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
