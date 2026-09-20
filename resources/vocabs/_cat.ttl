@@ -15,7 +15,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/codeset/RoleCode> ,
         <https://linked.data.gov.au/dataset/bdr/datatypes> ,
         <https://linked.data.gov.au/dataset/bdr/obsprops> ,
-        <https://linked.data.gov.au/def/asgs/cat> ,
         <https://linked.data.gov.au/dataset/bdr/orgs> ,
         <https://linked.data.gov.au/dataset/bdr/rescope> ,
         <https://linked.data.gov.au/dataset/bdr/sma> ,
@@ -23,6 +22,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/dataset/bdr/statsprops> ,
         <https://linked.data.gov.au/dataset/epbc/ts/cats> ,
         <https://linked.data.gov.au/def/abis/vocab-themes> ,
+        <https://linked.data.gov.au/def/asgs/cat> ,
+        <https://linked.data.gov.au/def/asls-land-surface> ,
+        <https://linked.data.gov.au/def/asls-landform> ,
+        <https://linked.data.gov.au/def/asls-location> ,
+        <https://linked.data.gov.au/def/asls-soil-profile> ,
+        <https://linked.data.gov.au/def/asls-substrate> ,
+        <https://linked.data.gov.au/def/asls-vegetation> ,
         <https://linked.data.gov.au/def/nsl/tn-types> ,
         <https://linked.data.gov.au/def/nsl/tnu-types> ,
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
@@ -71,6 +77,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/abis> ;
 .
 
+<https://linked.data.gov.au/def/asgs/cat>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
+.
+
 <https://linked.data.gov.au/def/nsl/tn-types>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
 .
@@ -81,8 +91,4 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
-.
-
-<https://linked.data.gov.au/def/asgs/cat>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
