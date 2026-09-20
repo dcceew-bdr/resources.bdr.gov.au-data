@@ -132,30 +132,35 @@ North (mm)"""@en ;
 
 :accuracy-1
     a skos:Concept ;
+    skos:definition "<1 m"@en ;
     skos:notation "1" ;
     skos:prefLabel "<1 m"@en ;
 .
 
 :accuracy-2
     a skos:Concept ;
+    skos:definition "1-5 m"@en ;
     skos:notation "2" ;
     skos:prefLabel "1-5 m"@en ;
 .
 
 :accuracy-3
     a skos:Concept ;
+    skos:definition "5-15 m"@en ;
     skos:notation "3" ;
     skos:prefLabel "5-15 m"@en ;
 .
 
 :accuracy-4
     a skos:Concept ;
+    skos:definition "15-30 m"@en ;
     skos:notation "4" ;
     skos:prefLabel "15-30 m"@en ;
 .
 
 :accuracy-5
     a skos:Concept ;
+    skos:definition ">30 m"@en ;
     skos:notation "5" ;
     skos:prefLabel ">30 m"@en ;
 .
@@ -173,24 +178,28 @@ North (mm)"""@en ;
 
 :datum-AGD66
     a skos:Concept ;
+    skos:definition "Australian Geodetic Datum 1966"@en ;
     skos:notation "AGD66" ;
     skos:prefLabel "Australian Geodetic Datum 1966"@en ;
 .
 
 :datum-AGD84
     a skos:Concept ;
+    skos:definition "Australian Geodetic Datum 1984"@en ;
     skos:notation "AGD84" ;
     skos:prefLabel "Australian Geodetic Datum 1984"@en ;
 .
 
 :datum-GDA94
     a skos:Concept ;
+    skos:definition "Geodetic Datum of Australia 1994"@en ;
     skos:notation "GDA94" ;
     skos:prefLabel "Geodetic Datum of Australia 1994"@en ;
 .
 
 :datum-WGS84
     a skos:Concept ;
+    skos:definition "World Geodetic SYstem 1984"@en ;
     skos:notation "WGS84" ;
     skos:prefLabel "World Geodetic SYstem 1984"@en ;
 .
@@ -206,11 +215,13 @@ Zone  Easting	Northing
 
 :film-number
     a skos:Concept ;
+    skos:definition "Film number on photo"@en ;
     skos:prefLabel "Film number on photo"@en ;
 .
 
 :frame-number
     a skos:Concept ;
+    skos:definition "number of individual photo"@en ;
     skos:prefLabel "number of individual photo"@en ;
 .
 
@@ -240,6 +251,7 @@ Zone  Easting	Northing
     a
         skos:Concept ,
         sosa:Procedure ;
+    skos:definition "Differential GPS"@en ;
     skos:notation "D" ;
     skos:prefLabel "Differential GPS"@en ;
 .
@@ -248,6 +260,7 @@ Zone  Easting	Northing
     a
         skos:Concept ,
         sosa:Procedure ;
+    skos:definition "Single unit GPS"@en ;
     skos:notation "S" ;
     skos:prefLabel "Single unit GPS"@en ;
 .
@@ -339,59 +352,69 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
 
 :run-number
     a skos:Concept ;
+    skos:definition "number of run"@en ;
     skos:prefLabel "number of run"@en ;
 .
 
 :scale-1
     a skos:Concept ;
+    skos:definition "1:1 000"@en ;
     skos:notation "1" ;
     skos:prefLabel "1:1 000"@en ;
 .
 
 :scale-2
     a skos:Concept ;
+    skos:definition "1:2 500"@en ;
     skos:notation "2" ;
     skos:prefLabel "1:2 500"@en ;
 .
 
 :scale-3
     a skos:Concept ;
+    skos:definition "1:5 000"@en ;
     skos:notation "3" ;
     skos:prefLabel "1:5 000"@en ;
 .
 
 :scale-4
     a skos:Concept ;
+    skos:definition "1:10 000"@en ;
     skos:notation "4" ;
     skos:prefLabel "1:10 000"@en ;
 .
 
 :scale-5
     a skos:Concept ;
+    skos:definition "1:25 000"@en ;
     skos:notation "5" ;
     skos:prefLabel "1:25 000"@en ;
 .
 
 :scale-6
     a skos:Concept ;
+    skos:definition "1:50 000"@en ;
     skos:notation "6" ;
     skos:prefLabel "1:50 000"@en ;
 .
 
 :scale-7
     a skos:Concept ;
+    skos:definition "1:100 000"@en ;
     skos:notation "7" ;
     skos:prefLabel "1:100 000"@en ;
 .
 
 :scale-8
     a skos:Concept ;
+    skos:definition "1:250 000"@en ;
     skos:notation "8" ;
     skos:prefLabel "1:250 000"@en ;
 .
 
 :site-reference
     a skos:Concept ;
+    skos:definition "east (mm), north (mm)"@en ;
     skos:prefLabel "east (mm), north (mm)"@en ;
 .
 
@@ -460,6 +483,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a
         skos:Concept ,
         sosa:ObservableProperty ;
+    skos:definition "GPS accuracy estimate"@en ;
     skos:prefLabel "GPS accuracy estimate"@en ;
 .
 
@@ -467,6 +491,7 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     a
         skos:Concept ,
         sosa:ObservableProperty ;
+    skos:definition "Map scale"@en ;
     skos:prefLabel "Map scale"@en ;
 .
 

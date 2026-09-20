@@ -162,6 +162,7 @@ Masses within the regolith zone, in contrast with those within the bedrock zone,
     a
         skos:Concept ,
         :Confidence ;
+    skos:definition "Almost certain or certain"@en ;
     skos:notation "A" ;
     skos:prefLabel "Almost certain or certain"@en ;
 .
@@ -170,6 +171,7 @@ Masses within the regolith zone, in contrast with those within the bedrock zone,
     a
         skos:Concept ,
         :Confidence ;
+    skos:definition "Dubious, doubtful"@en ;
     skos:notation "D" ;
     skos:prefLabel "Dubious, doubtful"@en ;
 .
@@ -178,6 +180,7 @@ Masses within the regolith zone, in contrast with those within the bedrock zone,
     a
         skos:Concept ,
         :Confidence ;
+    skos:definition "Not parent material"@en ;
     skos:notation "N" ;
     skos:prefLabel "Not parent material"@en ;
 .
@@ -186,6 +189,7 @@ Masses within the regolith zone, in contrast with those within the bedrock zone,
     a
         skos:Concept ,
         :Confidence ;
+    skos:definition "Probable"@en ;
     skos:notation "P" ;
     skos:prefLabel "Probable"@en ;
 .
@@ -259,6 +263,7 @@ Masses within the regolith zone, in contrast with those within the bedrock zone,
     a
         skos:Concept ,
         :Rock-genesis-hardened-artificial ;
+    skos:definition "Other artificially hardened materials"@en ;
     skos:notation "AT" ;
     skos:prefLabel "Other artificially hardened materials"@en ;
 .
@@ -1582,6 +1587,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Carbonaceous material"@en ;
     skos:notation "C" ;
     skos:prefLabel "Carbonaceous material"@en ;
 .
@@ -1590,6 +1596,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Dark minerals"@en ;
     skos:notation "D" ;
     skos:prefLabel "Dark minerals"@en ;
 .
@@ -1598,6 +1605,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Feldspar"@en ;
     skos:notation "F" ;
     skos:prefLabel "Feldspar"@en ;
 .
@@ -1606,6 +1614,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Glauconite"@en ;
     skos:notation "G" ;
     skos:prefLabel "Glauconite"@en ;
 .
@@ -1614,6 +1623,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Carbonates (react with 1-molar HCl)"@en ;
     skos:notation "K" ;
     skos:prefLabel "Carbonates (react with 1-molar HCl)"@en ;
 .
@@ -1622,6 +1632,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Clays (argillaceous)"@en ;
     skos:notation "L" ;
     skos:prefLabel "Clays (argillaceous)"@en ;
 .
@@ -1630,6 +1641,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Mica"@en ;
     skos:notation "M" ;
     skos:prefLabel "Mica"@en ;
 .
@@ -1638,6 +1650,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Quartz"@en ;
     skos:notation "Q" ;
     skos:prefLabel "Quartz"@en ;
 .
@@ -1646,6 +1659,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Sesquioxides"@en ;
     skos:notation "S" ;
     skos:prefLabel "Sesquioxides"@en ;
 .
@@ -1654,6 +1668,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-mineral-composition ;
+    skos:definition "Gypsum"@en ;
     skos:notation "Y" ;
     skos:prefLabel "Gypsum"@en ;
 .
@@ -1715,6 +1730,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-porosity ;
+    skos:definition "Non porous, dense"@en ;
     skos:notation "0" ;
     skos:prefLabel "Non porous, dense"@en ;
 .
@@ -1723,6 +1739,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-porosity ;
+    skos:definition "Slightly porous "@en ;
     skos:notation "1" ;
     skos:prefLabel "Slightly porous "@en ;
 .
@@ -1731,6 +1748,7 @@ Without significant carbonate"""@en ;
     a
         skos:Concept ,
         :Substrate-porosity ;
+    skos:definition "Porous "@en ;
     skos:notation "2" ;
     skos:prefLabel "Porous "@en ;
 .

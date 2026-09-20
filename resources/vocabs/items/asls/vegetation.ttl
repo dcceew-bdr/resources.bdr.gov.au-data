@@ -276,6 +276,7 @@ Use site observations (especially at planned times of year or relative to drough
     a
         skos:Concept ,
         sosa:ObservableProperty ;
+    skos:definition "Emergent taxon"@en ;
     skos:prefLabel "Emergent taxon"@en ;
 .
 
@@ -822,6 +823,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
 
 :maximum-height
     a skos:Concept ;
+    skos:definition "Maximum height"@en ;
     skos:prefLabel "Maximum height"@en ;
 .
 
@@ -829,6 +831,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     a
         skos:Concept ,
         sosa:ObservableProperty ;
+    skos:definition "Median height"@en ;
     skos:prefLabel "Median height"@en ;
 .
 
@@ -843,6 +846,7 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
 
 :myrtle-beech
     a skos:Concept ;
+    skos:definition "Myrtle-beech"@en ;
     skos:narrower
         :myrtle-beech-callidendrous ,
         :myrtle-beech-implicate ,

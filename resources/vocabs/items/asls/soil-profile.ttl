@@ -3528,11 +3528,13 @@ Only macropores can be seen with the naked eye. All visible pores, holes and tub
 
 :depth-of-horizon-lower
     a skos:Concept ;
+    skos:definition "Lower depth of soil horizon in metres"@en ;
     skos:prefLabel "Lower depth of soil horizon in metres"@en ;
 .
 
 :depth-of-horizon-upper
     a skos:Concept ;
+    skos:definition "Upper depth of soil horizon in metres"@en ;
     skos:prefLabel "Upper depth of soil horizon in metres"@en ;
 .
 
