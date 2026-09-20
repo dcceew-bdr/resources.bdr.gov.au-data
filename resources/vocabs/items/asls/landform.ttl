@@ -6419,7 +6419,7 @@ cs:
         "2022-12-07 - remove observable-properties collection" ,
         "2022-12-16 - suppress type=Class on convenience collections" ,
         "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs" ,
-        "2026-09-20: Updated to be VocPub conformant" ;
+        "2026-09-20 - Updated to be VocPub conformant" ;
     skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 5 Landform, by J.G. Speight in Australian Soil and Land Survey Field Handbook (3rd edn). 
 In this technique for describing landforms, the whole land surface is viewed as a mosaic of tiles of odd shapes and sizes. The scheme is intended to produce a record of observations rather than inferences.""" ;
     skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href=\"https://orcid.org/0000-0002-0693-1899\">Linda Gregory</a> and <a href=\"https://orcid.org/0000-0002-3884-3420\">Simon J D Cox</a>"^^rdf:HTML ;
