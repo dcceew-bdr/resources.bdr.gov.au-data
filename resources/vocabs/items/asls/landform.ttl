@@ -1,6 +1,3 @@
-# baseURI: http://anzsoil.org/def/au/asls/landform
-# imports: http://purl.org/dc/elements/1.1/
-
 PREFIX asls: <http://anzsoil.org/def/au/asls/>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
