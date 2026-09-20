@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/asgsed3>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://linked.data.gov.au/dataset/epbc/mig>
@@ -37,7 +37,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/dataset/ibra/7.1>
-    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/national> ;
 .
 
 <https://linked.data.gov.au/dataset/wons>
