@@ -17,7 +17,8 @@ cs:
         skos:ConceptScheme ;
     dcterms:contributor
         <https://orcid.org/0000-0002-0693-1899> ,
-        <https://orcid.org/0000-0002-3884-3420> ;
+        <https://orcid.org/0000-0002-3884-3420> ,
+        <https://orcid.org/0000-0002-8742-7730> ;
     dcterms:created "2021-04-08"^^xsd:date ;
     dcterms:creator 
         [
