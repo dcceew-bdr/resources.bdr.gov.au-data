@@ -1,0 +1,94 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/basisOfRecord>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/0f876e28-1175-41be-a8e5-ca040444421b>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A preserved specimen that is a fossil."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FOSSIL SPECIMEN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/1644f015-216f-4691-bb42-44d3a93bb277>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A specimen that has been preserved."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PRESERVED SPECIMEN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/4008182b-422e-400e-8957-13ca13dbac6b>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OCCURRENCE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/6ad1354b-3131-4663-9c78-45c015d42a35>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A physical result of a sampling (or subsampling) event. In biological collections, the material sample is typically collected, and either preserved or destructively processed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MATERIAL SAMPLE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/90cf285e-ed6d-41f6-aaea-8331e9bd07df>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An output of a machine observation process."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MACHINE OBSERVATION"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/d7457b40-94dc-4b18-b7ef-dd3c6744fd02>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A specimen that is alive."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LIVING SPECIMEN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/d8a47898-e5cb-45f5-be87-e4a7dc5d053e>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An output of a human observation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "HUMAN OBSERVATION"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of basisOfRecord.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/633119a9-6c8a-46ae-a78a-23a4fd371eb2
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/0f876e28-1175-41be-a8e5-ca040444421b> ,
+        <http://linked.data.gov.au/def/tern-cv/1644f015-216f-4691-bb42-44d3a93bb277> ,
+        <http://linked.data.gov.au/def/tern-cv/4008182b-422e-400e-8957-13ca13dbac6b> ,
+        <http://linked.data.gov.au/def/tern-cv/6ad1354b-3131-4663-9c78-45c015d42a35> ,
+        <http://linked.data.gov.au/def/tern-cv/90cf285e-ed6d-41f6-aaea-8331e9bd07df> ,
+        <http://linked.data.gov.au/def/tern-cv/d7457b40-94dc-4b18-b7ef-dd3c6744fd02> ,
+        <http://linked.data.gov.au/def/tern-cv/d8a47898-e5cb-45f5-be87-e4a7dc5d053e> ;
+    skos:prefLabel "Basis Of Record"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

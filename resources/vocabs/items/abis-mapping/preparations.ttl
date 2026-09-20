@@ -1,0 +1,164 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/preparations>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/0186e0a4-593c-4fd6-a133-d57d62157854>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Dried and pressed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRIED AND PRESSED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/04c3c50c-fe5c-4536-98bc-8d1fa3cec299>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Deep frozen"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DEEP FROZEN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/0ca8c5bb-3d89-48f0-8846-84551eb96bb0>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refrigerated"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REFRIGERATED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/2466c02f-db6f-4317-ae1c-87d8d372ca37>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Alcohol"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ALCOHOL"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/3c54dec1-f1f7-430a-a15c-47bf5767270b>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mounted"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MOUNTED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/a73eb3fe-42d2-424d-974d-cc3562394983>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Other"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OTHER"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/ad15ae23-4e6e-40dc-80fd-0af65f51e1ce>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "No treatment"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NO TREATMENT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/aee6e4c5-8d68-40b4-a590-812b757092b9>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Formalin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FORMALIN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/d4b4e586-ff92-4749-9754-5c20f41e3df3>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Pinned"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PINNED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/d56d3d1f-4fe8-43ae-9a25-d3762b573d94>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Gum arabic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GUM ARABIC"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/e0df7a3e-a1d4-466e-ab9c-c4c3f5face89>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Dried"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DRIED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/e5c2ee21-c019-47c3-9187-d570e3b7f272>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Glycerin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GLYCERIN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/f7e7db96-2b3b-445d-a800-d3402176d07f>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Microscopic preparation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MICROSCOPIC PREPARATION"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/fe463c50-2106-43b3-8973-1a369ff16015>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Freeze-dried"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FREEZE DRIED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of preparation.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/9694c614-7bb5-4403-bba4-fd01d40bf5c3
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/0186e0a4-593c-4fd6-a133-d57d62157854> ,
+        <http://linked.data.gov.au/def/tern-cv/04c3c50c-fe5c-4536-98bc-8d1fa3cec299> ,
+        <http://linked.data.gov.au/def/tern-cv/0ca8c5bb-3d89-48f0-8846-84551eb96bb0> ,
+        <http://linked.data.gov.au/def/tern-cv/2466c02f-db6f-4317-ae1c-87d8d372ca37> ,
+        <http://linked.data.gov.au/def/tern-cv/3c54dec1-f1f7-430a-a15c-47bf5767270b> ,
+        <http://linked.data.gov.au/def/tern-cv/a73eb3fe-42d2-424d-974d-cc3562394983> ,
+        <http://linked.data.gov.au/def/tern-cv/ad15ae23-4e6e-40dc-80fd-0af65f51e1ce> ,
+        <http://linked.data.gov.au/def/tern-cv/aee6e4c5-8d68-40b4-a590-812b757092b9> ,
+        <http://linked.data.gov.au/def/tern-cv/d4b4e586-ff92-4749-9754-5c20f41e3df3> ,
+        <http://linked.data.gov.au/def/tern-cv/d56d3d1f-4fe8-43ae-9a25-d3762b573d94> ,
+        <http://linked.data.gov.au/def/tern-cv/e0df7a3e-a1d4-466e-ab9c-c4c3f5face89> ,
+        <http://linked.data.gov.au/def/tern-cv/e5c2ee21-c019-47c3-9187-d570e3b7f272> ,
+        <http://linked.data.gov.au/def/tern-cv/f7e7db96-2b3b-445d-a800-d3402176d07f> ,
+        <http://linked.data.gov.au/def/tern-cv/fe463c50-2106-43b3-8973-1a369ff16015> ;
+    skos:prefLabel "Preparations"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

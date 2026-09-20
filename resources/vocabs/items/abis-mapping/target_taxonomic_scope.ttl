@@ -1,0 +1,94 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/targetTaxonomicScope>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/nrm/51bf988a-8672-56f7-96cb-9c363eb0cfd4>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey.Cold-blooded, air-breathing Vertebrates belonging to the class Reptilia, usually covered with external scales or bony plates."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "REPTILE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/538e423a-3f73-5c52-8a30-13ef2ba5e77f>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey. Amphibians are vertebrates belonging to the class amphibia such as frogs, toads, newts and salamanders that live in a semi-aquatic environment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "AMPHIBIAN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/599d9085-baad-5f32-86dc-3d112ecdae9c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey. Non-vascular plants are plants that do not possess a true vascular tissue (such as xylem-water conducting, phloem-sugar transport). Instead, they may possess simpler tissues that have specialized functions for the internal transport of food and water. They are members of bryophytes for example."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NON-VASCULAR PLANT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/7def5e09-00a6-5ace-b48b-6f93b4d4bf8a>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey. Vascular plants are plants that possess a true vascular tissue (such as xylem-water conducting, phloem-sugar transport). Examples include some members mosses, such as club moss, horsetails, and pteridophytes such as ferns an fern-allies, gymnosperms (including conifers), and angiosperms (flowering plants)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VASCULAR PLANT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/e537a3de-6b76-5638-8d95-0a47cc00359a>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey. Warm-blooded vertebrate animals belonging to the class Mammalia, including all that possess hair and suckle their young. Warm-blooded vertebrate animals belonging to the class Mammalia, including all that possess hair and suckle their young."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MAMMALS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/f03ce044-9c2c-52ec-adf9-5aa4960d58a8>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey.Animals that have no spinal column (e.g., insects, molluscs, spiders)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INVERTEBRATE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/def/nrm/f9874c91-f61d-5b74-90d1-aa71d3805b45>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the target taxa studied in a fauna survey.Warm-blooded vertebrates possessing feather and belonging to the class Aves."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIRD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of targetTaxonomicScope
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of https://linked.data.gov.au/def/nrm/7ea12fed-6b87-4c20-9ab4-600b32ce15ec
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <https://linked.data.gov.au/def/nrm/51bf988a-8672-56f7-96cb-9c363eb0cfd4> ,
+        <https://linked.data.gov.au/def/nrm/538e423a-3f73-5c52-8a30-13ef2ba5e77f> ,
+        <https://linked.data.gov.au/def/nrm/599d9085-baad-5f32-86dc-3d112ecdae9c> ,
+        <https://linked.data.gov.au/def/nrm/7def5e09-00a6-5ace-b48b-6f93b4d4bf8a> ,
+        <https://linked.data.gov.au/def/nrm/e537a3de-6b76-5638-8d95-0a47cc00359a> ,
+        <https://linked.data.gov.au/def/nrm/f03ce044-9c2c-52ec-adf9-5aa4960d58a8> ,
+        <https://linked.data.gov.au/def/nrm/f9874c91-f61d-5b74-90d1-aa71d3805b45> ;
+    skos:prefLabel "Target Taxonomic Scope"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

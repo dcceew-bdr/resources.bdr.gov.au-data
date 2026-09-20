@@ -61,3 +61,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:name "CSIRO Publishing" ;
     schema:url "https://www.publish.csiro.au/"^^xsd:anyURI ;
 .
+
+<https://linked.data.gov.au/org/bdr-team>
+    a schema:Organization ;
+    schema:name "BDR Team" ;
+    schema:url "https://bdr.gov.au"^^xsd:anyURI ;
+.

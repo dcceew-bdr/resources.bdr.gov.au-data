@@ -13,6 +13,35 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:description "Vocabularies used by the Biodiversity Data Repository" ;
     schema:hasPart
         <https://def.isotc211.org/codeset/RoleCode> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/basisOfRecord> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/conservationAuthority> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/geodeticDatum> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/habitat> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/identificationQualifier> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/preparations> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/protocolName> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/relationshipToRelatedSite> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/samplingEffortUnit> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/sensitivityAuthority> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/sensitivityCategory> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/surveyType> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/targetHabitatScope> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/targetTaxonomicScope> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/taxonRank> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/concept/organismQuantityType> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/concept/siteType> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/featureType/occurrence/kingdom> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/featureType/specimen/kingdom> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/identificationMethod> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/samplingProtocol> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/sequencingMethod> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/threatStatusCheckProtocol> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/establishmentMeans> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/lifeStage> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/occurrenceStatus> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/reproductiveCondition> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/sex> ,
+        <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/threatStatus> ,
         <https://linked.data.gov.au/dataset/bdr/datatypes> ,
         <https://linked.data.gov.au/dataset/bdr/obsprops> ,
         <https://linked.data.gov.au/dataset/bdr/orgs> ,
@@ -34,11 +63,127 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://linked.data.gov.au/def/tern-cv/9bf5755a-0ccb-4575-afde-35bf99b8f7b0> ;
     schema:name "Vocabularies Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/dcceew> ;
-    schema:version "10" ;
+    schema:version "11" ;
 .
 
 <https://def.isotc211.org/codeset/RoleCode>
     schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/bdr> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/basisOfRecord>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/conservationAuthority>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/geodeticDatum>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/habitat>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/identificationQualifier>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/preparations>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/protocolName>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/relationshipToRelatedSite>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/samplingEffortUnit>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/sensitivityAuthority>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/sensitivityCategory>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/surveyType>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/targetHabitatScope>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/targetTaxonomicScope>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/taxonRank>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/concept/organismQuantityType>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/concept/siteType>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/featureType/occurrence/kingdom>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/featureType/specimen/kingdom>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/identificationMethod>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/samplingProtocol>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/sequencingMethod>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/threatStatusCheckProtocol>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/establishmentMeans>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/lifeStage>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/occurrenceStatus>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/reproductiveCondition>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/sex>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/threatStatus>
+    schema:keywords <https://linked.data.gov.au/dataset/bdr/rescope/tern> ;
 .
 
 <https://linked.data.gov.au/dataset/bdr/datatypes>

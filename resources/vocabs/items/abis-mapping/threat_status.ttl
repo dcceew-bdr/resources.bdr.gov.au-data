@@ -1,0 +1,1020 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/threatStatus>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://example.com/threatStatus/ACT/critically-endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/CRITICALLY ENDANGERED"@en ;
+    skos:definition "Australian Capital Territory, critically endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/CRITICALLY ENDANGERED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/ACT/endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/ENDANGERED"@en ;
+    skos:definition "Australian Capital Territory, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/ENDANGERED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/ACT/extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/EXTINCT"@en ;
+    skos:definition "Australian Capital Territory, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/EXTINCT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/ACT/extinct-in-the-wild>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/EXTINCT IN THE WILD"@en ;
+    skos:definition "Australian Capital Territory, extinct in the wild."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/EXTINCT IN THE WILD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/ACT/regionally-conservation-dependent>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/REGIONALLY CONSERVATION DEPENDENT"@en ;
+    skos:definition "Australian Capital Territory, regionally conservation dependent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/REGIONALLY CONSERVATION DEPENDENT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/ACT/vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AUSTRALIAN CAPITAL TERRITORY/VULNERABLE"@en ;
+    skos:definition "Australian Capital Territory, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ACT/VULNERABLE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/CAMBA>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CAMBA"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, CAMBA."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/CAMBA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/CITES>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CITES"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, cites."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/CITES"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/JAMBA>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/JAMBA"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, JAMBA."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/JAMBA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/KAMBA>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/KAMBA"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, KAMBA."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/KAMBA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/conservation-dependent>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CD"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CONSERVATION DEPENDENT"@en ,
+        "EPBC/CONSERVATION DEPENDENT"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, conservation dependent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/CD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/critically-endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CE"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CR"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/CRITICALLY ENDANGERED"@en ,
+        "EPBC/CR"@en ,
+        "EPBC/CRITICALLY ENDANGERED"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, critically endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/CE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/E"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/EN"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/ENDANGERED"@en ,
+        "EPBC/EN"@en ,
+        "EPBC/ENDANGERED"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/E"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/EX"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/EXTINCT"@en ,
+        "EPBC/EXTINCT"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/EX"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/extinct-in-the-wild>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/EW"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/EXTINCT IN THE WILD"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/XW"@en ,
+        "EPBC/EW"@en ,
+        "EPBC/EXTINCT IN THE WILD"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, extinct in the wild."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/XW"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/EPBC/vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/V"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/VU"@en ,
+        "ENVIRONMENT PROTECTION AND BIODIVERSITY CONSERVATION/VULNERABLE"@en ,
+        "EPBC/VU"@en ,
+        "EPBC/VULNERABLE"@en ;
+    skos:definition "Environment Protection and Biodiversity Conservation, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EPBC/V"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NSW/Critically-Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NEW SOUTH WALES/CE"@en ,
+        "NEW SOUTH WALES/CRITICALLY ENDANGERED"@en ,
+        "NSW/CRITICALLY ENDANGERED"@en ;
+    skos:definition "New South Wales, critically endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW/CE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NSW/Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NEW SOUTH WALES/EN"@en ,
+        "NEW SOUTH WALES/ENDANGERED"@en ,
+        "NSW/ENDANGERED"@en ;
+    skos:definition "New South Wales, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW/EN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NSW/Extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NEW SOUTH WALES/EX"@en ,
+        "NEW SOUTH WALES/EXTINCT"@en ,
+        "NSW/EXTINCT"@en ;
+    skos:definition "New South Wales, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW/EX"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NSW/Vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NEW SOUTH WALES/V"@en ,
+        "NEW SOUTH WALES/VULNERABLE"@en ,
+        "NSW/VULNERABLE"@en ;
+    skos:definition "New South Wales, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NSW/V"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Critically-endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/CE"@en ,
+        "NORTHERN TERRITORY/CRITICALLY ENDANGERED"@en ,
+        "NT/CRITICALLY ENDANGERED"@en ;
+    skos:definition "New South Wales, critically endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/CE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Critically-endangered-possibly-extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/CRITICALLY ENDANGERED POSSIBLY EXTINCT"@en ,
+        "NORTHERN TERRITORY/EW"@en ,
+        "NT/CRITICALLY ENDANGERED POSSIBLY EXTINCT"@en ;
+    skos:definition "Northern Territory, critically endangered possibly extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/EW"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Data-Deficient>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/DATA DEFICIENT"@en ,
+        "NORTHERN TERRITORY/DD"@en ,
+        "NT/DATA DEFICIENT"@en ;
+    skos:definition "Northern Territory, data deficient."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/DD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/EN"@en ,
+        "NORTHERN TERRITORY/ENDANGERED"@en ,
+        "NT/ENDANGERED"@en ;
+    skos:definition "Northern Territory, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/EN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Endangered-extinct-NT>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/EN EXTINCT IN NT"@en ,
+        "NORTHERN TERRITORY/ENDANGERED EXTINCT IN NT"@en ,
+        "NT/ENDANGERED EXTINCT IN NT"@en ;
+    skos:definition "Northern Territory, endangered extinct in Northern Territory."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/EN EXTINCT IN NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Endangered-extinct-in-wild-in-NT>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/EN EXTINCT IN WILD IN NT"@en ,
+        "NORTHERN TERRITORY/ENDANGERED EXTINCT IN WILD IN NT"@en ,
+        "NT/ENDANGERED EXTINCT IN WILD IN NT"@en ;
+    skos:definition "Northern Territory, endangered extinct in wild in Northern Territory."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/EN EXTINCT IN WILD IN NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/EX"@en ,
+        "NORTHERN TERRITORY/EXTINCT"@en ,
+        "NT/EXTINCT"@en ;
+    skos:definition "Northern Territory, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/EX"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Least-concern>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/LC"@en ,
+        "NORTHERN TERRITORY/LEAST CONCERN"@en ,
+        "NT/LEAST CONCERN"@en ;
+    skos:definition "Northern Territory, least-concern."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/LC"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Least-concern-extinct-in-NT>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/LC EXTINCT IN NT"@en ,
+        "NORTHERN TERRITORY/LEAST CONCERN EXTINCT IN NT"@en ,
+        "NT/LEAST CONCERN EXTINCT IN NT"@en ;
+    skos:definition "Northern Territory, least-concern extinct in Northern Territory."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/LC EXTINCT IN NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Near-Threatened>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/NEAR THREATENED"@en ,
+        "NORTHERN TERRITORY/NT"@en ,
+        "NT/NEAR THREATENED"@en ;
+    skos:definition "Northern Territory, near threatened."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Not-Evaluated>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/NE"@en ,
+        "NORTHERN TERRITORY/NOT EVALUATED"@en ,
+        "NT/NOT EVALUATED"@en ;
+    skos:definition "Northern Territory, not evaluated."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/NE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/VU"@en ,
+        "NORTHERN TERRITORY/VULNERABLE"@en ,
+        "NT/VULNERABLE"@en ;
+    skos:definition "Northern Territory, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/VU"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/NT/Vulnerable-extinct-in-NT>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "NORTHERN TERRITORY/VU EXTINCT IN NT"@en ,
+        "NORTHERN TERRITORY/VULNERABLE EXTINCT IN NT"@en ,
+        "NT/VULNERABLE EXTINCT IN NT"@en ;
+    skos:definition "Northern Territory, vulnerable, extinct in Northern Territory."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NT/VU EXTINCT IN NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/SA/Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SA/ENDANGERED"@en ,
+        "SOUTH AUSTRALIA/E"@en ,
+        "SOUTH AUSTRALIA/ENDANGERED"@en ;
+    skos:definition "South Australia, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA/E"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/SA/Rare>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SA/RARE"@en ,
+        "SOUTH AUSTRALIA/R"@en ,
+        "SOUTH AUSTRALIA/RARE"@en ;
+    skos:definition "South Australia, rare."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA/R"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/SA/Vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SA/VULNERABLE"@en ,
+        "SOUTH AUSTRALIA/V"@en ,
+        "SOUTH AUSTRALIA/VULNERABLE"@en ;
+    skos:definition "South Australia, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA/V"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/SA/sp>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SA/INDICATES THAT A RATING HAS BEEN APPLIED TO THE SPECIES LEVEL THE STATUS HAS NOT BEEN ASSESSED AT THE SUBSPECIES LEVEL"@en ,
+        "SOUTH AUSTRALIA/INDICATES THAT A RATING HAS BEEN APPLIED TO THE SPECIES LEVEL THE STATUS HAS NOT BEEN ASSESSED AT THE SUBSPECIES LEVEL"@en ,
+        "SOUTH AUSTRALIA/SP"@en ;
+    skos:definition "South Australia, indicates that a rating has been applied to the species level, the status has not been assessed at the subspecies level."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA/SP"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/SA/ssp>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "SA/INDICATES THAT AT LEAST ONE SUBSPECIES FOR THIS SPECIES HAS BEEN GIVEN A CONSERVATION RATING"@en ,
+        "SOUTH AUSTRALIA/INDICATES THAT AT LEAST ONE SUBSPECIES FOR THIS SPECIES HAS BEEN GIVEN A CONSERVATION RATING"@en ,
+        "SOUTH AUSTRALIA/SSP"@en ;
+    skos:definition "South Australia, indicates that at least one subspecies for this species has been given a conservation rating."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SA/SSP"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/TAS/Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TAS/ENDANGERED"@en ,
+        "TASMANIA/E"@en ,
+        "TASMANIA/ENDANGERED"@en ;
+    skos:definition "Tasmania, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAS/E"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/TAS/Extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TAS/EXTINCT"@en ,
+        "TASMANIA/EXTINCT"@en ,
+        "TASMANIA/X"@en ;
+    skos:definition "Tasmania, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAS/X"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/TAS/Rare>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TAS/RARE"@en ,
+        "TASMANIA/R"@en ,
+        "TASMANIA/RARE"@en ;
+    skos:definition "Tasmania, rare."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAS/R"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/TAS/Vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "TAS/VULNERABLE"@en ,
+        "TASMANIA/V"@en ,
+        "TASMANIA/VULNERABLE"@en ;
+    skos:definition "Tasmania, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "TAS/V"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Conservation-Dependent>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/CONSERVATION DEPENDENT"@en ;
+    skos:definition "Victoria, conservation dependent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/CONSERVATION DEPENDENT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Critically-Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/CRITICALLY ENDANGERED"@en ;
+    skos:definition "Victoria, critically endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/CRITICALLY ENDANGERED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/ENDANGERED"@en ;
+    skos:definition "Victoria, endangered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/ENDANGERED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Endangered-Extinct-in-Victoria>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/ENDANGERED EXTINCT IN VICTORIA"@en ;
+    skos:definition "Victoria, endangered, extinct in Victoria."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/ENDANGERED EXTINCT IN VICTORIA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Extinct>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/EXTINCT"@en ;
+    skos:definition "Victoria, extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/EXTINCT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Extinct-in-the-wild>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/EXTINCT IN THE WILD"@en ;
+    skos:definition "Victoria, extinct in the wild."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/EXTINCT IN THE WILD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Restricted>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/RESTRICTED"@en ;
+    skos:definition "Victoria, restricted."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/RESTRICTED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/VIC/Vulnerable>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "VICTORIA/VULNERABLE"@en ;
+    skos:definition "Victoria, vulnerable."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VIC/VULNERABLE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/P1-poorly-known-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/PRIORITY 1 POORLY KNOWN"@en ,
+        "WA/PRIORITY 1 POORLY KNOWN SPECIES"@en ,
+        "WESTERN AUSTRALIA/P1"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 1 POORLY KNOWN"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 1 POORLY KNOWN SPECIES"@en ;
+    skos:definition "Western Australia, priority 1 poorly known."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/P1"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/P2-poorly-known-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/PRIORITY 2 POORLY KNOWN"@en ,
+        "WA/PRIORITY 2 POORLY KNOWN SPECIES"@en ,
+        "WESTERN AUSTRALIA/P2"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 2 POORLY KNOWN"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 2 POORLY KNOWN SPECIES"@en ;
+    skos:definition "Western Australia, priority 2 poorly known species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/P2"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/P3-poorly-known-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/PRIORITY 3 POORLY KNOWN"@en ,
+        "WA/PRIORITY 3 POORLY KNOWN SPECIES"@en ,
+        "WESTERN AUSTRALIA/P3"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 3 POORLY KNOWN"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 3 POORLY KNOWN SPECIES"@en ;
+    skos:definition "Western Australia, priority 3 poorly known species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/P3"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/P4-rare-near-threatened-and-other-species-in-need-of-monitoring>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/PRIORITY 4 RARE NEAR THREATENED AND OTHER SPECIES IN NEED OF MONITORING"@en ,
+        "WESTERN AUSTRALIA/P4"@en ,
+        "WESTERN AUSTRALIA/PRIORITY 4 RARE NEAR THREATENED AND OTHER SPECIES IN NEED OF MONITORING"@en ;
+    skos:definition "Western Australia, priority 4 rare near threatened and other species in need of monitoring."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/P4"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/critically-endangered>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/CRITICALLY ENDANGERED"@en ,
+        "WA/CRITICALLY ENDANGERED SPECIES"@en ,
+        "WESTERN AUSTRALIA/CR"@en ,
+        "WESTERN AUSTRALIA/CRITICALLY ENDANGERED"@en ,
+        "WESTERN AUSTRALIA/CRITICALLY ENDANGERED SPECIES"@en ;
+    skos:definition "Western Australia, critically endangered species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/CR"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/endangered-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/ENDANGERED"@en ,
+        "WA/ENDANGERED SPECIES"@en ,
+        "WESTERN AUSTRALIA/EN"@en ,
+        "WESTERN AUSTRALIA/ENDANGERED"@en ,
+        "WESTERN AUSTRALIA/ENDANGERED SPECIES"@en ;
+    skos:definition "Western Australia, endangered species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/EN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/extinct-in-the-wild>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/EXTINCT IN THE WILD"@en ,
+        "WESTERN AUSTRALIA/EW"@en ,
+        "WESTERN AUSTRALIA/EXTINCT IN THE WILD"@en ;
+    skos:definition "Western Australia, extinct in the wild."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/EW"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/extinct-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/EXTINCT"@en ,
+        "WA/EXTINCT SPECIES"@en ,
+        "WESTERN AUSTRALIA/EX"@en ,
+        "WESTERN AUSTRALIA/EXTINCT"@en ,
+        "WESTERN AUSTRALIA/EXTINCT SPECIES"@en ;
+    skos:definition "Western Australia, extinct species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/EX"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/migratory-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/MIGRATORY"@en ,
+        "WA/MIGRATORY SPECIES"@en ,
+        "WESTERN AUSTRALIA/MI"@en ,
+        "WESTERN AUSTRALIA/MIGRATORY"@en ,
+        "WESTERN AUSTRALIA/MIGRATORY SPECIES"@en ;
+    skos:definition "Western Australia, migratory species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/MI"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/other-specifically-protected-fauna>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/OTHER SPECIFICALLY PROTECTED FAUNA"@en ,
+        "WESTERN AUSTRALIA/OS"@en ,
+        "WESTERN AUSTRALIA/OTHER SPECIFICALLY PROTECTED FAUNA"@en ;
+    skos:definition "Western Australia, other specifically protected fauna."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/OS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/specially-protected-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/SPECIALLY PROTECTED SPECIES"@en ,
+        "WESTERN AUSTRALIA/SPECIALLY PROTECTED"@en ,
+        "WESTERN AUSTRALIA/SPECIALLY PROTECTED SPECIES"@en ;
+    skos:definition "Western Australia, specially protected species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/SPECIALLY PROTECTED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/species-of-special-conservation-interest-conservation-dependent-fauna>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/CONSERVATION DEPENDENT"@en ,
+        "WA/SPECIES OF SPECIAL CONSERVATION INTEREST CONSERVATION DEPENDENT FAUNA"@en ,
+        "WESTERN AUSTRALIA/CD"@en ,
+        "WESTERN AUSTRALIA/CONSERVATION DEPENDENT"@en ,
+        "WESTERN AUSTRALIA/SPECIES OF SPECIAL CONSERVATION INTEREST CONSERVATION DEPENDENT FAUNA"@en ;
+    skos:definition "Western Australia, species of special conservation interest conservation dependent fauna."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/CD"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/threatened>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/THREATENED"@en ,
+        "WA/THREATENED SPECIES"@en ,
+        "WESTERN AUSTRALIA/T"@en ,
+        "WESTERN AUSTRALIA/THREATENED"@en ,
+        "WESTERN AUSTRALIA/THREATENED SPECIES"@en ;
+    skos:definition "Western Australia, threatened species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/T"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://example.com/threatStatus/WA/vulnerable-species>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "WA/VULNERABLE"@en ,
+        "WA/VULNERABLE SPECIES"@en ,
+        "WESTERN AUSTRALIA/VU"@en ,
+        "WESTERN AUSTRALIA/VULNERABLE"@en ,
+        "WESTERN AUSTRALIA/VULNERABLE SPECIES"@en ;
+    skos:definition "Western Australia, vulnerable species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "WA/VU"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/0be6c2f6-a0b2-4585-b185-22f7abe323f2>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/CRITICALLY ENDANGERED"@en ,
+        "QUEENSLAND/CR"@en ,
+        "QUEENSLAND/CRITICALLY ENDANGERED"@en ;
+    skos:definition "Queensland, critically endangered wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/CR"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/110f36c6-86fd-4391-b87f-9bb3dd0de350>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/INTERNATIONAL WILDLIFE"@en ,
+        "QUEENSLAND/I"@en ,
+        "QUEENSLAND/INTERNATIONAL WILDLIFE"@en ;
+    skos:definition "Queensland, international wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/I"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/13ec2165-443b-4f1f-9c97-43d47fb73f60>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/NEAR THREATENED WILDLIFE"@en ,
+        "QUEENSLAND/NEAR THREATENED WILDLIFE"@en ,
+        "QUEENSLAND/NT"@en ;
+    skos:definition "Queensland, near threatened wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/NT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/2a66dce2-0866-41a1-b356-c734119f31e7>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/VULNERABLE WILDLIFE"@en ,
+        "QUEENSLAND/V"@en ,
+        "QUEENSLAND/VULNERABLE WILDLIFE"@en ;
+    skos:definition "Queensland, vulnerable wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/V"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/3071d9d0-be18-4dce-9d97-58c08790fdb1>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/LEAST CONCERN WILDLIFE"@en ,
+        "QUEENSLAND/C"@en ,
+        "QUEENSLAND/LEAST CONCERN WILDLIFE"@en ;
+    skos:definition "Queensland, least-concern wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/C"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/49a13322-a137-4606-82b2-d8b36a24856c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/EXTINCT IN THE WILD"@en ,
+        "QUEENSLAND/EXTINCT IN THE WILD"@en ,
+        "QUEENSLAND/PE"@en ;
+    skos:definition "Queensland, extinct in the wild wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/PE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/a1a9fac0-f7d5-4396-a1b5-9aa6637ff750>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/SPECIAL LEAST CONCERN"@en ,
+        "QUEENSLAND/SL"@en ,
+        "QUEENSLAND/SPECIAL LEAST CONCERN"@en ;
+    skos:definition "Queensland, special least-concern wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/SL"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/b903a418-610b-4097-a848-d902b09583ee>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/EXTINCT"@en ,
+        "QUEENSLAND/EX"@en ,
+        "QUEENSLAND/EXTINCT"@en ;
+    skos:definition "Queensland, extinct wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/EX"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/c6d5b8ce-67bc-4482-8cb6-023706f525af>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "QLD/ENDANGERED WILDLIFE"@en ,
+        "QUEENSLAND/E"@en ,
+        "QUEENSLAND/ENDANGERED WILDLIFE"@en ;
+    skos:definition "Queensland, endangered wildlife."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "QLD/E"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of threatStatus.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/ec5eaa36-be28-4aa0-b100-9e7eef459919
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://example.com/threatStatus/ACT/critically-endangered> ,
+        <http://example.com/threatStatus/ACT/endangered> ,
+        <http://example.com/threatStatus/ACT/extinct> ,
+        <http://example.com/threatStatus/ACT/extinct-in-the-wild> ,
+        <http://example.com/threatStatus/ACT/regionally-conservation-dependent> ,
+        <http://example.com/threatStatus/ACT/vulnerable> ,
+        <http://example.com/threatStatus/EPBC/CAMBA> ,
+        <http://example.com/threatStatus/EPBC/CITES> ,
+        <http://example.com/threatStatus/EPBC/JAMBA> ,
+        <http://example.com/threatStatus/EPBC/KAMBA> ,
+        <http://example.com/threatStatus/EPBC/conservation-dependent> ,
+        <http://example.com/threatStatus/EPBC/critically-endangered> ,
+        <http://example.com/threatStatus/EPBC/endangered> ,
+        <http://example.com/threatStatus/EPBC/extinct> ,
+        <http://example.com/threatStatus/EPBC/extinct-in-the-wild> ,
+        <http://example.com/threatStatus/EPBC/vulnerable> ,
+        <http://example.com/threatStatus/NSW/Critically-Endangered> ,
+        <http://example.com/threatStatus/NSW/Endangered> ,
+        <http://example.com/threatStatus/NSW/Extinct> ,
+        <http://example.com/threatStatus/NSW/Vulnerable> ,
+        <http://example.com/threatStatus/NT/Critically-endangered> ,
+        <http://example.com/threatStatus/NT/Critically-endangered-possibly-extinct> ,
+        <http://example.com/threatStatus/NT/Data-Deficient> ,
+        <http://example.com/threatStatus/NT/Endangered> ,
+        <http://example.com/threatStatus/NT/Endangered-extinct-NT> ,
+        <http://example.com/threatStatus/NT/Endangered-extinct-in-wild-in-NT> ,
+        <http://example.com/threatStatus/NT/Extinct> ,
+        <http://example.com/threatStatus/NT/Least-concern> ,
+        <http://example.com/threatStatus/NT/Least-concern-extinct-in-NT> ,
+        <http://example.com/threatStatus/NT/Near-Threatened> ,
+        <http://example.com/threatStatus/NT/Not-Evaluated> ,
+        <http://example.com/threatStatus/NT/Vulnerable> ,
+        <http://example.com/threatStatus/NT/Vulnerable-extinct-in-NT> ,
+        <http://example.com/threatStatus/SA/Endangered> ,
+        <http://example.com/threatStatus/SA/Rare> ,
+        <http://example.com/threatStatus/SA/Vulnerable> ,
+        <http://example.com/threatStatus/SA/sp> ,
+        <http://example.com/threatStatus/SA/ssp> ,
+        <http://example.com/threatStatus/TAS/Endangered> ,
+        <http://example.com/threatStatus/TAS/Extinct> ,
+        <http://example.com/threatStatus/TAS/Rare> ,
+        <http://example.com/threatStatus/TAS/Vulnerable> ,
+        <http://example.com/threatStatus/VIC/Conservation-Dependent> ,
+        <http://example.com/threatStatus/VIC/Critically-Endangered> ,
+        <http://example.com/threatStatus/VIC/Endangered> ,
+        <http://example.com/threatStatus/VIC/Endangered-Extinct-in-Victoria> ,
+        <http://example.com/threatStatus/VIC/Extinct> ,
+        <http://example.com/threatStatus/VIC/Extinct-in-the-wild> ,
+        <http://example.com/threatStatus/VIC/Restricted> ,
+        <http://example.com/threatStatus/VIC/Vulnerable> ,
+        <http://example.com/threatStatus/WA/P1-poorly-known-species> ,
+        <http://example.com/threatStatus/WA/P2-poorly-known-species> ,
+        <http://example.com/threatStatus/WA/P3-poorly-known-species> ,
+        <http://example.com/threatStatus/WA/P4-rare-near-threatened-and-other-species-in-need-of-monitoring> ,
+        <http://example.com/threatStatus/WA/critically-endangered> ,
+        <http://example.com/threatStatus/WA/endangered-species> ,
+        <http://example.com/threatStatus/WA/extinct-in-the-wild> ,
+        <http://example.com/threatStatus/WA/extinct-species> ,
+        <http://example.com/threatStatus/WA/migratory-species> ,
+        <http://example.com/threatStatus/WA/other-specifically-protected-fauna> ,
+        <http://example.com/threatStatus/WA/specially-protected-species> ,
+        <http://example.com/threatStatus/WA/species-of-special-conservation-interest-conservation-dependent-fauna> ,
+        <http://example.com/threatStatus/WA/threatened> ,
+        <http://example.com/threatStatus/WA/vulnerable-species> ,
+        <http://linked.data.gov.au/def/tern-cv/0be6c2f6-a0b2-4585-b185-22f7abe323f2> ,
+        <http://linked.data.gov.au/def/tern-cv/110f36c6-86fd-4391-b87f-9bb3dd0de350> ,
+        <http://linked.data.gov.au/def/tern-cv/13ec2165-443b-4f1f-9c97-43d47fb73f60> ,
+        <http://linked.data.gov.au/def/tern-cv/2a66dce2-0866-41a1-b356-c734119f31e7> ,
+        <http://linked.data.gov.au/def/tern-cv/3071d9d0-be18-4dce-9d97-58c08790fdb1> ,
+        <http://linked.data.gov.au/def/tern-cv/49a13322-a137-4606-82b2-d8b36a24856c> ,
+        <http://linked.data.gov.au/def/tern-cv/a1a9fac0-f7d5-4396-a1b5-9aa6637ff750> ,
+        <http://linked.data.gov.au/def/tern-cv/b903a418-610b-4097-a848-d902b09583ee> ,
+        <http://linked.data.gov.au/def/tern-cv/c6d5b8ce-67bc-4482-8cb6-023706f525af> ;
+    skos:prefLabel "Threat Status"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

@@ -1,0 +1,22 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/identificationMethod>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of identificationMethod.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of https://linked.data.gov.au/dataset/bdr/bdr-cv/methods/identificationMethod
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:prefLabel "Identification Method"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

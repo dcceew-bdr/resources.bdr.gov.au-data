@@ -1,0 +1,91 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/establishmentMeans>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/0b910634-3f24-4a8c-a7a8-7508c0549a1c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "NATIVE (INDIGENOUS)"@en ;
+    skos:definition "A taxon occurring within its natural range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NATIVE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/3e956639-7ee2-4495-a008-9ddc8522712a>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Establishment of a taxon by numan agency into an area that is not part of its natural range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INTRODUCED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/65efed14-5d82-46a9-826a-0f81f48b64ce>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "CASUAL"@en ;
+    skos:definition "The temporary occurrence of a taxon far outside its natural or migratory range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "VAGRANT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/6898d732-aa8b-469a-952b-b74a750b01e5>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "NATIVE: REINTRODUCED"@en ;
+    skos:definition "A taxon re-established by direct introduction by humans into an area that is not part of its natural range, but from where it had become extinct."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NATIVE REINTRODUCED"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/b3aaaa05-5864-42ea-ba63-027f6886bdfe>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ASSISTED COLONISATION"@en ;
+    skos:definition "Establishment of a taxon specifically with the intention of creating a self-sustaining wild population in an area that is not part of the taxon's natural range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INTRODUCED ASSISTED COLONISATION"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/fd284078-bb78-4e22-ad49-d9b53166f806>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CRYPTOGENIC"@en ,
+        "UNKNOWN"@en ;
+    skos:definition "The origin of the occurrence of the taxon in an area is obscure."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "UNCERTAIN"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of establishmentMeans.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/58eaac1c-4c8b-4a95-897f-86dfc83e660f
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/0b910634-3f24-4a8c-a7a8-7508c0549a1c> ,
+        <http://linked.data.gov.au/def/tern-cv/3e956639-7ee2-4495-a008-9ddc8522712a> ,
+        <http://linked.data.gov.au/def/tern-cv/65efed14-5d82-46a9-826a-0f81f48b64ce> ,
+        <http://linked.data.gov.au/def/tern-cv/6898d732-aa8b-469a-952b-b74a750b01e5> ,
+        <http://linked.data.gov.au/def/tern-cv/b3aaaa05-5864-42ea-ba63-027f6886bdfe> ,
+        <http://linked.data.gov.au/def/tern-cv/fd284078-bb78-4e22-ad49-d9b53166f806> ;
+    skos:prefLabel "Establishment Means"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

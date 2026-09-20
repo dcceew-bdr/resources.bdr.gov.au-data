@@ -1,0 +1,161 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/concept/organismQuantityType>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://example.com/quantityType/braunBlanquetScale>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A measurement type where the cover of a species in a sample is recorded using the Braun-Blanquet scale."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BRAUN BLANQUET SCALE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/34587ea2-99dd-4362-b5c2-d2f5e567f1fe>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A measurement type where the cover of a species in a sample is recorded using the Domin scale."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DOMIN SCALE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/369c3d2c-fcf7-4fda-b0b1-3ca10ab4809c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "% OF BIOMASS"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as a percentage of the total biomass of all species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PERCENTAGE OF BIOMASS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/6a4642d8-516c-4b7f-a413-d1bfa9bf5d82>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "% OF SPECIES"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as a percentage of the total individual count of all species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PERCENTAGE OF SPECIES"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/78ed8b0f-453c-4c76-b02c-adb5cb1bef8c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "% OF BIOVOLUME"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as a percentage of the total biovolume of all species."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PERCENTAGE OF BIOVOLUME"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/85cf64d9-1ee6-456b-bba2-d24ee4be6812>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "BIOVOLUME IN CUBIC MICRONS"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the biovolume in cubic microns (µ ^ 3)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIOVOLUME CUBIC MICRONS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/953a274c-d1ce-4515-8c6a-9e2424ea67eb>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BIOMASS IN KILOGRAMS"@en ,
+        "BIOMASS KILOGRAMS"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the biomass in kilograms (kg)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIOMASS KG"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/b50a5896-8561-4b0c-b489-b1ffcc64f2d1>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "% COVERAGE"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the percentage coverage of the total area being sampled."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PERCENTAGE COVERAGE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/bd5262cb-e741-4634-b555-2880fa80d910>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BIOMASS ASH FREE DRY WEIGHT GRAMS"@en ,
+        "BIOMASS ASH FREE DRY WEIGHT IN GRAMS"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the ash free dry weight biomass in grams (g)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIOMASS AFDG"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/e0831c45-e14a-42e1-9bc0-edb1f6892ce4>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BIOMASS GRAMS"@en ,
+        "BIOMASS IN GRAMS"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the biomass in grams (g)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIOMASS G"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/e95e5513-3153-4d8e-b64b-846fb60730a2>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "BIOVOLUME IN MILLILITRES"@en ,
+        "BIOVOLUME MILLILITRES"@en ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the biovolume in millilitres (ml)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BIOVOLUME ML"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://rs.gbif.org/vocabulary/gbif/quantityType/individuals>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A measurement type where the quantity of a species in a sample is recorded as the number of individuals (e.g.per litre, per square metre, per cubic metre, per hour, per day)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "INDIVIDUALS"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of organism quantity.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/b633eb85-9f0f-4660-af56-4bdec94dc1c6
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://example.com/quantityType/braunBlanquetScale> ,
+        <http://linked.data.gov.au/def/tern-cv/34587ea2-99dd-4362-b5c2-d2f5e567f1fe> ,
+        <http://linked.data.gov.au/def/tern-cv/369c3d2c-fcf7-4fda-b0b1-3ca10ab4809c> ,
+        <http://linked.data.gov.au/def/tern-cv/6a4642d8-516c-4b7f-a413-d1bfa9bf5d82> ,
+        <http://linked.data.gov.au/def/tern-cv/78ed8b0f-453c-4c76-b02c-adb5cb1bef8c> ,
+        <http://linked.data.gov.au/def/tern-cv/85cf64d9-1ee6-456b-bba2-d24ee4be6812> ,
+        <http://linked.data.gov.au/def/tern-cv/953a274c-d1ce-4515-8c6a-9e2424ea67eb> ,
+        <http://linked.data.gov.au/def/tern-cv/b50a5896-8561-4b0c-b489-b1ffcc64f2d1> ,
+        <http://linked.data.gov.au/def/tern-cv/bd5262cb-e741-4634-b555-2880fa80d910> ,
+        <http://linked.data.gov.au/def/tern-cv/e0831c45-e14a-42e1-9bc0-edb1f6892ce4> ,
+        <http://linked.data.gov.au/def/tern-cv/e95e5513-3153-4d8e-b64b-846fb60730a2> ,
+        <http://rs.gbif.org/vocabulary/gbif/quantityType/individuals> ;
+    skos:prefLabel "Organism Quantity Type"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

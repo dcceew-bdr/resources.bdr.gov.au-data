@@ -1,0 +1,53 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/featureType/specimen/kingdom>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/2e122e23-881c-43fa-a921-a8745f016ceb>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "PLANTAE HAECKEL"@en ;
+    skos:definition "Kingdom (taxonRank: Regnum) Plantae"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PLANTAE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/45a73139-f6bf-47b7-88d4-4b2865755545>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Kingdom (taxonRank: Regnum) Fungi"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "FUNGI"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Kingdom Animalia"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANIMALIA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A specimen sampled from an organism of this kingdom.
+
+This is an open-ended vocabulary
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/2e122e23-881c-43fa-a921-a8745f016ceb> ,
+        <http://linked.data.gov.au/def/tern-cv/45a73139-f6bf-47b7-88d4-4b2865755545> ,
+        <http://linked.data.gov.au/def/tern-cv/cd5cbdbb-07d9-4a5b-9b11-5ab9d6015be6> ;
+    skos:prefLabel "Kingdom Specimen"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

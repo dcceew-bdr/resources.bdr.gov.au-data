@@ -1,0 +1,94 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/attribute/samplingEffortUnit>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://example.com/sampling-effort/metres>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A measure of linear distance, to describe the length of transects or areas covered."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metres"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/67455483-1389-4666-aea1-77162ec149d8>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The total area surveyed or sampled, measured in hectares."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hectares"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/772b070d-10c0-42f4-8abb-8981b4708861>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The total number of nights traps are left in the field. One trap night refers to one trap set for one night."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trap Nights"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/796b12df-925f-4341-a4d3-c27259d2571f>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The distance (metres) and time (hours) of specific survey activities such as walking or transect surveys (measure of effort across both space and time)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metre Hours"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/8aeac7d6-39fe-4ce9-b25b-e694a08d3516>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The cumulative amount of time spent by individuals conducting the survey using the specified protocol. For example, if two people survey for 2 hours each, the total would be 4 person-hours."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Person Hours"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/91ac9f1f-be73-40a0-b652-c06b289885e0>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The total time spent actively surveying using the specified protocol, expressed in minutes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minutes"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/936cbae5-5d16-4d98-89c9-315cc3f88f8d>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The total time spent actively surveying using the specified protocol, expressed in hours."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hours"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """In conjunction with the sampling effort value, the sampling effort unit gives an indication of the effort applied to the specified protocol.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/e473bcb9-64b8-409e-a764-fea8bbb92c9c
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://example.com/sampling-effort/metres> ,
+        <http://linked.data.gov.au/def/tern-cv/67455483-1389-4666-aea1-77162ec149d8> ,
+        <http://linked.data.gov.au/def/tern-cv/772b070d-10c0-42f4-8abb-8981b4708861> ,
+        <http://linked.data.gov.au/def/tern-cv/796b12df-925f-4341-a4d3-c27259d2571f> ,
+        <http://linked.data.gov.au/def/tern-cv/8aeac7d6-39fe-4ce9-b25b-e694a08d3516> ,
+        <http://linked.data.gov.au/def/tern-cv/91ac9f1f-be73-40a0-b652-c06b289885e0> ,
+        <http://linked.data.gov.au/def/tern-cv/936cbae5-5d16-4d98-89c9-315cc3f88f8d> ;
+    skos:prefLabel "Sampling Effort Unit"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.

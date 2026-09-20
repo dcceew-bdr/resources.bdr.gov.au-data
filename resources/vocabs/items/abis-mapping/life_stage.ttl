@@ -1,0 +1,169 @@
+PREFIX cs: <https://linked.data.gov.au/dataset/bdr/bdr-cv/parameter/lifeStage>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://linked.data.gov.au/def/tern-cv/31b4eee4-5326-460c-8c47-9dcd1e073a5c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "AGAMONT"@en ;
+    skos:definition "All land plants, and some algae, have life cycles in which a haploid gametophyte generation alternates with a diploid sporophyte, the generation of a plant or alga that has a double set of chromosomes. A multicellular sporophyte generation or phase is present in the life cycle of all land plants and in some green algae. For common flowering plants (Angiosperms), the sporophyte generation comprises almost their whole life cycle (that is whole green plant, roots etc), except phases of small reproductive structures (pollen and ovule)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SPOROPHYTE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/41cfec6b-049f-470d-b26d-eaee80e09f2b>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "PUPPE"@en ;
+    skos:definition "A pupa is the life stage of some insects undergoing transformation between immature and mature stages. The pupal stage is found only in holometabolous insects, those that undergo a complete metamorphosis, with four life stages: egg (-> embryo), larva, pupa, and imago (-> adult)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PUPA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/511e0ae9-f0c0-45ca-9380-9a332f2b9563>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CATERPILLAR"@en ,
+        "LARVAE"@en ,
+        "NAUPLIUS"@en ,
+        "NYMPH"@en ,
+        "PLANULA"@en ,
+        "POLEWIG"@en ,
+        "POLLIWIG"@en ,
+        "POLLIWOG"@en ,
+        "POLLYWOG"@en ,
+        "POLWIG"@en ,
+        "TADPOLE"@en ,
+        "ZOEA"@en ;
+    skos:definition "A larva (Latin; plural larvae) is a young (juvenile) form of animal with indirect development, going through or undergoing metamorphosis (for example, insects, amphibians, or cnidarians). The larva can look completely different from the adult form, for example, a caterpillar differs from a butterfly. Larvae often have special (larval) organs which do not occur in the adult form. The larvae of some species can become pubescent and not further develop into the adult form (for example, in some newts). This is a type of neoteny. It is a misunderstanding that the larval form always reflects the group's evolutionary history. It could be the case, but often the larval stage has evolved secondarily, as in insects. In these cases the larval form might differ more from the group's common origin than the adult form. The early life stages of most fish species are considerably different from juveniles and adults of their species and are called larvae."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "LARVA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/5aabcbc6-ddbb-4d96-9b45-59b71a6e2c54>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "GAMONT"@en ,
+        "OVULE"@en ,
+        "POLLEN"@en ,
+        "PROTONEMA"@en ;
+    skos:definition "In plants and algae that undergo alternation of generations, a gametophyte is the multicellular structure, or phase, that is haploid, containing a single set of chromosomes. The gametophyte produces male or female gametes (or both), by a process of cell division called mitosis. In mosses, liverworts and hornworts (bryophytes), the gametophyte is the commonly known phase of the plant. An early developmental stage in the gametophyte of mosses (immediately following germination of the meiospore) is called the protonema. In most other land plants the gametophyte is very small (as in ferns and their relatives) or even reduced as in flowering plants (angiosperms), where the female gametophyte (ovule) is known as a megagametophyte and the male gametophyte (pollen) is called a microgametophyte."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GAMETOPHYTE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/c50013ae-1f32-4560-92d0-848acbc0da3f>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "IMAGO"@en ;
+    skos:definition "An adult is a plant, animal, or person who has reached full growth or alternatively is capable of reproduction."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ADULT"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/c63e6dd2-250c-430d-8bde-63760d8e5164>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "EGG"@en ,
+        "SEED"@en ;
+    skos:definition "An embryo is a multicellular diploid eukaryote in its earliest stage of development, from the time of first cell division until birth, hatching, or germination."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "EMBRYO"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/ce36620f-4a9a-40e5-876a-0ab35459669e>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "OVUM"@en ,
+        "POLLEN"@en ,
+        "SPERM"@en ;
+    skos:definition "A gamete is a cell that fuses with another gamete during fertilisation in organisms that reproduce sexually. In species that produce two morphologically distinct types of gametes, and in which each individual produces only one type, a female is any individual that produces the larger type of gamete — called an ovum (or egg) — and a male produces the smaller tadpole-like type — called a sperm. This is an example of anisogamy or heterogamy, the condition wherein females and males produce gametes of different sizes. In contrast, isogamy is the state of gametes from both sexes being the same size and shape, and given arbitrary designators for mating type. Gametes carry half the genetic information of an individual, one chromosome of each type."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GAMETE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/d22c90e2-301b-47b7-bef2-23496aef8313>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "CALF"@en ,
+        "CHICK"@en ,
+        "EFT"@en ,
+        "ELVER"@en ,
+        "FAWN"@en ,
+        "FOAL"@en ,
+        "FRY"@en ,
+        "HATCHLING"@en ,
+        "INFANT"@en ,
+        "KIT"@en ,
+        "KITTEN"@en ,
+        "NYMPH"@en ,
+        "PUP"@en ,
+        "SEEDLING"@en ,
+        "WHELP"@en ;
+    skos:definition "A juvenile is an individual organism that has not yet reached its adult form, sexual maturity or size. Juveniles sometimes look very different from the adult form, particularly in terms of their colour. In many organisms the juvenile has a different name from the adult."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JUVENILE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/e839f161-0b40-4294-8bcb-8c1eb2af13f9>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A spore is a reproductive structure that is adapted for dispersal and surviving for extended periods of time in unfavorable conditions. Spores form part of the life cycles of many bacteria, plants, algae, fungi and some protozoans. A chief difference between spores and seeds as dispersal units is that spores have very little stored food resources compared with seeds. Spores are usually haploid and unicellular and are produced by meiosis in the sporangium by the sporophyte. Once conditions are favorable, the spore can develop into a new organism using mitotic division, producing a multicellular gametophyte, which eventually goes on to produce gametes. Many ferns, especially those adapted to dry conditions, produce diploid spores. In this case spores are the units of asexual reproduction, because a single spore develops into a new organism. By contrast, gametes are the units of sexual reproduction, as two gametes need to fuse to create a new organism."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "SPORE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<http://linked.data.gov.au/def/tern-cv/faaf7d96-fb87-4ce3-87b4-6d1aec4c4b3c>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "BLASTOMERE"@en ;
+    skos:definition "A zygote (or zygocyte) describes the first stage of a new unique organism blastomere when it consists of just a single cell. The term is also used more loosely to refer to the group of cells formed by the first few cell divisions, although this is properly referred to as a blastomere. A zygote is usually produced by a fertilisation event between two haploid cells - an ovum from a female and a sperm cell from a male - which combine to form the single diploid cell. Thus the zygote contains DNA originating from both mother and father and this provides all the genetic information necessary to form a new individual"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ZYGOTE"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    skos:definition """A type of lifeStage.
+
+This is an open-ended vocabulary
+
+Proposed as narrower terms of http://linked.data.gov.au/def/tern-cv/7e142859-c559-417e-a725-4b547f7e722c
+
+This vocabulary was generated from application code used to convert CSV data to ABIS RDF in the repository https://github.com/dcceew-bdr/abis-mapping."""@en ;
+    skos:hasTopConcept
+        <http://linked.data.gov.au/def/tern-cv/31b4eee4-5326-460c-8c47-9dcd1e073a5c> ,
+        <http://linked.data.gov.au/def/tern-cv/41cfec6b-049f-470d-b26d-eaee80e09f2b> ,
+        <http://linked.data.gov.au/def/tern-cv/511e0ae9-f0c0-45ca-9380-9a332f2b9563> ,
+        <http://linked.data.gov.au/def/tern-cv/5aabcbc6-ddbb-4d96-9b45-59b71a6e2c54> ,
+        <http://linked.data.gov.au/def/tern-cv/c50013ae-1f32-4560-92d0-848acbc0da3f> ,
+        <http://linked.data.gov.au/def/tern-cv/c63e6dd2-250c-430d-8bde-63760d8e5164> ,
+        <http://linked.data.gov.au/def/tern-cv/ce36620f-4a9a-40e5-876a-0ab35459669e> ,
+        <http://linked.data.gov.au/def/tern-cv/d22c90e2-301b-47b7-bef2-23496aef8313> ,
+        <http://linked.data.gov.au/def/tern-cv/e839f161-0b40-4294-8bcb-8c1eb2af13f9> ,
+        <http://linked.data.gov.au/def/tern-cv/faaf7d96-fb87-4ce3-87b4-6d1aec4c4b3c> ;
+    skos:prefLabel "Life Stage"@en ;
+    schema:codeRepository <https://github.com/dcceew-bdr/resources.bdr.gov.au-data/> ;
+    schema:creator <https://linked.data.gov.au/org/bdr-team> ;
+    schema:dateCreated "2026-09-20"^^xsd:date ;
+    schema:dateModified "2026-09-20"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    schema:publisher <https://linked.data.gov.au/org/dcceew> ;
+.
