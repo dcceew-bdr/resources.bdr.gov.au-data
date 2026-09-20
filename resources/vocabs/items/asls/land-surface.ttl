@@ -290,18 +290,6 @@ The observer wishing to record the severity of erosion may record it as minor, m
     skos:prefLabel "Water erosion"@en ;
 .
 
-<https://orcid.org/0000-0002-0693-1899>
-    a schema:Person ;
-    schema:email ""^^xsd:anyURI ;
-    schema:name "Linda Gregory" ;
-.
-
-<https://orcid.org/0000-0002-3884-3420>
-    a schema:Person ;
-    schema:email ""^^xsd:anyURI ;
-    schema:name "Simon J D Cox" ;
-.
-
 :aggradation-0
     a
         skos:Concept ,
@@ -3169,7 +3157,8 @@ cs:
         "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ,
         "2022-11-23 - Rename collections for consistency with ANSIS" ,
         "2022-12-07 - remove observable-properties collection" ,
-        "2026-09-20 - Updated to be VocPub conformant" ;
+        "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs" ,
+        "2026-09-20: Updated to be VocPub conformant" ;
     skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn).
 Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation."""@en ;
     skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href=\"https://orcid.org/0000-0002-0693-1899\">Linda Gregory</a> assisted by <a href=\"https://orcid.org/0000-0002-3884-3420\">Simon J D Cox</a>."^^rdf:HTML ;

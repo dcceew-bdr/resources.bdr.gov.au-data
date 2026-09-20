@@ -57,4 +57,38 @@ Then:
 PREFIX : {CONCEPT-SCHEME-IRI + '/'}
 PREFIX cs: {CONCEPT-SCHEME-IRI}
 
-11. For all `skos:prefLabel` and `skos:definition` values that do not indicate language, add it with `@en`
+11. For all Concepts and Collections that do not have definitions but do have prefLabels, clone the `skos:prefLabel` values into `skos:definition`
+12. For all `skos:prefLabel` and `skos:definition` values that do not indicate language, add it with `@en`
+13. Move definition for these agents to the shared Agent resources (_background/agents.ttl):
+
+```
+<https://orcid.org/0000-0002-0693-1899>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+    schema:name "Linda Gregory" ;
+.
+
+<https://orcid.org/0000-0002-3884-3420>
+    a schema:Person ;
+    schema:email "simon.cox@csiro.au"^^xsd:anyURI ;
+    schema:name "Simon J D Cox" ;
+.
+```
+
+
+For `location.ttl`:
+
+x1. updated local definitions of ASGS States & Territories to IRIs from the ASGS dataset:
+
+Using `PREFIX : <https://linked.data.gov.au/def/asls-location/>`:
+
+ :state-or-territory-1 -> <https://linked.data.gov.au/dataset/asgsed3/STE/1>
+ :state-or-territory-2 -> <https://linked.data.gov.au/dataset/asgsed3/STE/2>
+ :state-or-territory-3 -> <https://linked.data.gov.au/dataset/asgsed3/STE/3>
+ :state-or-territory-4 -> <https://linked.data.gov.au/dataset/asgsed3/STE/4>
+ :state-or-territory-5 -> <https://linked.data.gov.au/dataset/asgsed3/STE/5>
+ :state-or-territory-6 -> <https://linked.data.gov.au/dataset/asgsed3/STE/6>
+ :state-or-territory-7 -> <https://linked.data.gov.au/dataset/asgsed3/STE/7>
+ :state-or-territory-8 -> <https://linked.data.gov.au/dataset/asgsed3/STE/8>
+
+x2. Removed the location definitions of `:state-or-territory-1` to `:state-or-territory-8` :

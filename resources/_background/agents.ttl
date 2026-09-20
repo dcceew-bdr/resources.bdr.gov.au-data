@@ -7,6 +7,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.abs.gov.au/"^^xsd:anyURI ;
 .
 
+<https://linked.data.gov.au/org/canbr>
+    a schema:Organization ;
+    schema:name "Centre for Australian National Biodiversity Research" ;
+    schema:url "https://www.anbg.gov.au/cpbr"^^xsd:anyURI ;
+.
+
 <https://linked.data.gov.au/org/dcceew>
     a schema:Organization ;
     schema:name "Department of Climate Change, Energy, the Environment and Water" ;
@@ -19,21 +25,39 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://tern.org.au"^^xsd:anyURI ;
 .
 
+<https://orcid.org/0000-0002-0693-1899>
+    a schema:Person ;
+    schema:email "linda.gregory@csiro.au"^^xsd:anyURI ;
+    schema:name "Linda Gregory" ;
+.
+
+<https://orcid.org/0000-0002-3884-3420>
+    a schema:Person ;
+    schema:email "simon.cox@csiro.au"^^xsd:anyURI ;
+    schema:name "Simon J D Cox" ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a schema:Person ;
+    schema:affiliation <https://kurrawong.ai> ;
+    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    schema:name "Nicholas J. Car" ;
+.
+
+<https://orcid.org/0000-0003-3206-2268>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+    schema:name "Unknown Person" ;
+.
+
 <https://kurrawong.ai>
     a schema:Organization ;
     schema:name "KurrawongAI" ;
     schema:url "https://kurrawong.ai"^^xsd:anyURI ;
 .
 
-<https://linked.data.gov.au/org/canbr>
+<http://www.publish.csiro.au>
     a schema:Organization ;
-    schema:name "Centre for Australian National Biodiversity Research" ;
-    schema:url "https://www.anbg.gov.au/cpbr"^^xsd:anyURI ;
-.
-
-<https://orcid.org/0000-0002-8742-7730>
-    a schema:Person ;
-    schema:name "Nicholas J. Car" ;
-    schema:email "nick@kurrawong.ai"^^xsd:anyURI ;
-    schema:affiliation <https://kurrawong.ai> ;
+    schema:name "CSIRO Publishing" ;
+    schema:url "https://www.publish.csiro.au/"^^xsd:anyURI ;
 .
