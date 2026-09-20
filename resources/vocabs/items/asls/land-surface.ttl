@@ -3829,13 +3829,11 @@ asls:land-surface
         "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ,
         "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ,
         "2022-11-23 - Rename collections for consistency with ANSIS" ,
-        "2022-12-07 - remove observable-properties collection" ,
-        "2026-09: Updated to be VocPub conformant" ;
+        "2022-12-07 - remove observable-properties collection" ;
     skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn).
 Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.""" ;
     skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href=\"https://orcid.org/0000-0002-0693-1899\">Linda Gregory</a> assisted by <a href=\"https://orcid.org/0000-0002-3884-3420\">Simon J D Cox</a>."^^rdf:HTML ;
     skos:hasTopConcept
-        ls:Microrelief-type-other ,
         ls:aggradation-0 ,
         ls:aggradation-1 ,
         ls:aggradation-X ,
@@ -4019,18 +4017,15 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
         <https://orcid.org/0000-0002-0693-1899> ,
         <https://orcid.org/0000-0002-3884-3420> ;
     schema:copyrightNotice "copyright CSIRO 2009, 2021. All rights reserved."@en ;
-    schema:creator 
-        [
-
-        ] ,
-        [
-            a dcterms:Agent ;
-            foaf:name "R.F. Isbell" ;
+    schema:creator         [
+            a schema:Person ;
+            shema:name "R.F. Isbell" ;
+            schema:email ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2020-10-13"^^xsd:date ;
     schema:dateModified "2026-09-20"^^xsd:date ;
     schema:description """This vocabulary is a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn).
 Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.""" ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    schema:publisher <http://www.publish.csiro.au/> ;
+    schema:publisher <http://www.publish.csiro.au> ;
 .

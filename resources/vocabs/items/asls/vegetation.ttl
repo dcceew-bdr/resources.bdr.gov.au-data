@@ -19,12 +19,14 @@ asls:vegetation
     dcterms:created "2022-03-28"^^xsd:date ;
     dcterms:creator 
         [
-            a dcterms:Agent ;
-            foaf:name "R.J. Hnatiuk" ;
+            a schema:Person ;
+            shema:name "R.J. Hnatiuk" ;
+            schema:email ""^^xsd:anyURI ;
         ] ,
         [
-            a dcterms:Agent ;
-            foaf:name "J. Walker" ;
+            a schema:Person ;
+            shema:name "J. Walker" ;
+            schema:email ""^^xsd:anyURI ;
         ] ,
         <https://orcid.org/0000-0003-3206-2268> ;
     dcterms:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 6 Vegetation, by R.J. Hnatiuk, R. Thackway and J. Walker in Australian Soil and Land Survey Field Handbook (3rd edn)" ;

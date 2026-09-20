@@ -24,12 +24,14 @@ asls:location
     dcterms:created "2021-04-08"^^xsd:date ;
     dcterms:creator 
         [
-            a dcterms:Agent ;
-            foaf:name "R.F. Isbell" ;
+            a schema:Person ;
+            shema:name "R.F. Isbell" ;
+            schema:email ""^^xsd:anyURI ;
         ] ,
         [
-            a dcterms:Agent ;
-            foaf:name "R.C. McDonald" ;
+            a schema:Person ;
+            shema:name "R.C. McDonald" ;
+            schema:email ""^^xsd:anyURI ;
         ] ,
         <https://orcid.org/0000-0002-0693-1899> ;
     dcterms:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 3 Location, by L.J. Gregory, R.C. McDonald and R.F. Isbell in Australian Soil and Land Survey Field Handbook (3rd edn)" ;

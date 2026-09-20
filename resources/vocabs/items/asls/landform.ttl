@@ -6143,8 +6143,9 @@ asls:landform
     dcterms:created "2018-01-16"^^xsd:date ;
     dcterms:creator
         [
-            a dcterms:Agent ;
-            foaf:name "J.G. Speight" ;
+            a schema:Person ;
+            shema:name "J.G. Speight" ;
+            schema:email ""^^xsd:anyURI ;
         ] ;
     dcterms:description """This vocabulary is a machine-readable representation of the classifiers described in chapter 5 Landform, by J.G. Speight in Australian Soil and Land Survey Field Handbook (3rd edn). 
 In this technique for describing landforms, the whole land surface is viewed as a mosaic of tiles of odd shapes and sizes. The scheme is intended to produce a record of observations rather than inferences.""" ;

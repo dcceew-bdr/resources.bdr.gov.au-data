@@ -21,12 +21,14 @@ asls:soil-profile
     dcterms:created "2017-10-26"^^xsd:date ;
     dcterms:creator 
         [
-            a dcterms:Agent ;
-            foaf:name "R.F. Isbell" ;
+            a schema:Person ;
+            shema:name "R.F. Isbell" ;
+            schema:email ""^^xsd:anyURI ;
         ] ,
         [
-            a dcterms:Agent ;
-            foaf:name "R.C. McDonald" ;
+            a schema:Person ;
+            shema:name "R.C. McDonald" ;
+            schema:email ""^^xsd:anyURI ;
         ] ;
     dcterms:description """This vocabulary is a machine-readable representation of the classifiers described in chapter 8 Soil Profile, by R.C. McDonald and R.F. Isbell, in Australian soil and land survey field handbook (3rd edn).
 A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.""" ;
