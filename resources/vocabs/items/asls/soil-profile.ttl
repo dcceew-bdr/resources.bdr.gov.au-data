@@ -168,6 +168,7 @@ subst:material-strength
     a skos:Collection ;
     skos:definition "Strength of material - enumeration"@en ;
     skos:inScheme cs: ;
+    skos:member :placeholder ;
     skos:prefLabel "Strength of material - enumeration"@en ;
 .
 
@@ -643,6 +644,7 @@ The order of peds and relationship of one to the other is important and may be d
 2	Next size peds, parting to
 3	Next size peds, ... and further, if required, to the primary ped."""@en ;
     skos:inScheme cs: ;
+    skos:member :placeholder ;
     skos:prefLabel "Compound pedality"@en ;
 .
 
@@ -5689,6 +5691,14 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
     skos:prefLabel "Silty medium heavy clay"@en ;
 .
 
+:placeholder
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A placeholder concept used to make collections defined without members valid by having this as their sole member. This should be replace with real values"@en ;
+    skos:prefLabel "Placeholder"@en ;
+    skos:topConceptOf cs: ;
+.
+
 :voids-macropores-abundance-0
     a
         skos:Concept ,
@@ -7212,7 +7222,7 @@ cs:
         "2022-07-29 - replace `sosa:ObservableProperty , skos:Concept` type on enumerations with `skos:related` link to the OP in the domain model" ,
         "2022-11-23 - Rename collections for consistency with ANSIS" ,
         "2022-12-07 - remove observable-properties collection" ,
-        "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs" ;
+        "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs. Added :placeholder Concept to two Collections listing none" ;
     skos:definition """This vocabulary is a machine-readable representation of the classifiers described in chapter 8 Soil Profile, by R.C. McDonald and R.F. Isbell, in Australian soil and land survey field handbook (3rd edn).
 A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.""" ;
     skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href=\"https://orcid.org/0000-0002-0693-1899\">Linda Gregory</a> assisted by <a href=\"https://orcid.org/0000-0002-3884-3420\">Simon J D Cox</a>."^^rdf:HTML ;
@@ -7409,6 +7419,7 @@ A soil profile is a vertical section of a soil from the soil surface through all
         :particle-size-fraction-sand ,
         :particle-size-fraction-silt ,
         :particle-size-fraction-stones ,
+        :placeholder ,
         :roots-abundance-0 ,
         :roots-abundance-1 ,
         :roots-abundance-2 ,

@@ -22,6 +22,7 @@ A single site may be assessed from more than one perspective, depending on the f
 •	a ‘carbon sequestration’ perspective would interest a climate-change mitigation manager and should be compared to ‘optimum sustainable carbon capture or storage’ benchmarks. 
 Vegetation that is native, non-native or at different growth stages should each have its own benchmark. For native vegetation, the benchmarks should be based on the best examples representing pre-European conditions (sometimes called ‘fully natural’). For vegetation managed for economic production, benchmarks should be based on reference sites with best-practice, fully ecologically sustainable conditions. """@en ;
     skos:inScheme cs: ;
+    skos:member :placeholder ;
     skos:prefLabel "Condition"@en ;
 .
 
@@ -1344,6 +1345,14 @@ Percentage of individuals in tallest stratum with specified leaf size: 30-50% no
     skos:topConceptOf cs: ;
 .
 
+:placeholder
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A placeholder concept used to make collections defined without members valid by having this as their sole member. This should be replace with real values"@en ;
+    skos:prefLabel "Placeholder"@en ;
+    skos:topConceptOf cs: ;
+.
+
 :sclerophyll-present
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2227,7 +2236,7 @@ cs:
         dc: ,
         sosa: ;
     owl:sameAs asls:vegetation ;
-    skos:changeNote "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs" ;
+    skos:changeNote "2026-09-20 - Updated to be VocPub conformant. Updated IRI to linked.data.gov.au, retained old IRI sameAs. Added :placeholder Concept to two Collections listing none" ;
     skos:definition "This vocabulary is a machine-readable representation of the classifiers described in chapter 6 Vegetation, by R.J. Hnatiuk, R. Thackway and J. Walker in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
     skos:editorialNote "The data was converted from the print representation to this linked-data form by Linda Gregory and Simon J D Cox" ;
     skos:hasTopConcept
@@ -2336,6 +2345,7 @@ cs:
         :myrtle-beech-callidendrous ,
         :myrtle-beech-implicate ,
         :myrtle-beech-thamnic ,
+        :placeholder ,
         :sclerophyll-present ,
         :species-mixed ,
         :species-mixed-plus-one-species ,
