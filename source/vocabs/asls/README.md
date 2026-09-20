@@ -31,32 +31,30 @@ VocPub validity and other minor edits are noted in the loaded vocabs' `changeNot
 
 ## VocPub Validity
 
+Use the CodeX skill VocPub Validity to achieve basic validity: https://linked.data.gov.au/def/vocpub/skill-codex
+
+Then:
+
 1. Replace IRIs as follows:
 
     http://anzsoil.org/def/au/asls/land-surface ->  https://linked.data.gov.au/def/asls-land-surface
     http://anzsoil.org/def/au/asls/landform ->      https://linked.data.gov.au/def/asls-landform
     http://anzsoil.org/def/au/asls/location ->      https://linked.data.gov.au/def/asls-location
     http://anzsoil.org/def/au/asls/soil-profile ->  https://linked.data.gov.au/def/asls-soil-profile
-    http://anzsoil.org/def/au/asls/substrate ->     https://linked.data.gov.au/def/asls-substrat
+    http://anzsoil.org/def/au/asls/substrate ->     https://linked.data.gov.au/def/asls-substrate
     http://anzsoil.org/def/au/asls/vegetation ->    https://linked.data.gov.au/def/asls-vegetation
 
 2. Add `owl:sameAs` for the new Concept Scheme IRI to the old one
-3. Add in `skos:hasTopConcept` values for all `skos:topConceptOf` Concepts
-4. Add `rdfs:isDefinedby` linking every Concept and Collection to the Concept Scheme
-5. Remove all `dcterms:identifier` triples
-6. Remove all `dcterms:title` triples where there is also a `skos:prefLabel` equivalent
-7. Replace the following predicates:
+3. Remove all `dcterms:identifier` triples
+4. Remove all `dcterms:title` triples where there is also a `skos:prefLabel` equivalent
+5. Replace the IRI <http://www.publish.csiro.au/> with <http://www.publish.csiro.au>
+6. `dcterms:Agent` -> `schema:Person` or `schema:Organization` 
+7. For Agents: `foaf:name` -> `schema:name`
+8. For Agents: add blank `schema:email` just to make for clean VocPub validation - later removed
+9. For Concepts in one vocab in this set of 6 defined in another, remove the Concept re-definition but retain all Collection and other references to those Concepts 
+10. To each vocab, add the following PREFIX declarations:
 
-    dcterms:contributor ->  schema:contributor
-    dcterms:created ->      schema:dateCreated
-    dcterms:creator ->      schema:creator
-    dcterms:description ->  schema:description
-    dcterms:isFormatOf ->   prof:wasDerivedFrom
-    dcterms:license  ->     schema:license
-    dcterms:modified ->     schema:dateModified
-    dcterms:publisher ->    schema:publisher
-    dcterms:rights ->       schema:copyrightNotice
-    dcterms:source  ->      schema:citation
+PREFIX : {CONCEPT-SCHEME-IRI + '/'}
+PREFIX cs: {CONCEPT-SCHEME-IRI}
 
-8. Replace the IRI <http://creativecommons.org/licences/by/4.0> with <http://purl.org/NET/rdflicense/cc-by4.0>
-9. Replace the IRI <http://www.publish.csiro.au/> with <http://www.publish.csiro.au>
+11. For all `skos:prefLabel` and `skos:definition` values that do not indicate language, add it with `@en`

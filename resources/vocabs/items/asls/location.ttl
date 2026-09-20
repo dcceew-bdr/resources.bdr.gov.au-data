@@ -1,20 +1,17 @@
-# baseURI: http://anzsoil.org/def/au/asls/location
-# imports: http://purl.org/dc/elements/1.1/
-# imports: https://anzsoil.org/def/au/property
-
+PREFIX : <https://linked.data.gov.au/def/asls-location/>
 PREFIX asls: <http://anzsoil.org/def/au/asls/>
+PREFIX cs: <https://linked.data.gov.au/def/asls-location>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-PREFIX loc: <http://anzsoil.org/def/au/asls/location/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-asls:location
+cs:
     a
         owl:Ontology ,
         skos:ConceptScheme ;
@@ -25,38 +22,36 @@ asls:location
     dcterms:creator 
         [
             a schema:Person ;
-            shema:name "R.F. Isbell" ;
             schema:email ""^^xsd:anyURI ;
+            schema:name "R.C. McDonald" ;
         ] ,
         [
             a schema:Person ;
-            shema:name "R.C. McDonald" ;
             schema:email ""^^xsd:anyURI ;
+            schema:name "R.F. Isbell" ;
         ] ,
         <https://orcid.org/0000-0002-0693-1899> ;
     dcterms:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 3 Location, by L.J. Gregory, R.C. McDonald and R.F. Isbell in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location"^^xsd:anyURI ;
     dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
     dcterms:license <http://creativecommons.org/licences/by/4.0> ;
     dcterms:modified "2022-07-29"^^xsd:date ;
-    dcterms:publisher <http://www.publish.csiro.au/> ;
+    dcterms:publisher <http://www.publish.csiro.au> ;
     dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
     dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
-    dcterms:title "ASLS Location classifiers" ;
     rdfs:seeAlso <https://www.publish.csiro.au/book/5230> ;
     owl:imports
         dc: ,
         <https://anzsoil.org/def/au/property> ;
+    owl:sameAs asls:location ;
     skos:changeNote
         "2022-07-27 - relabel collections as XXX-enumeration" ,
         "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
     skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href=\"https://orcid.org/0000-0002-0693-1899\">Linda Gregory</a> and <a href=\"https://orcid.org/0000-0002-3884-3420\">Simon J D Cox</a>"^^rdf:HTML ;
-    skos:prefLabel "ASLS Location classifiers" ;
+    skos:prefLabel "ASLS Location classifiers"@en ;
 .
 
-loc:air-photo-reference
+:air-photo-reference
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/air-photo-reference"^^xsd:anyURI ;
     skos:definition """Give position of site on photo in millimetres east from western edge of the photo and north from southern edge. It is strongly recommended that the site should be marked on the air photo by pricking through the print and writing the site number on the back. 
 Film number
 Give film number on photo, for example CABC/C/999 or NSW 2719.
@@ -71,236 +66,219 @@ Site reference
 East (mm)
 North (mm)"""@en ;
     skos:member
-        loc:film-number ,
-        loc:frame-number ,
-        loc:run-number ,
-        loc:site-reference ;
+        :film-number ,
+        :frame-number ,
+        :run-number ,
+        :site-reference ;
     skos:prefLabel "Air photo reference"@en ;
 .
 
-loc:coords-method
+:coords-method
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/method"^^xsd:anyURI ;
     skos:definition "Record the method used to acquire the coordinates"@en ;
     skos:member
-        loc:method-G ,
-        loc:method-R ,
-        loc:method-S ;
+        :method-G ,
+        :method-R ,
+        :method-S ;
     skos:prefLabel "Method - enumeration"@en ;
 .
 
-loc:global-positioning-system
+:global-positioning-system
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/global-positioning-system"^^xsd:anyURI ;
     skos:definition "Record the GPS survey method used to obtain the coordinates and estimate the accuracy. Make sure you also record the datum and projection settings in the appropriate section. Sub-metre accuracy is usually only obtained through the use of differential techniques. Autonomous (single unit) methods can obtain <15 m accuracy under optimal conditions. Understand the limitations of the equipment and the various factors that will affect the accuracy."@en ;
     skos:member
-        loc:gps-accuracy ,
-        loc:gps-method ;
+        :gps-accuracy ,
+        :gps-method ;
     skos:prefLabel "Global Positioning System (GPS) Survey"@en ;
 .
 
-loc:observable-properties
+:observable-properties
     a skos:Collection ;
     skos:member
         <https://anzsoil.org/def/au/property/gps-accuracy> ,
         <https://anzsoil.org/def/au/property/map-scale> ;
-    skos:prefLabel "Observable properties of location" ;
+    skos:prefLabel "Observable properties of location"@en ;
 .
 
-loc:state-or-territory
+:state-or-territory
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory"^^xsd:anyURI ;
     skos:definition "Record the code as follows for the State or Territory in which the site is described. These codes have been changed from McDonald and Isbell (1990)."@en ;
     skos:member
-        loc:state-or-territory-1 ,
-        loc:state-or-territory-2 ,
-        loc:state-or-territory-3 ,
-        loc:state-or-territory-4 ,
-        loc:state-or-territory-5 ,
-        loc:state-or-territory-6 ,
-        loc:state-or-territory-7 ,
-        loc:state-or-territory-8 ;
+        :state-or-territory-1 ,
+        :state-or-territory-2 ,
+        :state-or-territory-3 ,
+        :state-or-territory-4 ,
+        :state-or-territory-5 ,
+        :state-or-territory-6 ,
+        :state-or-territory-7 ,
+        :state-or-territory-8 ;
     skos:prefLabel "State or Territory - enumeration"@en ;
 .
 
-loc:topographic-map-sheet
+:topographic-map-sheet
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/topographic-map-sheet"^^xsd:anyURI ;
     skos:definition "Give map sheet details regardless of the method used to obtain the coordinates. This will provide a cross-check for attribute accuracy. At scales larger than 1:100 000, use the numbering system for the State or Territory in which the survey is conducted."@en ;
     skos:member
-        loc:map-scale ,
-        loc:map-sheet ;
+        :map-scale ,
+        :map-sheet ;
     skos:prefLabel "Topographic map sheet"@en ;
 .
 
-loc:accuracy-1
+<http://www.publish.csiro.au>
+    a schema:Organization ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+:accuracy-1
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/accuracy-1"^^xsd:anyURI ;
     skos:notation "1" ;
-    skos:prefLabel "<1 m" ;
+    skos:prefLabel "<1 m"@en ;
 .
 
-loc:accuracy-2
+:accuracy-2
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/accuracy-2"^^xsd:anyURI ;
     skos:notation "2" ;
-    skos:prefLabel "1-5 m" ;
+    skos:prefLabel "1-5 m"@en ;
 .
 
-loc:accuracy-3
+:accuracy-3
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/accuracy-3"^^xsd:anyURI ;
     skos:notation "3" ;
-    skos:prefLabel "5-15 m" ;
+    skos:prefLabel "5-15 m"@en ;
 .
 
-loc:accuracy-4
+:accuracy-4
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/accuracy-4"^^xsd:anyURI ;
     skos:notation "4" ;
-    skos:prefLabel "15-30 m" ;
+    skos:prefLabel "15-30 m"@en ;
 .
 
-loc:accuracy-5
+:accuracy-5
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/accuracy-5"^^xsd:anyURI ;
     skos:notation "5" ;
-    skos:prefLabel ">30 m" ;
+    skos:prefLabel ">30 m"@en ;
 .
 
-loc:datum
+:datum
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/datum"^^xsd:anyURI ;
     skos:definition "Record the datum of the coordinates. Older maps will generally be based on the Australian Geodetic Datum of 1966 or 1984 (AGD66, AGD84), while current maps should be based on the Geocentric Datum of Australia (GDA94). If you are obtaining coordinates from a Global Positioning System (GPS) unit, the native datum is the World Geodetic System (WGS84). However, this may not be the display default so check the settings. For further information, see the Geocentric Datum of Australia technical manual (Intergovernmental Committee on Surveying and Mapping 2002)."@en ;
     skos:member
-        loc:datum-AGD66 ,
-        loc:datum-AGD84 ,
-        loc:datum-GDA94 ,
-        loc:datum-WGS84 ;
+        :datum-AGD66 ,
+        :datum-AGD84 ,
+        :datum-GDA94 ,
+        :datum-WGS84 ;
     skos:prefLabel "Datums"@en ;
 .
 
-loc:datum-AGD66
+:datum-AGD66
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/datum-AGD66"^^xsd:anyURI ;
     skos:notation "AGD66" ;
-    skos:prefLabel "Australian Geodetic Datum 1966" ;
+    skos:prefLabel "Australian Geodetic Datum 1966"@en ;
 .
 
-loc:datum-AGD84
+:datum-AGD84
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/datum-AGD84"^^xsd:anyURI ;
     skos:notation "AGD84" ;
-    skos:prefLabel "Australian Geodetic Datum 1984" ;
+    skos:prefLabel "Australian Geodetic Datum 1984"@en ;
 .
 
-loc:datum-GDA94
+:datum-GDA94
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/datum-GDA94"^^xsd:anyURI ;
     skos:notation "GDA94" ;
-    skos:prefLabel "Geodetic Datum of Australia 1994" ;
+    skos:prefLabel "Geodetic Datum of Australia 1994"@en ;
 .
 
-loc:datum-WGS84
+:datum-WGS84
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/datum-WGS84"^^xsd:anyURI ;
     skos:notation "WGS84" ;
-    skos:prefLabel "World Geodetic SYstem 1984" ;
+    skos:prefLabel "World Geodetic SYstem 1984"@en ;
 .
 
-loc:easting-northing-zone
+:easting-northing-zone
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/easting-northing-zone"^^xsd:anyURI ;
     skos:definition """Record easting and northing UTM projected coordinates, when reading from a topographic map. Give a 6-figure easting, a 7-figure northing and a 2-figure grid zone (49–56 in Australia), to as high a degree of accuracy as map scale permits. Location of the central point of a site on a map is unlikely to be much more accurate than 1 mm on the map, that is, 10 m on a 1:10 000 scale map, or 100 m on a 1:100 000 scale map. Example:
 Zone  Easting	Northing
 55	692084	6094905"""@en ;
     skos:prefLabel "Easting, northing, zone"@en ;
-    skos:topConceptOf loc:coordinates ;
+    skos:topConceptOf :coordinates ;
 .
 
-loc:film-number
+:film-number
     a skos:Concept ;
-    skos:prefLabel "Film number on photo" ;
+    skos:prefLabel "Film number on photo"@en ;
 .
 
-loc:frame-number
+:frame-number
     a skos:Concept ;
-    skos:prefLabel "number of individual photo" ;
+    skos:prefLabel "number of individual photo"@en ;
 .
 
-loc:gps-accuracy
+:gps-accuracy
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/gps-accuracy"^^xsd:anyURI ;
     skos:definition "GPS accuracy estimate"@en ;
     skos:member
-        loc:accuracy-1 ,
-        loc:accuracy-2 ,
-        loc:accuracy-3 ,
-        loc:accuracy-4 ,
-        loc:accuracy-5 ;
+        :accuracy-1 ,
+        :accuracy-2 ,
+        :accuracy-3 ,
+        :accuracy-4 ,
+        :accuracy-5 ;
     skos:prefLabel "GPS accuracy estimate - enumeration"@en ;
     skos:related <https://anzsoil.org/def/au/property/gps-accuracy> ;
 .
 
-loc:gps-method
+:gps-method
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/gps-method"^^xsd:anyURI ;
     skos:definition "GPS method"@en ;
     skos:member
-        loc:gps-method-D ,
-        loc:gps-method-S ;
+        :gps-method-D ,
+        :gps-method-S ;
     skos:prefLabel "GPS method - enumeration"@en ;
 .
 
-loc:gps-method-D
+:gps-method-D
     a
         skos:Concept ,
         sosa:Procedure ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/gps-method-D"^^xsd:anyURI ;
     skos:notation "D" ;
-    skos:prefLabel "Differential GPS" ;
+    skos:prefLabel "Differential GPS"@en ;
 .
 
-loc:gps-method-S
+:gps-method-S
     a
         skos:Concept ,
         sosa:Procedure ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/gps-method-S"^^xsd:anyURI ;
     skos:notation "S" ;
-    skos:prefLabel "Single unit GPS" ;
+    skos:prefLabel "Single unit GPS"@en ;
 .
 
-loc:latitude-longitude
+:latitude-longitude
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/latitude-longitude"^^xsd:anyURI ;
     skos:definition """Coordinates may be given in degrees, minutes and seconds (DMS) where a location is read from a small-scale (regional) map. When locating with a GPS, record the coordinates in decimal degrees (DD) to five places to obtain a precision to the metre. Latitudes (giving the north/south part of the coordinate) will be negative in Australia.
 Example:
 Latitude	Longitude
 –35.27058	149.11181"""@en ;
     skos:prefLabel "Latitude, longitude"@en ;
-    skos:topConceptOf loc:coordinates ;
+    skos:topConceptOf :coordinates ;
 .
 
-loc:map-scale
+:map-scale
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/map-scale"^^xsd:anyURI ;
     skos:definition "Map scale - enumeration"@en ;
     skos:member
-        loc:scale-1 ,
-        loc:scale-2 ,
-        loc:scale-3 ,
-        loc:scale-4 ,
-        loc:scale-5 ,
-        loc:scale-6 ,
-        loc:scale-7 ,
-        loc:scale-8 ;
+        :scale-1 ,
+        :scale-2 ,
+        :scale-3 ,
+        :scale-4 ,
+        :scale-5 ,
+        :scale-6 ,
+        :scale-7 ,
+        :scale-8 ;
     skos:prefLabel "Map scale - enumeration"@en ;
     skos:related <https://anzsoil.org/def/au/property/map-scale> ;
 .
 
-loc:map-sheet
+:map-sheet
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/map-sheet"^^xsd:anyURI ;
     skos:definition """Give number and name on map, for example:
 Map scale	 8	7	6
 Map sheet number 	SH 50-15	8525	8727-III
@@ -308,202 +286,173 @@ Map sheet name	Kellerberrin	Kosciuszko	Canberra."""@en ;
     skos:prefLabel "Map sheet"@en ;
 .
 
-loc:method-G
+:method-G
     a
         skos:Concept ,
         sosa:Procedure ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/method-G"^^xsd:anyURI ;
     skos:definition "GPS"@en ;
     skos:notation "G" ;
     skos:prefLabel "GPS"@en ;
 .
 
-loc:method-R
+:method-R
     a
         skos:Concept ,
         sosa:Procedure ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/method-R"^^xsd:anyURI ;
     skos:definition "Map reference"@en ;
     skos:notation "R" ;
     skos:prefLabel "Map reference"@en ;
 .
 
-loc:method-S
+:method-S
     a
         skos:Concept ,
         sosa:Procedure ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/method-S"^^xsd:anyURI ;
     skos:definition "Survey"@en ;
     skos:notation "S" ;
     skos:prefLabel "Survey"@en ;
 .
 
-loc:projection
+:projection
     a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/projection"^^xsd:anyURI ;
     skos:definition "State whether the coordinates are projected or geographic"@en ;
     skos:member
-        loc:projection-L ,
-        loc:projection-M ;
+        :projection-L ,
+        :projection-M ;
     skos:prefLabel "Projection - enumeration"@en ;
 .
 
-loc:projection-L
+:projection-L
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/projection-L"^^xsd:anyURI ;
-    skos:definition "When using a GPS or a regional map, record coordinates in latitude and longitude. Record southern hemisphere latitudes as negative. " ;
+    skos:definition "When using a GPS or a regional map, record coordinates in latitude and longitude. Record southern hemisphere latitudes as negative. "@en ;
     skos:notation "L" ;
-    skos:prefLabel "Geographic (latitude and longitude)" ;
+    skos:prefLabel "Geographic (latitude and longitude)"@en ;
 .
 
-loc:projection-M
+:projection-M
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/projection-M"^^xsd:anyURI ;
-    skos:definition "Most topographic map sheets are projected onto the Universal Transverse Mercator (UTM) coordinate system. In Australia, this will be called the Australian Map Grid (AMG) or the Map Grid of Australia (MGA) depending on the datum used. The easting and northing coordinates taken from these sheets will have 6 digits and 7 digits respectively. The zone will also be required (49-56 in Australia). Do not use the Universal Grid Reference notation.3 " ;
+    skos:definition "Most topographic map sheets are projected onto the Universal Transverse Mercator (UTM) coordinate system. In Australia, this will be called the Australian Map Grid (AMG) or the Map Grid of Australia (MGA) depending on the datum used. The easting and northing coordinates taken from these sheets will have 6 digits and 7 digits respectively. The zone will also be required (49-56 in Australia). Do not use the Universal Grid Reference notation.3 "@en ;
     skos:notation "M" ;
-    skos:prefLabel "Projected by Universal Transverse Mercator system" ;
+    skos:prefLabel "Projected by Universal Transverse Mercator system"@en ;
 .
 
-loc:run-number
+:run-number
     a skos:Concept ;
-    skos:prefLabel "number of run" ;
+    skos:prefLabel "number of run"@en ;
 .
 
-loc:scale-1
+:scale-1
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-1"^^xsd:anyURI ;
     skos:notation "1" ;
-    skos:prefLabel "1:1 000" ;
+    skos:prefLabel "1:1 000"@en ;
 .
 
-loc:scale-2
+:scale-2
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-2"^^xsd:anyURI ;
     skos:notation "2" ;
-    skos:prefLabel "1:2 500" ;
+    skos:prefLabel "1:2 500"@en ;
 .
 
-loc:scale-3
+:scale-3
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-3"^^xsd:anyURI ;
     skos:notation "3" ;
-    skos:prefLabel "1:5 000" ;
+    skos:prefLabel "1:5 000"@en ;
 .
 
-loc:scale-4
+:scale-4
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-4"^^xsd:anyURI ;
     skos:notation "4" ;
-    skos:prefLabel "1:10 000" ;
+    skos:prefLabel "1:10 000"@en ;
 .
 
-loc:scale-5
+:scale-5
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-5"^^xsd:anyURI ;
     skos:notation "5" ;
-    skos:prefLabel "1:25 000" ;
+    skos:prefLabel "1:25 000"@en ;
 .
 
-loc:scale-6
+:scale-6
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-6"^^xsd:anyURI ;
     skos:notation "6" ;
-    skos:prefLabel "1:50 000" ;
+    skos:prefLabel "1:50 000"@en ;
 .
 
-loc:scale-7
+:scale-7
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-7"^^xsd:anyURI ;
     skos:notation "7" ;
-    skos:prefLabel "1:100 000" ;
+    skos:prefLabel "1:100 000"@en ;
 .
 
-loc:scale-8
+:scale-8
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/scale-8"^^xsd:anyURI ;
     skos:notation "8" ;
-    skos:prefLabel "1:250 000" ;
+    skos:prefLabel "1:250 000"@en ;
 .
 
-loc:site-reference
+:site-reference
     a skos:Concept ;
-    skos:prefLabel "east (mm), north (mm)" ;
+    skos:prefLabel "east (mm), north (mm)"@en ;
 .
 
-loc:state-or-territory-1
+:state-or-territory-1
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-1"^^xsd:anyURI ;
     skos:definition "New South Wales"@en ;
     skos:notation "1" ;
     skos:prefLabel "NSW"@en ;
 .
 
-loc:state-or-territory-2
+:state-or-territory-2
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-2"^^xsd:anyURI ;
     skos:definition "Victoria"@en ;
     skos:notation "2" ;
     skos:prefLabel "VIC"@en ;
 .
 
-loc:state-or-territory-3
+:state-or-territory-3
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-3"^^xsd:anyURI ;
     skos:definition "Queensland"@en ;
     skos:notation "3" ;
     skos:prefLabel "QLD"@en ;
 .
 
-loc:state-or-territory-4
+:state-or-territory-4
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-4"^^xsd:anyURI ;
     skos:definition "South Australia"@en ;
     skos:notation "4" ;
     skos:prefLabel "SA"@en ;
 .
 
-loc:state-or-territory-5
+:state-or-territory-5
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-5"^^xsd:anyURI ;
     skos:definition "Western Australia"@en ;
     skos:notation "5" ;
     skos:prefLabel "WA"@en ;
 .
 
-loc:state-or-territory-6
+:state-or-territory-6
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-6"^^xsd:anyURI ;
     skos:definition "Tasmania"@en ;
     skos:notation "6" ;
     skos:prefLabel "TAS"@en ;
 .
 
-loc:state-or-territory-7
+:state-or-territory-7
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-7"^^xsd:anyURI ;
     skos:definition "Northern Territory"@en ;
     skos:notation "7" ;
     skos:prefLabel "NT"@en ;
 .
 
-loc:state-or-territory-8
+:state-or-territory-8
     a skos:Concept ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-8"^^xsd:anyURI ;
     skos:definition "Australian Capital Territory"@en ;
     skos:notation "8" ;
     skos:prefLabel "ACT"@en ;
 .
 
-loc:coordinates
-    a skos:Collection ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/location/coordinates"^^xsd:anyURI ;
-    skos:definition "Coordinates"@en ;
-    skos:member
-        loc:datum ,
-        loc:easting-northing-zone ,
-        loc:latitude-longitude ,
-        loc:projection ;
-    skos:prefLabel "Coordinates"@en ;
+<https://orcid.org/0000-0002-3884-3420>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
 .
 
 <https://anzsoil.org/def/au/property/gps-accuracy>
@@ -518,4 +467,20 @@ loc:coordinates
         skos:Concept ,
         sosa:ObservableProperty ;
     skos:prefLabel "Map scale"@en ;
+.
+
+:coordinates
+    a skos:Collection ;
+    skos:definition "Coordinates"@en ;
+    skos:member
+        :datum ,
+        :easting-northing-zone ,
+        :latitude-longitude ,
+        :projection ;
+    skos:prefLabel "Coordinates"@en ;
+.
+
+<https://orcid.org/0000-0002-0693-1899>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
 .

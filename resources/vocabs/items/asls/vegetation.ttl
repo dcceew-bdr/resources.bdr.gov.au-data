@@ -1,15 +1,16 @@
+PREFIX : <https://linked.data.gov.au/def/asls-vegetation/>
 PREFIX asls: <http://anzsoil.org/def/au/asls/>
+PREFIX cs: <https://linked.data.gov.au/def/asls-vegetation>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
-PREFIX veg: <http://anzsoil.org/def/au/asls/vegetation/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-asls:vegetation
+cs:
     a
         owl:Ontology ,
         skos:ConceptScheme ;
@@ -20,33 +21,32 @@ asls:vegetation
     dcterms:creator 
         [
             a schema:Person ;
-            shema:name "R.J. Hnatiuk" ;
             schema:email ""^^xsd:anyURI ;
+            schema:name "J. Walker" ;
         ] ,
         [
             a schema:Person ;
-            shema:name "J. Walker" ;
             schema:email ""^^xsd:anyURI ;
+            schema:name "R.J. Hnatiuk" ;
         ] ,
         <https://orcid.org/0000-0003-3206-2268> ;
     dcterms:description "This vocabulary is a machine-readable representation of the classifiers described in chapter 6 Vegetation, by R.J. Hnatiuk, R. Thackway and J. Walker in Australian Soil and Land Survey Field Handbook (3rd edn)" ;
-    dcterms:identifier "http://anzsoil.org/def/au/asls/vegetation"^^xsd:anyURI ;
     dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
     dcterms:license <http://creativecommons.org/licences/by/4.0> ;
     dcterms:modified "2022-04-20"^^xsd:date ;
-    dcterms:publisher <http://www.publish.csiro.au/> ;
+    dcterms:publisher <http://www.publish.csiro.au> ;
     dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
     dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
-    dcterms:title "ASLS Vegetation classifiers" ;
     rdfs:seeAlso <https://www.publish.csiro.au/book/5230> ;
     owl:imports
         dc: ,
         sosa: ;
+    owl:sameAs asls:vegetation ;
     skos:editorialNote "The data was converted from the print representation to this linked-data form by Linda Gregory and Simon J D Cox" ;
-    skos:prefLabel "ASLS Vegetation classifiers" ;
+    skos:prefLabel "ASLS Vegetation classifiers"@en ;
 .
 
-veg:condition
+:condition
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -55,11 +55,11 @@ A single site may be assessed from more than one perspective, depending on the f
 •	a ‘native vegetation integrity’ perspective would interest a biodiversity manager and should be compared to ‘fully natural’ benchmarks 
 •	a ‘fodder production’ perspective would interest a grazing property manager and should be compared to ‘best-practice sustainable production’ benchmarks 
 •	a ‘carbon sequestration’ perspective would interest a climate-change mitigation manager and should be compared to ‘optimum sustainable carbon capture or storage’ benchmarks. 
-Vegetation that is native, non-native or at different growth stages should each have its own benchmark. For native vegetation, the benchmarks should be based on the best examples representing pre-European conditions (sometimes called ‘fully natural’). For vegetation managed for economic production, benchmarks should be based on reference sites with best-practice, fully ecologically sustainable conditions. """ ;
-    skos:prefLabel "Condition" ;
+Vegetation that is native, non-native or at different growth stages should each have its own benchmark. For native vegetation, the benchmarks should be based on the best examples representing pre-European conditions (sometimes called ‘fully natural’). For vegetation managed for economic production, benchmarks should be based on reference sites with best-practice, fully ecologically sustainable conditions. """@en ;
+    skos:prefLabel "Condition"@en ;
 .
 
-veg:formation-level-1
+:formation-level-1
     a skos:Collection ;
     skos:definition """The three commonly used field measures of cover are crown cover, foliage cover and projective foliage cover. Each gives different values and none is correlated in a simple way with leaf area or leaf area index.
 
@@ -69,40 +69,40 @@ Crown cover is the recommended method for reporting cover for plants with discre
 
 Ground cover can be estimated by measuring the distance covered by the vertical projection of the leaves and woody branches onto a tape measure and expressing this as a percentage of the total length. This is a line-intercept method.
 
-Cover class for a particular stratum can be quickly assessed based on whether the crowns are touching, well separated, etc. However, because primary data such as actual crown cover percentage are usually more valuable than pre-classified data, a method to accurately estimate the crown separation ratio is needed.""" ;
+Cover class for a particular stratum can be quickly assessed based on whether the crowns are touching, well separated, etc. However, because primary data such as actual crown cover percentage are usually more valuable than pre-classified data, a method to accurately estimate the crown separation ratio is needed."""@en ;
     skos:member
-        veg:cover-abundance ,
-        veg:crown-cover ,
-        veg:crown-cover-class ,
-        veg:crown-separation-ratio ,
-        veg:crown-type ,
-        veg:foliage-cover ,
-        veg:foliage-cover-projected ,
-        veg:ground-cover ,
-        veg:ground-cover-class ,
-        veg:life-form ;
-    skos:prefLabel "Formation (Level 1)" ;
+        :cover-abundance ,
+        :crown-cover ,
+        :crown-cover-class ,
+        :crown-separation-ratio ,
+        :crown-type ,
+        :foliage-cover ,
+        :foliage-cover-projected ,
+        :ground-cover ,
+        :ground-cover-class ,
+        :life-form ;
+    skos:prefLabel "Formation (Level 1)"@en ;
 .
 
-veg:formation-level-2
+:formation-level-2
     a skos:Collection ;
     skos:member
-        veg:cover-abundance ,
-        veg:crown-cover ,
-        veg:crown-cover-class ,
-        veg:crown-separation-ratio ,
-        veg:crown-type ,
-        veg:emergents ,
-        veg:foliage-cover ,
-        veg:foliage-cover-projected ,
-        veg:formation-growthform ,
-        veg:formation-height ,
-        veg:ground-cover ,
-        veg:ground-cover-class ;
-    skos:prefLabel "Structural Formation (Level 2)" ;
+        :cover-abundance ,
+        :crown-cover ,
+        :crown-cover-class ,
+        :crown-separation-ratio ,
+        :crown-type ,
+        :emergents ,
+        :foliage-cover ,
+        :foliage-cover-projected ,
+        :formation-growthform ,
+        :formation-height ,
+        :ground-cover ,
+        :ground-cover-class ;
+    skos:prefLabel "Structural Formation (Level 2)"@en ;
 .
 
-veg:growthstage
+:growthstage
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -112,28 +112,28 @@ Vegetation appearance can be affected by condition (see next section, ‘Conditi
 
 Walk through the site and immediately surrounding area, looking for signs that indicate the history of the development of the vegetation. Record the code from Table 28 as well as the features on which the assessed stage is based.
 
-Where the vegetation is dominated by trees, especially eucalypts in south-eastern and south-western parts of Australia, the signs of ageing are evident and well documented (Jacobs 1955, Eyre et al. 2002, Figure 10a). Growth stages of trees in sparse vegetation (‘woodland’ trees) are similar to those in mid-dense and closed vegetation (‘forest’ trees), but the overall tree-form is shorter and wider (Figure 10b). There is little documentation of growth stages for shrubs. Lange and Purdie (1976) indicate the general cycle of ageing of western myall (Acacia papyrocarpa) shrubs in inland Australia, which can be used as guide for other shrubs (Figure 10c).""" ;
+Where the vegetation is dominated by trees, especially eucalypts in south-eastern and south-western parts of Australia, the signs of ageing are evident and well documented (Jacobs 1955, Eyre et al. 2002, Figure 10a). Growth stages of trees in sparse vegetation (‘woodland’ trees) are similar to those in mid-dense and closed vegetation (‘forest’ trees), but the overall tree-form is shorter and wider (Figure 10b). There is little documentation of growth stages for shrubs. Lange and Purdie (1976) indicate the general cycle of ageing of western myall (Acacia papyrocarpa) shrubs in inland Australia, which can be used as guide for other shrubs (Figure 10c)."""@en ;
     skos:member
-        veg:growthstage-advanced ,
-        veg:growthstage-early ,
-        veg:growthstage-mature ,
-        veg:growthstage-senescent ,
-        veg:growthstage-uneven ;
-    skos:prefLabel "Growth stage" ;
+        :growthstage-advanced ,
+        :growthstage-early ,
+        :growthstage-mature ,
+        :growthstage-senescent ,
+        :growthstage-uneven ;
+    skos:prefLabel "Growth stage"@en ;
 .
 
-veg:rainforest
+:rainforest
     a skos:Collection ;
     skos:definition """In Australia, there are patches of rainforest across the tropical north, down the east coast, and in Tasmania. They are usually easy to distinguish from adjacent forests, which are typically dominated by Eucalyptus and related genera. Rainforests tend to have closed canopies that are usually dark green and easily distinguished from the generally greyish and reddish-green canopies of surrounding forests. The ‘dry scrubs’ of south-east Queensland are closely related to rainforests and are classified as such.
 
-The ‘dry’ rainforests in the Northern Territory, Western Australia and parts of Queensland, as well as the temperate rainforests in south-eastern mainland Australia, are usually classified using the standard methods (see ‘Overview of the classification’, page x). Due to their structural complexity, however, it may not be practical to classify the wet tropical and subtropical rainforests of Australia using the attributes and methods used for other vegetation types. The cool temperate rainforests of Tasmania can also be complex in structure. These two varieties of rainforests may be sampled using either the standard classification, or methods supplemented with extra structural attributes to fully reflect the additional complexity (Table 23). The rest of this section deals separately with these two special cases.""" ;
+The ‘dry’ rainforests in the Northern Territory, Western Australia and parts of Queensland, as well as the temperate rainforests in south-eastern mainland Australia, are usually classified using the standard methods (see ‘Overview of the classification’, page x). Due to their structural complexity, however, it may not be practical to classify the wet tropical and subtropical rainforests of Australia using the attributes and methods used for other vegetation types. The cool temperate rainforests of Tasmania can also be complex in structure. These two varieties of rainforests may be sampled using either the standard classification, or methods supplemented with extra structural attributes to fully reflect the additional complexity (Table 23). The rest of this section deals separately with these two special cases."""@en ;
     skos:member
-        veg:rainforest-tasmanian ,
-        veg:rainforest-tropical ;
-    skos:prefLabel "Rainforest" ;
+        :rainforest-tasmanian ,
+        :rainforest-tropical ;
+    skos:prefLabel "Rainforest"@en ;
 .
 
-veg:strata
+:strata
     a skos:Collection ;
     skos:definition """A stratum is an easily seen layer of foliage and branches of a measurable height. Vegetation can have one or more strata. A single stratum may extend from the top of the canopy to near ground level. Record the median height of the top of each stratum in metres (see Figure 8). If foliage profiles are required for the habitat studied, also record the depth of the crowns in each stratum. Strata are named as follows:
 
@@ -143,16 +143,16 @@ Complex canopies due to regrowth
 
 Vegetation that has been disturbed or is still recovering from certain kinds of disturbance can produce complex canopies. For example, where a canopy has been reduced – but not totally removed – by clearing, ringbarking or poisoning, two or more cohorts of canopy species may occur. When of clearly different ages, the cohorts are also likely to differ in height, making the description of the canopy difficult.
 
-The methods already described for defining dominant stratum and emergents should be applied to these situations. This type of vegetation can be further characterised by recording ‘uneven age’ when assessing growth stage (Table 28). The different cohorts should not be amalgamated unless they are too similar in structure to be distinguished consistently. Arbitrary height boundaries should not be used to separate them.""" ;
+The methods already described for defining dominant stratum and emergents should be applied to these situations. This type of vegetation can be further characterised by recording ‘uneven age’ when assessing growth stage (Table 28). The different cohorts should not be amalgamated unless they are too similar in structure to be distinguished consistently. Arbitrary height boundaries should not be used to separate them."""@en ;
     skos:member
-        veg:stratum-E ,
-        veg:stratum-G ,
-        veg:stratum-M ,
-        veg:stratum-U ;
-    skos:prefLabel "Recognising strata" ;
+        :stratum-E ,
+        :stratum-G ,
+        :stratum-M ,
+        :stratum-U ;
+    skos:prefLabel "Recognising strata"@en ;
 .
 
-veg:wetland
+:wetland
     a skos:Collection ;
     skos:definition """Wetlands are defined by the Ramsar Convention (Anon. 1994) as ‘... areas of marsh, fen, peatland or water, whether natural or artificial, permanent or temporary, with water that is static or flowing, fresh, brackish or salt, including areas of marine water the depth of which at low tide does not exceed six metres’.
 
@@ -164,165 +164,170 @@ If the wetland is ephemeral, intermittent or fluctuating, field workers may not 
 
 Record the type of wetland as per those listed below in ‘Aquatic and wetland types’ and the dominant growth forms as per Table 22. Wetland-specific sampling methods may be found in Anderson (1999) and Brock and Casanova (2000).
 
-Use site observations (especially at planned times of year or relative to drought–non-drought cycles), aerial photographs and maps. Brock and Casanova (2000) provide detailed methods for sampling in wetlands.""" ;
+Use site observations (especially at planned times of year or relative to drought–non-drought cycles), aerial photographs and maps. Brock and Casanova (2000) provide detailed methods for sampling in wetlands."""@en ;
     skos:member
-        veg:wetland-growthform ,
-        veg:wetland-types ;
-    skos:prefLabel "Wetlands" ;
+        :wetland-growthform ,
+        :wetland-types ;
+    skos:prefLabel "Wetlands"@en ;
 .
 
-veg:complexity-complex
+<http://www.publish.csiro.au>
+    a schema:Organization ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+:complexity-complex
     a skos:Concept ;
     skos:definition """Forests characteristically showing all or most of the following properties:
 •	The tallest stratum, excluding emergent, has many species.
 •	A large range of structural features, e.g. plant buttresses, spur buttresses, unbuttressed stems, compound leaves, simple leaves, lobed and deeply divided leaves, strap like leaves. 
 •	A large range of growth forms, none of which tends to dominate, e.g. trunk bases usually obscured by climbing pandans, palms, ferns and aroids; robust and slender lianes are present; complex understorey consisting of shrubs, seedlings of larger trees, palms, gingers, pandans and ferns.
 •	The vegetation is not usually arranged into distinguishable, discrete strata.
-•	The stem diameters of the tallest non-emergent trees are usually uneven in size.""" ;
+•	The stem diameters of the tallest non-emergent trees are usually uneven in size."""@en ;
     skos:notation "C" ;
-    skos:prefLabel "Complex" ;
+    skos:prefLabel "Complex"@en ;
 .
 
-veg:complexity-simple
+:complexity-simple
     a skos:Concept ;
     skos:definition """Forests showing most or all of the following properties:
 •	The tendency for one or a few species to dominate the canopy, e.g. coachwood or Antarctic beech.
 •	A reduced number of structural features, e.g. plant buttresses absent, or most stems unbuttressed or with star buttresses.
 •	A tendency for one or two growth forms to be more conspicuous, e.g. trunks not usually obscured by climbing plants and epiphytes, but when they do one growth form usually dominates; or understorey layers may have a conspicuous growth form such as a tree fern layer, ground fern layer, shrub or palm layer.
 •	The stem diameters of the canopy trees are usually uniform in size.
-•	Discrete strata, e.g. a tree fern layer, an understorey tree layer or shrubs.""" ;
+•	Discrete strata, e.g. a tree fern layer, an understorey tree layer or shrubs."""@en ;
     skos:notation "S" ;
-    skos:prefLabel "Simple" ;
+    skos:prefLabel "Simple"@en ;
 .
 
-veg:complexity-simple-complex
+:complexity-simple-complex
     a skos:Concept ;
-    skos:definition "Forests with features of simple and complex forests. Use this category if in doubt or if the vegetation does not possess at least four out of the five properties listed for the other categories." ;
+    skos:definition "Forests with features of simple and complex forests. Use this category if in doubt or if the vegetation does not possess at least four out of the five properties listed for the other categories."@en ;
     skos:notation "X" ;
-    skos:prefLabel "Simple-complex" ;
+    skos:prefLabel "Simple-complex"@en ;
 .
 
-veg:cover-abundance-1
+:cover-abundance-1
     a skos:Concept ;
-    skos:definition "Many individuals that cover <1/20 of the sample site, or scattered with cover up to 1/20 of the sample site" ;
+    skos:definition "Many individuals that cover <1/20 of the sample site, or scattered with cover up to 1/20 of the sample site"@en ;
     skos:notation "1" ;
-    skos:prefLabel "<5%" ;
+    skos:prefLabel "<5%"@en ;
 .
 
-veg:cover-abundance-2
+:cover-abundance-2
     a skos:Concept ;
-    skos:definition "Any number of plants covering from 1/20 to ¼ of the sample site" ;
+    skos:definition "Any number of plants covering from 1/20 to ¼ of the sample site"@en ;
     skos:notation "2" ;
-    skos:prefLabel "5-25%" ;
+    skos:prefLabel "5-25%"@en ;
 .
 
-veg:cover-abundance-3
+:cover-abundance-3
     a skos:Concept ;
-    skos:definition "Any number of plants covering ¼ to ½ of the sample site" ;
+    skos:definition "Any number of plants covering ¼ to ½ of the sample site"@en ;
     skos:notation "3" ;
-    skos:prefLabel "25-50%" ;
+    skos:prefLabel "25-50%"@en ;
 .
 
-veg:cover-abundance-4
+:cover-abundance-4
     a skos:Concept ;
-    skos:definition "Any number of plants covering from ½ to ¾ of the sample site" ;
+    skos:definition "Any number of plants covering from ½ to ¾ of the sample site"@en ;
     skos:notation "4" ;
-    skos:prefLabel "50-75%" ;
+    skos:prefLabel "50-75%"@en ;
 .
 
-veg:cover-abundance-5
+:cover-abundance-5
     a skos:Concept ;
     dcterms:source "Source: modified from Mueller-Dombois and Ellenberg (1974)." ;
-    skos:definition "Any number of plants covering more than ¾ of the sample site" ;
+    skos:definition "Any number of plants covering more than ¾ of the sample site"@en ;
     skos:notation "5" ;
-    skos:prefLabel ">75%" ;
+    skos:prefLabel ">75%"@en ;
 .
 
-veg:cover-abundance-cross
+:cover-abundance-cross
     a skos:Concept ;
-    skos:definition "(pronounced ‘cross’) Few individuals with small cover" ;
+    skos:definition "(pronounced ‘cross’) Few individuals with small cover"@en ;
     skos:notation "+" ;
-    skos:prefLabel "Insignificant cover" ;
+    skos:prefLabel "Insignificant cover"@en ;
 .
 
-veg:cover-abundance-r
+:cover-abundance-r
     a skos:Concept ;
-    skos:definition "Single individual with small cover" ;
+    skos:definition "Single individual with small cover"@en ;
     skos:notation "r" ;
-    skos:prefLabel "Insignificant cover" ;
+    skos:prefLabel "Insignificant cover"@en ;
 .
 
-veg:emergent-non-sclerophyll
+:emergent-non-sclerophyll
     a skos:Concept ;
-    skos:definition "Common non sclerophyllous rainforest emergents include Agathis, Podocarpus, Araucaria, Flindersia and Erythrina." ;
+    skos:definition "Common non sclerophyllous rainforest emergents include Agathis, Podocarpus, Araucaria, Flindersia and Erythrina."@en ;
     skos:notation "A" ;
-    skos:prefLabel "non-sclerophyllous rainforest emergents " ;
+    skos:prefLabel "non-sclerophyllous rainforest emergents "@en ;
 .
 
-veg:emergent-sclerophyll
+:emergent-sclerophyll
     a skos:Concept ;
-    skos:definition "Common sclerophyllous emergents over rainforest include species of Eucalyptus, Corymbia, Acacia, Syncarpia, Casuarina, Lophostemon and Melaleuca." ;
+    skos:definition "Common sclerophyllous emergents over rainforest include species of Eucalyptus, Corymbia, Acacia, Syncarpia, Casuarina, Lophostemon and Melaleuca."@en ;
     skos:notation "E" ;
-    skos:prefLabel "sclerophyllous emergents " ;
+    skos:prefLabel "sclerophyllous emergents "@en ;
 .
 
-veg:emergent-taxon
+:emergent-taxon
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    skos:prefLabel "Emergent taxon" ;
+    skos:prefLabel "Emergent taxon"@en ;
 .
 
-veg:formation-growthform
+:formation-growthform
     a
         skos:Collection ,
         sosa:ObservableProperty ;
-    skos:definition "At Level 1, only two life forms exist (woody plants or non-woody plants). In contrast, at Level 2, many more detailed categories of growth forms are used. The term growth form is used in a broad sense to describe the form or shape of individual plants (e.g. tree, shrub) or Australian broad floristic land cover types (e.g. native vegetation such as mallee, chenopod shrub; or non-native vegetation such as wheat fields, orchards). The following glossary (modified from ESCAVI 2003) defines the growth forms for structural formations." ;
+    skos:definition "At Level 1, only two life forms exist (woody plants or non-woody plants). In contrast, at Level 2, many more detailed categories of growth forms are used. The term growth form is used in a broad sense to describe the form or shape of individual plants (e.g. tree, shrub) or Australian broad floristic land cover types (e.g. native vegetation such as mallee, chenopod shrub; or non-native vegetation such as wheat fields, orchards). The following glossary (modified from ESCAVI 2003) defines the growth forms for structural formations."@en ;
     skos:member
-        veg:growth-form-a10 ,
-        veg:growth-form-a20 ,
-        veg:growth-form-a30 ,
-        veg:growth-form-a40 ,
-        veg:growth-form-b10 ,
-        veg:growth-form-c10 ,
-        veg:growth-form-cryptogam ,
-        veg:growth-form-f10 ,
-        veg:growth-form-food ,
-        veg:growth-form-g10 ,
-        veg:growth-form-g20 ,
-        veg:growth-form-g30 ,
-        veg:growth-form-g40 ,
-        veg:growth-form-g41 ,
-        veg:growth-form-g42 ,
-        veg:growth-form-g43 ,
-        veg:growth-form-g50 ,
-        veg:growth-form-g60 ,
-        veg:growth-form-h10 ,
-        veg:growth-form-h20 ,
-        veg:growth-form-h21 ,
-        veg:growth-form-h22 ,
-        veg:growth-form-h23 ,
-        veg:growth-form-h24 ,
-        veg:growth-form-l10 ,
-        veg:growth-form-m10 ,
-        veg:growth-form-v10 ,
-        veg:growth-form-w10 ,
-        veg:growth-form-w11 ,
-        veg:growth-form-w12 ,
-        veg:growth-form-w13 ,
-        veg:growth-form-w14 ,
-        veg:growth-form-w20 ,
-        veg:growth-form-w21 ,
-        veg:growth-form-w30 ,
-        veg:growth-form-w31 ,
-        veg:growth-form-w32 ,
-        veg:growth-form-w33 ,
-        veg:growth-form-w34 ,
-        veg:growth-form-w35 ;
-    skos:prefLabel "Growth form" ;
+        :growth-form-a10 ,
+        :growth-form-a20 ,
+        :growth-form-a30 ,
+        :growth-form-a40 ,
+        :growth-form-b10 ,
+        :growth-form-c10 ,
+        :growth-form-cryptogam ,
+        :growth-form-f10 ,
+        :growth-form-food ,
+        :growth-form-g10 ,
+        :growth-form-g20 ,
+        :growth-form-g30 ,
+        :growth-form-g40 ,
+        :growth-form-g41 ,
+        :growth-form-g42 ,
+        :growth-form-g43 ,
+        :growth-form-g50 ,
+        :growth-form-g60 ,
+        :growth-form-h10 ,
+        :growth-form-h20 ,
+        :growth-form-h21 ,
+        :growth-form-h22 ,
+        :growth-form-h23 ,
+        :growth-form-h24 ,
+        :growth-form-l10 ,
+        :growth-form-m10 ,
+        :growth-form-v10 ,
+        :growth-form-w10 ,
+        :growth-form-w11 ,
+        :growth-form-w12 ,
+        :growth-form-w13 ,
+        :growth-form-w14 ,
+        :growth-form-w20 ,
+        :growth-form-w21 ,
+        :growth-form-w30 ,
+        :growth-form-w31 ,
+        :growth-form-w32 ,
+        :growth-form-w33 ,
+        :growth-form-w34 ,
+        :growth-form-w35 ;
+    skos:prefLabel "Growth form"@en ;
 .
 
-veg:formation-height
+:formation-height
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -330,202 +335,202 @@ veg:formation-height
 
 Record the height from the ground to the highest part of the plant above ground. Where the height of flower stalks (for example in grasses, grass trees) or leaves (for example in palms, cycads, grass trees, tree ferns) add significantly to plant height and contribute significantly to a stratum, then record two measurements: total height from ground level to the top of the highest part of the plant, and height from ground level to the top of the leaves (e.g. Xanthorrhoea johnsonii 2.5 m/1.3 m; Sorghum intrans 1.9 m/1.3 m). This provides an accurate record and allows various uses in analysis. 
 
-The recorded heights can then be converted to height classes as shown in Table 20.""" ;
+The recorded heights can then be converted to height classes as shown in Table 20."""@en ;
     skos:member
-        veg:height-0 ,
-        veg:height-1 ,
-        veg:height-10 ,
-        veg:height-2 ,
-        veg:height-3 ,
-        veg:height-4 ,
-        veg:height-5 ,
-        veg:height-6 ,
-        veg:height-7 ,
-        veg:height-8 ,
-        veg:height-9 ;
-    skos:prefLabel "Height" ;
+        :height-0 ,
+        :height-1 ,
+        :height-10 ,
+        :height-2 ,
+        :height-3 ,
+        :height-4 ,
+        :height-5 ,
+        :height-6 ,
+        :height-7 ,
+        :height-8 ,
+        :height-9 ;
+    skos:prefLabel "Height"@en ;
 .
 
-veg:growth-form-a10
+:growth-form-a10
     a skos:Concept ;
-    skos:broader veg:life-form-w ;
-    skos:definition "dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. (For convenience, may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hyper-saline. The code used (a1.0 or w) will depend on the particular emphases of the survey.)" ;
+    skos:broader :life-form-w ;
+    skos:definition "dicotyledonous or monocotyledonous plants growing for a significant portion of their life cycle in fresh or brackish water. (For convenience, may include various woody vegetation such as mangroves, eucalypt, melaleuca or other woody, periodically submerged vegetation, which span saline aquatic environments from brackish to hyper-saline. The code used (a1.0 or w) will depend on the particular emphases of the survey.)"@en ;
     skos:notation "a1.0" ;
-    skos:prefLabel "Aquatic higher plants" ;
+    skos:prefLabel "Aquatic higher plants"@en ;
 .
 
-veg:growth-form-a20
+:growth-form-a20
     a skos:Concept ;
-    skos:definition "genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the sub-tidal level and down to 30 m below mean sea level. Occasionally exposed." ;
+    skos:definition "genera and species of flowering angiosperms of the families Hydrocharitaceae and Potamogetonaceae, forming sparse to dense mats of material at the sub-tidal level and down to 30 m below mean sea level. Occasionally exposed."@en ;
     skos:notation "a2.0" ;
-    skos:prefLabel "Seagrass: marine" ;
+    skos:prefLabel "Seagrass: marine"@en ;
 .
 
-veg:growth-form-a30
+:growth-form-a30
     a skos:Concept ;
-    skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments." ;
+    skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in fresh or brackish aquatic environments."@en ;
     skos:notation "a3.0" ;
-    skos:prefLabel "Algae: fresh or brackish" ;
+    skos:prefLabel "Algae: fresh or brackish"@en ;
 .
 
-veg:growth-form-a40
+:growth-form-a40
     a skos:Concept ;
-    skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface-hugging layers to tall algal forests." ;
+    skos:definition "a member of the Chlorophyta, Cyanophyta, Phaeophyta or Rhodophyta living in marine environments. May range from thin surface-hugging layers to tall algal forests."@en ;
     skos:notation "a4.0" ;
-    skos:prefLabel "Algae: marine" ;
+    skos:prefLabel "Algae: marine"@en ;
 .
 
-veg:growth-form-b10
+:growth-form-b10
     a skos:Concept ;
-    skos:definition "soil, rock or water surfaces with less than 0.5% plant cover." ;
+    skos:definition "soil, rock or water surfaces with less than 0.5% plant cover."@en ;
     skos:notation "b1.0" ;
-    skos:prefLabel "Bare surface" ;
+    skos:prefLabel "Bare surface"@en ;
 .
 
-veg:growth-form-c10
+:growth-form-c10
     a skos:Concept ;
-    skos:definition "assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants." ;
+    skos:definition "assemblages of one or more species of minute plants at or within the surface of soil or rock. May consist of bryophytes, lichens, cyanobacteria, green algae and fungi; may in some cases include very small vascular plants."@en ;
     skos:notation "c1.0" ;
-    skos:prefLabel "Surface crusts" ;
+    skos:prefLabel "Surface crusts"@en ;
 .
 
-veg:growth-form-cryptogam
+:growth-form-cryptogam
     a skos:Concept ;
-    skos:definition "cryptogam refers collectively to lichens and bryophytes." ;
+    skos:definition "cryptogam refers collectively to lichens and bryophytes."@en ;
     skos:narrower
-        veg:growth-form-l10 ,
-        veg:growth-form-m10 ;
-    skos:prefLabel "Cryptogam" ;
+        :growth-form-l10 ,
+        :growth-form-m10 ;
+    skos:prefLabel "Cryptogam"@en ;
 .
 
-veg:growth-form-f10
+:growth-form-f10
     a skos:Concept ;
-    skos:definition "a member of the Division Pterophyta, i.e., ferns and fern allies. Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure." ;
+    skos:definition "a member of the Division Pterophyta, i.e., ferns and fern allies. Characterised by large and usually branched leaves (fronds); herbaceous and terrestrial to aquatic; spores in sporangia on the undersides of leaves. Tree ferns are classified with woody plants as they have the same vegetation structure."@en ;
     skos:notation "f1.0" ;
-    skos:prefLabel "Fern (excluding tree ferns)" ;
+    skos:prefLabel "Fern (excluding tree ferns)"@en ;
 .
 
-veg:growth-form-food
+:growth-form-food
     a skos:Concept ;
-    skos:definition "see Shrub: planted/cultivated (food) or Tree: planted/cultivated (food)." ;
+    skos:definition "see Shrub: planted/cultivated (food) or Tree: planted/cultivated (food)."@en ;
     skos:narrower
-        veg:growth-form-w13 ,
-        veg:growth-form-w34 ;
-    skos:prefLabel "Food" ;
+        :growth-form-w13 ,
+        :growth-form-w34 ;
+    skos:prefLabel "Food"@en ;
 .
 
-veg:growth-form-g10
+:growth-form-g10
     a skos:Concept ;
-    skos:definition "member of the family Poaceae." ;
+    skos:definition "member of the family Poaceae."@en ;
     skos:notation "g1.0" ;
-    skos:prefLabel "Grass" ;
+    skos:prefLabel "Grass"@en ;
 .
 
-veg:growth-form-g20
+:growth-form-g20
     a skos:Concept ;
-    skos:definition "coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa." ;
+    skos:definition "coarse xeromorphic grass with a mound-like form often dead in the middle; genera are Triodia, Plectrachne and Zygochloa."@en ;
     skos:notation "g2.0" ;
-    skos:prefLabel "Hummock grass" ;
+    skos:prefLabel "Hummock grass"@en ;
 .
 
-veg:growth-form-g30
+:growth-form-g30
     a skos:Concept ;
-    skos:definition "grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses." ;
+    skos:definition "grasses forming discrete but open tufts usually with distinct individual shoots. These include the common agricultural grasses."@en ;
     skos:notation "g3.0" ;
-    skos:prefLabel "Tussock grass" ;
+    skos:prefLabel "Tussock grass"@en ;
 .
 
-veg:growth-form-g40
+:growth-form-g40
     a skos:Concept ;
-    skos:definition "member of the Poaceae planted or cultivated for specific human uses, e.g. human or other animal food, lawn or other ground cover." ;
+    skos:definition "member of the Poaceae planted or cultivated for specific human uses, e.g. human or other animal food, lawn or other ground cover."@en ;
     skos:narrower
-        veg:growth-form-g41 ,
-        veg:growth-form-g42 ,
-        veg:growth-form-g43 ;
+        :growth-form-g41 ,
+        :growth-form-g42 ,
+        :growth-form-g43 ;
     skos:notation "g4.0" ;
-    skos:prefLabel "Grass: planted/cultivated" ;
+    skos:prefLabel "Grass: planted/cultivated"@en ;
 .
 
-veg:growth-form-g50
+:growth-form-g50
     a skos:Concept ;
-    skos:definition "herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges)." ;
+    skos:definition "herbaceous, usually perennial, erect plant generally with a tufted habit and of the families Cyperaceae (true sedges) or Restionaceae (node sedges)."@en ;
     skos:notation "g5.0" ;
-    skos:prefLabel "Sedge" ;
+    skos:prefLabel "Sedge"@en ;
 .
 
-veg:growth-form-g60
+:growth-form-g60
     a skos:Concept ;
-    skos:definition "herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. For the purpose of this chapter, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridaceae and the genus Lomandra, i.e., ‘graminoid’ or grass-like genera." ;
+    skos:definition "herbaceous, usually perennial, erect monocot that is neither a grass nor a sedge. For the purpose of this chapter, rushes include the monocotyledon families Juncaceae, Typhaceae, Liliaceae, Iridaceae, Xyridaceae and the genus Lomandra, i.e., ‘graminoid’ or grass-like genera."@en ;
     skos:notation "g6.0" ;
-    skos:prefLabel "Rush" ;
+    skos:prefLabel "Rush"@en ;
 .
 
-veg:growth-form-h10
+:growth-form-h10
     a skos:Concept ;
-    skos:definition "non-graminoid herbaceous plant." ;
+    skos:definition "non-graminoid herbaceous plant."@en ;
     skos:notation "h1.0" ;
-    skos:prefLabel "Forb" ;
+    skos:prefLabel "Forb"@en ;
 .
 
-veg:growth-form-h20
+:growth-form-h20
     a skos:Concept ;
-    skos:definition "herbaceous or slightly woody, annual or sometimes perennial plant (dicotyledon or monocotyledon)." ;
+    skos:definition "herbaceous or slightly woody, annual or sometimes perennial plant (dicotyledon or monocotyledon)."@en ;
     skos:narrower
-        veg:growth-form-h21 ,
-        veg:growth-form-h22 ,
-        veg:growth-form-h23 ,
-        veg:growth-form-h24 ;
+        :growth-form-h21 ,
+        :growth-form-h22 ,
+        :growth-form-h23 ,
+        :growth-form-h24 ;
     skos:notation "h2.0" ;
-    skos:prefLabel "Herb" ;
+    skos:prefLabel "Herb"@en ;
 .
 
-veg:growth-form-v10
+:growth-form-v10
     a skos:Concept ;
-    skos:definition "climbing, twining, winding or sprawling plants usually with a woody stem." ;
+    skos:definition "climbing, twining, winding or sprawling plants usually with a woody stem."@en ;
     skos:notation "v1.0" ;
-    skos:prefLabel "Vine" ;
+    skos:prefLabel "Vine"@en ;
 .
 
-veg:growth-form-w10
+:growth-form-w10
     a skos:Concept ;
-    skos:definition "woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs." ;
+    skos:definition "woody plant more than 2 m tall usually with a single stem, or branches well above the base; not always distinguishable from large shrubs."@en ;
     skos:narrower
-        veg:growth-form-w11 ,
-        veg:growth-form-w12 ,
-        veg:growth-form-w13 ,
-        veg:growth-form-w14 ;
+        :growth-form-w11 ,
+        :growth-form-w12 ,
+        :growth-form-w13 ,
+        :growth-form-w14 ;
     skos:notation "w1.0" ;
-    skos:prefLabel "Tree" ;
+    skos:prefLabel "Tree"@en ;
 .
 
-veg:growth-form-w20
+:growth-form-w20
     a skos:Concept ;
-    skos:definition "plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs." ;
+    skos:definition "plants with woody tissues. For the purposes of vegetation classification here, also those plants that achieve a growth form similar to that of woody plants (e.g. cycads, palms, tree ferns). Includes both trees and shrubs."@en ;
     skos:notation "w2.0" ;
-    skos:prefLabel "Woody plant (indeterminate tree or shrub)" ;
+    skos:prefLabel "Woody plant (indeterminate tree or shrub)"@en ;
 .
 
-veg:growth-form-w21
+:growth-form-w21
     a skos:Concept ;
-    skos:definition "any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber." ;
+    skos:definition "any of the eucalypt trees or shrubs with multiple stems arising from a lignotuber."@en ;
     skos:notation "w2.1" ;
-    skos:prefLabel "Mallee (tree or shrub)" ;
+    skos:prefLabel "Mallee (tree or shrub)"@en ;
 .
 
-veg:growth-form-w30
+:growth-form-w30
     a skos:Concept ;
-    skos:definition "woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees." ;
+    skos:definition "woody plant, multi-stemmed at the base (or within about 200 mm from ground level), or, if single-stemmed, less than about 5 m tall; not always readily distinguishable from small trees."@en ;
     skos:narrower
-        veg:growth-form-w31 ,
-        veg:growth-form-w32 ,
-        veg:growth-form-w33 ,
-        veg:growth-form-w34 ,
-        veg:growth-form-w35 ;
+        :growth-form-w31 ,
+        :growth-form-w32 ,
+        :growth-form-w33 ,
+        :growth-form-w34 ,
+        :growth-form-w35 ;
     skos:notation "w3.0" ;
-    skos:prefLabel "Shrub" ;
+    skos:prefLabel "Shrub"@en ;
 .
 
-veg:growthstage-advanced
+:growthstage-advanced
     a skos:Concept ;
     skos:definition """Trees dominant	- Dominated by dense to sparse, well-developed, immature plants. Large emergents can be present with crown cover <5% of the total crown cover. However, if the cover is >5%, classify as ‘uneven age’. Trees have well-developed stems (poles). Crowns have small branches. The height is below maximum height for the stand type. Apical dominance still apparent in vigorous trees.
 
@@ -533,12 +538,12 @@ Shrubs dominant	- Dominated by dense to sparse, well-developed but not mature pl
 
 Grasses and herbs dominant	- Vegetative growth abundant; plants approaching full mature size but reproductive material absent or in early stages only; soil surface largely obscured in average sites.
 
-Cryptogams dominant (mosses and lichens) - Cover of plants high for the site; some reproduction may be evident.""" ;
+Cryptogams dominant (mosses and lichens) - Cover of plants high for the site; some reproduction may be evident."""@en ;
     skos:notation "2" ;
-    skos:prefLabel "Advanced regeneration" ;
+    skos:prefLabel "Advanced regeneration"@en ;
 .
 
-veg:growthstage-early
+:growthstage-early
     a skos:Concept ;
     skos:definition """Trees dominant	- Dominated by small, juvenile, dense to very sparse regenerating plants, with or without a few older, widely spaced, emergent plants.	
 
@@ -546,12 +551,12 @@ Shrubs dominant	- Dominated by small, juvenile, dense to very sparse regeneratin
 
 Grasses and herbs dominant	- Plants small and juvenile stages predominate; bare soil or old litter common.	
 
-Cryptogams dominant (mosses and lichens) - Thin growth of young plants or widely spaced clumps of young plants.""" ;
+Cryptogams dominant (mosses and lichens) - Thin growth of young plants or widely spaced clumps of young plants."""@en ;
     skos:notation "1" ;
-    skos:prefLabel "Early regeneration" ;
+    skos:prefLabel "Early regeneration"@en ;
 .
 
-veg:growthstage-mature
+:growthstage-mature
     a skos:Concept ;
     skos:definition """Trees dominant	- Well-spaced mature-sized plants or densely packed plants with crowns touching, with or without emergent senescent plants. Trees at maximum height for the type and conditions. Crown at full lateral development in un-locked stands. No apical dominance.
 
@@ -559,12 +564,12 @@ Shrubs dominant	- May have well-spaced mature-sized plants, or have very densely
 
 Grasses and herbs dominant	- Most plants of reproductive age; depending on vegetation type, reproduction evident, or would be if environmental conditions were appropriate (e.g. water availability).
 
-Cryptogams dominant (mosses and lichens) - Swards of plants common; plants of mature physiognomy (clump sizes and forms); reproduction common at appropriate times of year or drought/rain cycle; overall health and vigour high.""" ;
+Cryptogams dominant (mosses and lichens) - Swards of plants common; plants of mature physiognomy (clump sizes and forms); reproduction common at appropriate times of year or drought/rain cycle; overall health and vigour high."""@en ;
     skos:notation "4" ;
-    skos:prefLabel "Mature phase" ;
+    skos:prefLabel "Mature phase"@en ;
 .
 
-veg:growthstage-senescent
+:growthstage-senescent
     a skos:Concept ;
     skos:definition """Trees dominant	- Dominated by over-mature plants particularly in the dominant stratum; evidence of senescence in many plants, some without obvious links to disturbance. Tree crowns show signs of contracting: dead branches and decreased crown diameter and leaf area. Distorted branches and burls may be common. Dead trees may be present.
 
@@ -572,12 +577,12 @@ Shrubs dominant	- Dominated by old plants (thick stems and primary branches, cro
 
 Grasses and herbs dominant	- In largely annual vegetation, reproduction is complete and plants are dying or mostly dead; in perennial vegetation, plants have lost vigour, are breaking down; large areas of soil are exposed. Litter accumulation may be high.
 
-Cryptogams dominant (mosses and lichens) - Clear evidence of the degeneration of plants or clumps; dead older parts of plants may be conspicuous.""" ;
+Cryptogams dominant (mosses and lichens) - Clear evidence of the degeneration of plants or clumps; dead older parts of plants may be conspicuous."""@en ;
     skos:notation "5" ;
-    skos:prefLabel "Senescent phase" ;
+    skos:prefLabel "Senescent phase"@en ;
 .
 
-veg:growthstage-uneven
+:growthstage-uneven
     a skos:Concept ;
     skos:definition """Trees dominant	- Mixed size and age classes, usually identified by two or more strata dominated by the same species, but can also be sites with different species regenerating in the understorey of an older canopy.
 
@@ -585,337 +590,337 @@ Shrubs dominant	- Mixed size and age classes; usually two or more strata dominat
 
 Grasses and herbs dominant	- A mixture of mature, perennial and immature annual species present on site.
 
-Cryptogams dominant (mosses and lichens) - A mixture of mature reproductive plants with immature regeneration.""" ;
+Cryptogams dominant (mosses and lichens) - A mixture of mature reproductive plants with immature regeneration."""@en ;
     skos:notation "3" ;
-    skos:prefLabel "Uneven age" ;
+    skos:prefLabel "Uneven age"@en ;
 .
 
-veg:height-0
+:height-0
     a skos:Concept ;
-    skos:definition "<0.05 m" ;
+    skos:definition "<0.05 m"@en ;
     skos:notation "0" ;
-    skos:prefLabel "Dwarf (nw)" ;
+    skos:prefLabel "Dwarf (nw)"@en ;
 .
 
-veg:height-1
+:height-1
     a skos:Concept ;
-    skos:definition "0.05-0.25 m" ;
+    skos:definition "0.05-0.25 m"@en ;
     skos:notation "1" ;
     skos:prefLabel """Micro (w)
-Medium (nw)""" ;
+Medium (nw)"""@en ;
 .
 
-veg:height-10
+:height-10
     a skos:Concept ;
-    skos:definition ">50.01 m" ;
+    skos:definition ">50.01 m"@en ;
     skos:notation "10" ;
-    skos:prefLabel "Giant (w)" ;
+    skos:prefLabel "Giant (w)"@en ;
 .
 
-veg:height-2
+:height-2
     a skos:Concept ;
-    skos:definition "0.26-0.5 m" ;
+    skos:definition "0.26-0.5 m"@en ;
     skos:notation "2" ;
     skos:prefLabel """Miniature (w)
-Tall (nw)""" ;
+Tall (nw)"""@en ;
 .
 
-veg:height-3
+:height-3
     a skos:Concept ;
-    skos:definition "0.51–1 m" ;
+    skos:definition "0.51–1 m"@en ;
     skos:notation "3" ;
     skos:prefLabel """Miniature (w)
-Tall (nw)""" ;
+Tall (nw)"""@en ;
 .
 
-veg:height-4
+:height-4
     a skos:Concept ;
-    skos:definition "1.01–2 m" ;
+    skos:definition "1.01–2 m"@en ;
     skos:notation "4" ;
     skos:prefLabel """Dwarf (w)
-Very tall (nw)""" ;
+Very tall (nw)"""@en ;
 .
 
-veg:height-5
+:height-5
     a skos:Concept ;
-    skos:definition "2.01–5 m" ;
+    skos:definition "2.01–5 m"@en ;
     skos:notation "5" ;
     skos:prefLabel """Low (w)
-Extermely tall (nw)""" ;
+Extermely tall (nw)"""@en ;
 .
 
-veg:height-6
+:height-6
     a skos:Concept ;
-    skos:definition "5.01–10 m" ;
+    skos:definition "5.01–10 m"@en ;
     skos:notation "6" ;
     skos:prefLabel """Medium (w)
-Giant (nw)""" ;
+Giant (nw)"""@en ;
 .
 
-veg:height-7
+:height-7
     a skos:Concept ;
-    skos:definition "10.01–20 m" ;
+    skos:definition "10.01–20 m"@en ;
     skos:notation "7" ;
-    skos:prefLabel "Tall (w)" ;
+    skos:prefLabel "Tall (w)"@en ;
 .
 
-veg:height-8
+:height-8
     a skos:Concept ;
-    skos:definition "20.01–35 m" ;
+    skos:definition "20.01–35 m"@en ;
     skos:notation "8" ;
-    skos:prefLabel "Very tall (w)" ;
+    skos:prefLabel "Very tall (w)"@en ;
 .
 
-veg:height-9
+:height-9
     a skos:Concept ;
-    skos:definition "35.01–50 m" ;
+    skos:definition "35.01–50 m"@en ;
     skos:notation "9" ;
-    skos:prefLabel "Extremely tall (w)" ;
+    skos:prefLabel "Extremely tall (w)"@en ;
 .
 
-veg:indicator-growthform-fanpalm
+:indicator-growthform-fanpalm
     a skos:Concept ;
-    skos:definition "Forests in which fan palms (palms with branches spreading out in a fan shape, for example Licuala or Livistona) form a dense/closed stratum (80–100% crown cover) below the tallest stratum. If they form a closed stratum within the upper stratum, it would be registered as the third example in the section ‘Coding tropical/subtropical rainforests’ below" ;
+    skos:definition "Forests in which fan palms (palms with branches spreading out in a fan shape, for example Licuala or Livistona) form a dense/closed stratum (80–100% crown cover) below the tallest stratum. If they form a closed stratum within the upper stratum, it would be registered as the third example in the section ‘Coding tropical/subtropical rainforests’ below"@en ;
     skos:notation "3" ;
-    skos:prefLabel "Fan palm" ;
+    skos:prefLabel "Fan palm"@en ;
 .
 
-veg:indicator-growthform-featherpalm
+:indicator-growthform-featherpalm
     a skos:Concept ;
-    skos:definition "Forests in which feather palms (palms, such as coconut palms, with narrow long leaves that appear feather-like from a distance) form a dense/closed (80–100% crown cover) understorey stratum." ;
+    skos:definition "Forests in which feather palms (palms, such as coconut palms, with narrow long leaves that appear feather-like from a distance) form a dense/closed (80–100% crown cover) understorey stratum."@en ;
     skos:notation "4" ;
-    skos:prefLabel "Feather palm" ;
+    skos:prefLabel "Feather palm"@en ;
 .
 
-veg:indicator-growthform-fern
+:indicator-growthform-fern
     a skos:Concept ;
-    skos:definition "Tree ferns form a dense/closed (80–100% crown cover) and discrete understorey stratum." ;
+    skos:definition "Tree ferns form a dense/closed (80–100% crown cover) and discrete understorey stratum."@en ;
     skos:notation "2" ;
-    skos:prefLabel "Fern" ;
+    skos:prefLabel "Fern"@en ;
 .
 
-veg:indicator-growthform-moss
+:indicator-growthform-moss
     a skos:Concept ;
-    skos:definition "Forests in which mosses and lichens almost completely replace vascular epiphytes and vines on the trunks and in the crowns." ;
+    skos:definition "Forests in which mosses and lichens almost completely replace vascular epiphytes and vines on the trunks and in the crowns."@en ;
     skos:notation "1" ;
-    skos:prefLabel "Moss" ;
+    skos:prefLabel "Moss"@en ;
 .
 
-veg:indicator-growthform-none
+:indicator-growthform-none
     a skos:Concept ;
-    skos:definition "If none of the five growth forms above reaches the required level of dominance nominated, the description should record no dominant indicator growth form." ;
+    skos:definition "If none of the five growth forms above reaches the required level of dominance nominated, the description should record no dominant indicator growth form."@en ;
     skos:notation "6" ;
-    skos:prefLabel "Vine" ;
+    skos:prefLabel "Vine"@en ;
 .
 
-veg:indicator-growthform-vine
+:indicator-growthform-vine
     a skos:Concept ;
-    skos:definition "Forests in which vines or twining or scrambling plants drape at least 60% of the tallest stratum and emergent trees. " ;
+    skos:definition "Forests in which vines or twining or scrambling plants drape at least 60% of the tallest stratum and emergent trees. "@en ;
     skos:notation "5" ;
-    skos:prefLabel "Vine" ;
+    skos:prefLabel "Vine"@en ;
 .
 
-veg:leafsize-macrophyll
+:leafsize-macrophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 macro	
 
-Percentage of individuals in tallest stratum with specified leaf size: >50% macro""" ;
+Percentage of individuals in tallest stratum with specified leaf size: >50% macro"""@en ;
     skos:notation "1" ;
-    skos:prefLabel "Macrophyll" ;
+    skos:prefLabel "Macrophyll"@en ;
 .
 
-veg:leafsize-macrophyll-mesophyll
+:leafsize-macrophyll-mesophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 macro and 1-4 meso
 
-Percentage of individuals in tallest stratum with specified leaf size: 30-50% macro and 10-40% meso""" ;
+Percentage of individuals in tallest stratum with specified leaf size: 30-50% macro and 10-40% meso"""@en ;
     skos:notation "2" ;
-    skos:prefLabel "Macrophyll-mesophyll" ;
+    skos:prefLabel "Macrophyll-mesophyll"@en ;
 .
 
-veg:leafsize-mesophyll
+:leafsize-mesophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 meso
 
-Percentage of individuals in tallest stratum with specified leaf size: >50% meso""" ;
+Percentage of individuals in tallest stratum with specified leaf size: >50% meso"""@en ;
     skos:notation "3" ;
-    skos:prefLabel "Mesophyll" ;
+    skos:prefLabel "Mesophyll"@en ;
 .
 
-veg:leafsize-mesophyll-notophyll
+:leafsize-mesophyll-notophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >3-5 meso and 1-4 noto
 
-Percentage of individuals in tallest stratum with specified leaf size: 30-50% meso and 10-40% noto""" ;
+Percentage of individuals in tallest stratum with specified leaf size: 30-50% meso and 10-40% noto"""@en ;
     skos:notation "4" ;
-    skos:prefLabel "Mesophyll-notophyll" ;
+    skos:prefLabel "Mesophyll-notophyll"@en ;
 .
 
-veg:leafsize-microphyll
+:leafsize-microphyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 micro
 
-Percentage of individuals in tallest stratum with specified leaf size: >50% micro""" ;
+Percentage of individuals in tallest stratum with specified leaf size: >50% micro"""@en ;
     skos:notation "7" ;
-    skos:prefLabel "Microphyll" ;
+    skos:prefLabel "Microphyll"@en ;
 .
 
-veg:leafsize-microphyll-nanophyll
+:leafsize-microphyll-nanophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 micro and 1-4 nano
 
-Percentage of individuals in tallest stratum with specified leaf size: 30-50% micro and 10-40% nano""" ;
+Percentage of individuals in tallest stratum with specified leaf size: 30-50% micro and 10-40% nano"""@en ;
     skos:notation "8" ;
-    skos:prefLabel "Microphyll-nanophyll" ;
+    skos:prefLabel "Microphyll-nanophyll"@en ;
 .
 
-veg:leafsize-nanophyll
+:leafsize-nanophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 nano
 
-Percentage of individuals in tallest stratum with specified leaf size: >50% nano""" ;
+Percentage of individuals in tallest stratum with specified leaf size: >50% nano"""@en ;
     skos:notation "9" ;
-    skos:prefLabel "Nanophyll" ;
+    skos:prefLabel "Nanophyll"@en ;
 .
 
-veg:leafsize-notophyll
+:leafsize-notophyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: >5 noto
 
-Percentage of individuals in tallest stratum with specified leaf size: >50% noto""" ;
+Percentage of individuals in tallest stratum with specified leaf size: >50% noto"""@en ;
     skos:notation "5" ;
-    skos:prefLabel "Notophyll" ;
+    skos:prefLabel "Notophyll"@en ;
 .
 
-veg:leafsize-notophyll-microphyll
+:leafsize-notophyll-microphyll
     a skos:Concept ;
     skos:definition """Number of individual trees (maximum 10) with specified leaf sizes	: 3-5 noto and 1-4 micro
 
-Percentage of individuals in tallest stratum with specified leaf size: 30-50% noto and 10-40% micro""" ;
+Percentage of individuals in tallest stratum with specified leaf size: 30-50% noto and 10-40% micro"""@en ;
     skos:notation "6" ;
-    skos:prefLabel "Notophyll-microphyll" ;
+    skos:prefLabel "Notophyll-microphyll"@en ;
 .
 
-veg:life-form
+:life-form
     a
         skos:Collection ,
         sosa:ObservableProperty ;
-    skos:definition "Life form describes what a plant looks like. At the most general level of classification, formations, there are only two life forms: " ;
+    skos:definition "Life form describes what a plant looks like. At the most general level of classification, formations, there are only two life forms: "@en ;
     skos:member
-        veg:life-form-nw ,
-        veg:life-form-w ;
-    skos:prefLabel "Life form" ;
+        :life-form-nw ,
+        :life-form-w ;
+    skos:prefLabel "Life form"@en ;
 .
 
-veg:life-form-nw
+:life-form-nw
     a skos:Concept ;
-    skos:definition "All other plants with little or no woody tissue are classified as non-woody including annuals, grasses, grass-like plants, forbs, crusts, bryophytes and algae." ;
+    skos:definition "All other plants with little or no woody tissue are classified as non-woody including annuals, grasses, grass-like plants, forbs, crusts, bryophytes and algae."@en ;
     skos:notation "nw" ;
-    skos:prefLabel "non-woody plants" ;
+    skos:prefLabel "non-woody plants"@en ;
 .
 
-veg:maximum-height
+:maximum-height
     a skos:Concept ;
-    skos:prefLabel "Maximum height" ;
+    skos:prefLabel "Maximum height"@en ;
 .
 
-veg:median-height
+:median-height
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    skos:prefLabel "Median height" ;
+    skos:prefLabel "Median height"@en ;
 .
 
-veg:montane
+:montane
     a skos:Concept ;
-    skos:definition "Low forests dominated by Athrotaxis cupressoides and less commonly by A. selaginoides. The canopy is usually open with widely spaced trees, though dense clumps may occur. The understorey is dominated by low shrubs, grasses or mosses (Sphagnum). Shrub heights range from half to two-thirds the height of the canopy. Woody species diversity is relatively high." ;
+    skos:definition "Low forests dominated by Athrotaxis cupressoides and less commonly by A. selaginoides. The canopy is usually open with widely spaced trees, though dense clumps may occur. The understorey is dominated by low shrubs, grasses or mosses (Sphagnum). Shrub heights range from half to two-thirds the height of the canopy. Woody species diversity is relatively high."@en ;
     skos:notation
         "5Sw1.1 /4Mw3.0 /0Dm1.0" ,
         "M" ;
-    skos:prefLabel "Montane" ;
+    skos:prefLabel "Montane"@en ;
 .
 
-veg:myrtle-beech
+:myrtle-beech
     a skos:Concept ;
     skos:narrower
-        veg:myrtle-beech-callidendrous ,
-        veg:myrtle-beech-implicate ,
-        veg:myrtle-beech-thamnic ;
-    skos:prefLabel "Myrtle-beech" ;
+        :myrtle-beech-callidendrous ,
+        :myrtle-beech-implicate ,
+        :myrtle-beech-thamnic ;
+    skos:prefLabel "Myrtle-beech"@en ;
 .
 
-veg:myrtle-beech-callidendrous
+:myrtle-beech-callidendrous
     a skos:Concept ;
-    skos:definition "Medium to tall forest dominated by Nothofagus cunninghamii and/or Atherosperma moschatum. Trees well formed and widely spaced; understorey open, shady and park-like. Low diversity of woody species, which are sparse and inconspicuous in the understorey of most communities." ;
+    skos:definition "Medium to tall forest dominated by Nothofagus cunninghamii and/or Atherosperma moschatum. Trees well formed and widely spaced; understorey open, shady and park-like. Low diversity of woody species, which are sparse and inconspicuous in the understorey of most communities."@en ;
     skos:notation
         "6–7Dw1.1" ,
         "C" ;
-    skos:prefLabel "Callidendrous" ;
+    skos:prefLabel "Callidendrous"@en ;
 .
 
-veg:myrtle-beech-implicate
+:myrtle-beech-implicate
     a skos:Concept ;
-    skos:definition "Low forest, with broken uneven canopies. Dominance is usually shared by several species including Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Phyllocladus aspelniifolius, Athrotaxis selaginoides, Lagerostrobus franklinii, Diselma archeri, Leptospermum nitidum, L. glaucescens, L. scoparium, L. lanigerum, Melaleuca squarrosa and Acacia mucronata. The understorey is tangled and mostly forms a continuous layer from the ground to the canopy; emergents may be present. Species diversity is relatively high for trees and shrubs." ;
+    skos:definition "Low forest, with broken uneven canopies. Dominance is usually shared by several species including Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Phyllocladus aspelniifolius, Athrotaxis selaginoides, Lagerostrobus franklinii, Diselma archeri, Leptospermum nitidum, L. glaucescens, L. scoparium, L. lanigerum, Melaleuca squarrosa and Acacia mucronata. The understorey is tangled and mostly forms a continuous layer from the ground to the canopy; emergents may be present. Species diversity is relatively high for trees and shrubs."@en ;
     skos:notation
         "(E) /5Mw1.1 /4Sw3.0" ,
         "I" ;
-    skos:prefLabel "Implicate" ;
+    skos:prefLabel "Implicate"@en ;
 .
 
-veg:myrtle-beech-thamnic
+:myrtle-beech-thamnic
     a skos:Concept ;
-    skos:definition "Medium height forest dominated by two to five species, mostly of: Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Atherosperma moschatum, Phyllocladus aspelniifolius, Lagerostrobus franklinii and Athrotaxis selaginoides. Trees well formed; a distinct shrub layer present." ;
+    skos:definition "Medium height forest dominated by two to five species, mostly of: Nothofagus cunninghamii, N. gunnii (rarely), Eucryphia lucida, E. milliganii, Atherosperma moschatum, Phyllocladus aspelniifolius, Lagerostrobus franklinii and Athrotaxis selaginoides. Trees well formed; a distinct shrub layer present."@en ;
     skos:notation
         "6Mw1.1 /5Mw3.0" ,
         "T" ;
-    skos:prefLabel "Thamnic" ;
+    skos:prefLabel "Thamnic"@en ;
 .
 
-veg:rainforest-tasmanian
+:rainforest-tasmanian
     a skos:Collection ;
     skos:definition """Tasmanian rainforests can be sampled using the standard classification in the first part of these guidelines. However, a method widely in use in Tasmania classifies rainforest based on the work of Jarman et al. (1991) and Reid et al. (1999). This system uses a combination of floristics and structure that can be coded into the NVIS vegetation hierarchy at Level IV (Table 16).
 
-The system divides Tasmanian rainforests into two alliances: myrtle-beech and montane rainforest. Myrtle-beech is the most widespread. Although recognised as comprising a continuum, it is divided into three sub-alliances: callidendrous, thamnic and implicate. The characteristics of these four units are presented in Table 27.""" ;
-    skos:member veg:rainforest-tasmanian-classification ;
-    skos:prefLabel "Tasmanian rainforests" ;
+The system divides Tasmanian rainforests into two alliances: myrtle-beech and montane rainforest. Myrtle-beech is the most widespread. Although recognised as comprising a continuum, it is divided into three sub-alliances: callidendrous, thamnic and implicate. The characteristics of these four units are presented in Table 27."""@en ;
+    skos:member :rainforest-tasmanian-classification ;
+    skos:prefLabel "Tasmanian rainforests"@en ;
 .
 
-veg:rainforest-tasmanian-classification
+:rainforest-tasmanian-classification
     a
         skos:Collection ,
         sosa:ObservableProperty ;
     skos:member
-        veg:montane ,
-        veg:myrtle-beech ;
-    skos:prefLabel "Tasmanian rainforest classification" ;
+        :montane ,
+        :myrtle-beech ;
+    skos:prefLabel "Tasmanian rainforest classification"@en ;
 .
 
-veg:rainforest-tropical
+:rainforest-tropical
     a skos:Collection ;
-    skos:definition "Australian tropical rainforests are situated above 18 latitude while subtropical rainforests are approximately between 18 and 33 latitudes." ;
+    skos:definition "Australian tropical rainforests are situated above 18 latitude while subtropical rainforests are approximately between 18 and 33 latitudes."@en ;
     skos:member
-        veg:rainforest-tropical-complexity ,
-        veg:rainforest-tropical-emergents ,
-        veg:rainforest-tropical-indicator-growthform ,
-        veg:rainforest-tropical-leafsize ,
-        veg:rainforest-tropical-sclerophylldominant ,
-        veg:rainforest-tropical-species ;
-    skos:prefLabel "Tropical and subtropical rainforests" ;
+        :rainforest-tropical-complexity ,
+        :rainforest-tropical-emergents ,
+        :rainforest-tropical-indicator-growthform ,
+        :rainforest-tropical-leafsize ,
+        :rainforest-tropical-sclerophylldominant ,
+        :rainforest-tropical-species ;
+    skos:prefLabel "Tropical and subtropical rainforests"@en ;
 .
 
-veg:rainforest-tropical-complexity
+:rainforest-tropical-complexity
     a
         skos:Collection ,
         sosa:ObservableProperty ;
-    skos:definition "Tropical and subtropical rainforests of eastern Australia are classified as simple, simple–complex or complex depending on their structural complexity." ;
+    skos:definition "Tropical and subtropical rainforests of eastern Australia are classified as simple, simple–complex or complex depending on their structural complexity."@en ;
     skos:member
-        veg:complexity-complex ,
-        veg:complexity-simple ,
-        veg:complexity-simple-complex ;
-    skos:prefLabel "Tropical rainforest complexity" ;
+        :complexity-complex ,
+        :complexity-simple ,
+        :complexity-simple-complex ;
+    skos:prefLabel "Tropical rainforest complexity"@en ;
 .
 
-veg:rainforest-tropical-emergents
+:rainforest-tropical-emergents
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -925,14 +930,14 @@ Record the genus and, if possible, species of emergents followed by the word ‘
 
 Emergents are usually identified visually by experienced workers, but are confirmed by actual records of cover.
 
-The crown cover of emergents may exceed 5% of the total crown cover in some instances. For example, in some forest stands Araucaria trees emerge above a closed rainforest canopy with their crown cover exceeding 5% of the total crown cover in some places. These patches should not be classified as separate vegetation types.""" ;
+The crown cover of emergents may exceed 5% of the total crown cover in some instances. For example, in some forest stands Araucaria trees emerge above a closed rainforest canopy with their crown cover exceeding 5% of the total crown cover in some places. These patches should not be classified as separate vegetation types."""@en ;
     skos:member
-        veg:emergent-non-sclerophyll ,
-        veg:emergent-sclerophyll ;
-    skos:prefLabel "Tropical rainforest emergents" ;
+        :emergent-non-sclerophyll ,
+        :emergent-sclerophyll ;
+    skos:prefLabel "Tropical rainforest emergents"@en ;
 .
 
-veg:rainforest-tropical-indicator-growthform
+:rainforest-tropical-indicator-growthform
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -940,18 +945,18 @@ veg:rainforest-tropical-indicator-growthform
 
 Record the growth form name or code as follows.
 
-These terms are inserted before or within the structural formation class: for example ‘tall sparse fern forest’; ‘very tall closed fan palm forest’; ‘low closed vine shrubland’; ‘tall closed feather palm forest’.""" ;
+These terms are inserted before or within the structural formation class: for example ‘tall sparse fern forest’; ‘very tall closed fan palm forest’; ‘low closed vine shrubland’; ‘tall closed feather palm forest’."""@en ;
     skos:member
-        veg:indicator-growthform-fanpalm ,
-        veg:indicator-growthform-featherpalm ,
-        veg:indicator-growthform-fern ,
-        veg:indicator-growthform-moss ,
-        veg:indicator-growthform-none ,
-        veg:indicator-growthform-vine ;
-    skos:prefLabel "Tropical rainforest indicator growth form" ;
+        :indicator-growthform-fanpalm ,
+        :indicator-growthform-featherpalm ,
+        :indicator-growthform-fern ,
+        :indicator-growthform-moss ,
+        :indicator-growthform-none ,
+        :indicator-growthform-vine ;
+    skos:prefLabel "Tropical rainforest indicator growth form"@en ;
 .
 
-veg:rainforest-tropical-leafsize
+:rainforest-tropical-leafsize
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -964,522 +969,537 @@ The forest is described using one of nine terms depending on the proportion of i
 •	Only leaves that are exposed to the sun should be considered. Because these leaves are usually at the top of a tree, a shotgun or catapult may be necessary. An alternative is to locate recently fallen leaves on the ground.
 •	Leaves of palms, aroids and vines should not be considered.
 •	The size of the leaflet of a compound leaf should be considered.
-Two possible, but unlikely, combinations of leaf sizes cannot be described adequately by this scheme. If all leaf sizes are represented equally (20% each), the forest should be described as notophyll. If any three size classes are represented equally (for example 30% macrophyll, 30% mesophyll and 30% notophyll), the intermediate leaf size term mesophyll should be selected.""" ;
+Two possible, but unlikely, combinations of leaf sizes cannot be described adequately by this scheme. If all leaf sizes are represented equally (20% each), the forest should be described as notophyll. If any three size classes are represented equally (for example 30% macrophyll, 30% mesophyll and 30% notophyll), the intermediate leaf size term mesophyll should be selected."""@en ;
     skos:member
-        veg:leafsize-macrophyll ,
-        veg:leafsize-macrophyll-mesophyll ,
-        veg:leafsize-mesophyll ,
-        veg:leafsize-mesophyll-notophyll ,
-        veg:leafsize-microphyll ,
-        veg:leafsize-microphyll-nanophyll ,
-        veg:leafsize-nanophyll ,
-        veg:leafsize-notophyll ,
-        veg:leafsize-notophyll-microphyll ;
-    skos:prefLabel "Tropical rainforest leaf size" ;
+        :leafsize-macrophyll ,
+        :leafsize-macrophyll-mesophyll ,
+        :leafsize-mesophyll ,
+        :leafsize-mesophyll-notophyll ,
+        :leafsize-microphyll ,
+        :leafsize-microphyll-nanophyll ,
+        :leafsize-nanophyll ,
+        :leafsize-notophyll ,
+        :leafsize-notophyll-microphyll ;
+    skos:prefLabel "Tropical rainforest leaf size"@en ;
 .
 
-veg:rainforest-tropical-sclerophylldominant
+:rainforest-tropical-sclerophylldominant
     a skos:Collection ;
-    skos:definition "Record the presence of any sclerophyll genera. Common sclerophyll genera are Eucalyptus, Corymbia, Acacia, Syncarpia, Casuarina, Allocasuarina, Lophostemon, Tristaniopsis and Melaleuca. In this rainforest schema, Agathis, Podocarpus and Araucaria are not classed as sclerophyll. " ;
-    skos:member veg:sclerophyll-present ;
-    skos:prefLabel "Sclerophyll species in dominant stratum " ;
+    skos:definition "Record the presence of any sclerophyll genera. Common sclerophyll genera are Eucalyptus, Corymbia, Acacia, Syncarpia, Casuarina, Allocasuarina, Lophostemon, Tristaniopsis and Melaleuca. In this rainforest schema, Agathis, Podocarpus and Araucaria are not classed as sclerophyll. "@en ;
+    skos:member :sclerophyll-present ;
+    skos:prefLabel "Sclerophyll species in dominant stratum "@en ;
 .
 
-veg:rainforest-tropical-species
+:rainforest-tropical-species
     a
         skos:Collection ,
         sosa:ObservableProperty ;
     skos:definition """The type of rainforest is named after the most abundant species of the dominant stratum, using the following system.
 
-Many rainforest species occur in clusters of five or six trees. Care should be taken to ensure that the species of the tallest stratum are found over a much wider area than a few trees if the species qualifications are used.""" ;
+Many rainforest species occur in clusters of five or six trees. Care should be taken to ensure that the species of the tallest stratum are found over a much wider area than a few trees if the species qualifications are used."""@en ;
     skos:member
-        veg:species-mixed ,
-        veg:species-mixed-plus-one-species ,
-        veg:species-one-or-two-species ;
-    skos:prefLabel "Tropical rainforest species" ;
+        :species-mixed ,
+        :species-mixed-plus-one-species ,
+        :species-one-or-two-species ;
+    skos:prefLabel "Tropical rainforest species"@en ;
 .
 
-veg:sclerophyll-present
+:sclerophyll-present
     a skos:Concept ;
-    skos:definition "If sclerophyll species (defined above) are present in the dominant stratum, these should be recorded by adding the qualifying term ‘and sclerophylls’. If the sclerophylls can be identified, ‘sclerophyll’ should be replaced by the specific, generic or common name (for example ‘and wattles’). Where sclerophyll species are 50% of the crown cover of the canopy, this will have been recorded previously and need not be repeated." ;
+    skos:definition "If sclerophyll species (defined above) are present in the dominant stratum, these should be recorded by adding the qualifying term ‘and sclerophylls’. If the sclerophylls can be identified, ‘sclerophyll’ should be replaced by the specific, generic or common name (for example ‘and wattles’). Where sclerophyll species are 50% of the crown cover of the canopy, this will have been recorded previously and need not be repeated."@en ;
     skos:notation "S" ;
-    skos:prefLabel "Sclerophyll species present" ;
+    skos:prefLabel "Sclerophyll species present"@en ;
 .
 
-veg:species-mixed
+:species-mixed
     a skos:Concept ;
-    skos:definition "No one or two species combined make 50% or more of the crown cover in the tallest stratum." ;
+    skos:definition "No one or two species combined make 50% or more of the crown cover in the tallest stratum."@en ;
     skos:notation "M" ;
-    skos:prefLabel "Mixed" ;
+    skos:prefLabel "Mixed"@en ;
 .
 
-veg:species-mixed-plus-one-species
+:species-mixed-plus-one-species
     a skos:Concept ;
-    skos:definition "Although no species or two species combined make up 50% of the crown cover of the dominant stratum, one species (the one species nominated) is conspicuously abundant. As above, common, generic or specific names can be used except for feather or fan palms (for example Mixed Booyong; Mixed Argyrodendron; Mixed Argyrodendron trifoliolatum or ARTRI). This floristic term can be used to nominate species of particular indicator value to the user." ;
+    skos:definition "Although no species or two species combined make up 50% of the crown cover of the dominant stratum, one species (the one species nominated) is conspicuously abundant. As above, common, generic or specific names can be used except for feather or fan palms (for example Mixed Booyong; Mixed Argyrodendron; Mixed Argyrodendron trifoliolatum or ARTRI). This floristic term can be used to nominate species of particular indicator value to the user."@en ;
     skos:notation "X" ;
-    skos:prefLabel "Mixed plus one species" ;
+    skos:prefLabel "Mixed plus one species"@en ;
 .
 
-veg:species-one-or-two-species
+:species-one-or-two-species
     a skos:Concept ;
-    skos:definition "The one or two species described constitute 50% or more of the crown cover of the tallest stratum. Common, generic or specific names can be used (for example Coachwood–crabapple; Ceratopetalum–Schizomeria; Ceratopetalum apetalum – Schizomeria ovata). Use species name abbreviations for coding (for example CEAPE.SCOVA) except for fan or feather palms, which should not be used as common names because they are used to denote structural features (see ‘Indicator growth forms’ below). Include sclerophyll species if they constitute 50% or more of the crown cover of the tallest stratum." ;
+    skos:definition "The one or two species described constitute 50% or more of the crown cover of the tallest stratum. Common, generic or specific names can be used (for example Coachwood–crabapple; Ceratopetalum–Schizomeria; Ceratopetalum apetalum – Schizomeria ovata). Use species name abbreviations for coding (for example CEAPE.SCOVA) except for fan or feather palms, which should not be used as common names because they are used to denote structural features (see ‘Indicator growth forms’ below). Include sclerophyll species if they constitute 50% or more of the crown cover of the tallest stratum."@en ;
     skos:notation "S" ;
-    skos:prefLabel "One or two species description" ;
+    skos:prefLabel "One or two species description"@en ;
 .
 
-veg:stratum-E
+:stratum-E
     a skos:Concept ;
-    skos:definition "The tallest plants in some vegetation are so sparse that they no longer form the dominant or most significant layer. For example, a few tall Araucaria or Eucalyptus trees may rise above a closed rainforest canopy, or widely scattered eucalypts or acacias may rise above lower shrubs or grasses in semiarid regions. The tallest stratum is then classified as an ‘emergent layer’ (see the later section ‘Emergents’ on page xx for definition and discussion) and the dominant layer on which the vegetation will be classified is usually the next tallest layer." ;
+    skos:definition "The tallest plants in some vegetation are so sparse that they no longer form the dominant or most significant layer. For example, a few tall Araucaria or Eucalyptus trees may rise above a closed rainforest canopy, or widely scattered eucalypts or acacias may rise above lower shrubs or grasses in semiarid regions. The tallest stratum is then classified as an ‘emergent layer’ (see the later section ‘Emergents’ on page xx for definition and discussion) and the dominant layer on which the vegetation will be classified is usually the next tallest layer."@en ;
     skos:notation "E" ;
-    skos:prefLabel "Emergent" ;
-    skos:related veg:emergents ;
+    skos:prefLabel "Emergent"@en ;
+    skos:related :emergents ;
 .
 
-veg:stratum-G
+:stratum-G
     a skos:Concept ;
-    skos:definition "can also be the dominant stratum, for example in places where grass cover is closed and trees are very sparse. There is no mandatory height limit on the ground layer, but it is usually less than 2.0 m tall. " ;
+    skos:definition "can also be the dominant stratum, for example in places where grass cover is closed and trees are very sparse. There is no mandatory height limit on the ground layer, but it is usually less than 2.0 m tall. "@en ;
     skos:notation "G" ;
-    skos:prefLabel "Ground stratum" ;
+    skos:prefLabel "Ground stratum"@en ;
 .
 
-veg:stratum-M
+:stratum-M
     a skos:Concept ;
-    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)." ;
+    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
     skos:narrower
-        veg:stratum-M1 ,
-        veg:stratum-M2 ;
+        :stratum-M1 ,
+        :stratum-M2 ;
     skos:notation "M" ;
-    skos:prefLabel "Mid-stratum" ;
+    skos:prefLabel "Mid-stratum"@en ;
 .
 
-veg:stratum-M1
+:stratum-M1
     a skos:Concept ;
-    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)." ;
+    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
     skos:notation "M1" ;
-    skos:prefLabel "Mid-stratum 1" ;
+    skos:prefLabel "Mid-stratum 1"@en ;
 .
 
-veg:stratum-M2
+:stratum-M2
     a skos:Concept ;
-    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)." ;
+    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
     skos:notation "M2" ;
-    skos:prefLabel "Mid-stratum 2" ;
+    skos:prefLabel "Mid-stratum 2"@en ;
 .
 
-veg:stratum-U
+:stratum-U
     a skos:Concept ;
-    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)." ;
+    skos:definition "contains the plants with the greatest above-ground biomass. In most cases, the tallest stratum will also be the dominant stratum. Emergents are an exception (see below)."@en ;
     skos:notation "U" ;
-    skos:prefLabel "Dominant or upper stratum" ;
+    skos:prefLabel "Dominant or upper stratum"@en ;
 .
 
-veg:wetland-growth-form-1
+:wetland-growth-form-1
     a skos:Concept ;
-    skos:definition "Woody or herbaceous, not ephemeral" ;
+    skos:definition "Woody or herbaceous, not ephemeral"@en ;
     skos:notation "1" ;
-    skos:prefLabel "Emergent, permanent" ;
+    skos:prefLabel "Emergent, permanent"@en ;
 .
 
-veg:wetland-growth-form-2
+:wetland-growth-form-2
     a skos:Concept ;
-    skos:definition "Herbaceous, ephemeral" ;
+    skos:definition "Herbaceous, ephemeral"@en ;
     skos:notation "2" ;
-    skos:prefLabel "Emergent, ephemeral" ;
+    skos:prefLabel "Emergent, ephemeral"@en ;
 .
 
-veg:wetland-growth-form-3
+:wetland-growth-form-3
     a skos:Concept ;
     skos:definition """Floating stems with leaves at the surface but roots in substrate	
-Herbaceous, leaves at surface""" ;
+Herbaceous, leaves at surface"""@en ;
     skos:notation "3" ;
-    skos:prefLabel "Floating stems" ;
+    skos:prefLabel "Floating stems"@en ;
 .
 
-veg:wetland-growth-form-4
+:wetland-growth-form-4
     a skos:Concept ;
-    skos:definition "Predominantly herbaceous; for example grass mats not attached to substrate" ;
+    skos:definition "Predominantly herbaceous; for example grass mats not attached to substrate"@en ;
     skos:notation "4" ;
-    skos:prefLabel "Floating mats" ;
+    skos:prefLabel "Floating mats"@en ;
 .
 
-veg:wetland-growth-form-5
+:wetland-growth-form-5
     a skos:Concept ;
     skos:definition """Fully submerged with roots attached to substrate	
-Herbaceous with whole plant below surface; in some cases flowers may be emergent""" ;
+Herbaceous with whole plant below surface; in some cases flowers may be emergent"""@en ;
     skos:notation "5" ;
-    skos:prefLabel "Fully submerged attached to substrate	" ;
+    skos:prefLabel "Fully submerged attached to substrate	"@en ;
 .
 
-veg:wetland-growth-form-6
+:wetland-growth-form-6
     a skos:Concept ;
-    skos:definition "Unattached plant, submerged; for example free-floating herbs or algae" ;
+    skos:definition "Unattached plant, submerged; for example free-floating herbs or algae"@en ;
     skos:notation "6" ;
-    skos:prefLabel "Fully submerged, floating" ;
+    skos:prefLabel "Fully submerged, floating"@en ;
 .
 
-veg:wetland-growthform
+:wetland-growthform
     a
         skos:Collection ,
         sosa:ObservableProperty ;
     skos:member
-        veg:wetland-growth-form-1 ,
-        veg:wetland-growth-form-2 ,
-        veg:wetland-growth-form-3 ,
-        veg:wetland-growth-form-4 ,
-        veg:wetland-growth-form-5 ,
-        veg:wetland-growth-form-6 ;
-    skos:prefLabel "Wetlands growth form" ;
+        :wetland-growth-form-1 ,
+        :wetland-growth-form-2 ,
+        :wetland-growth-form-3 ,
+        :wetland-growth-form-4 ,
+        :wetland-growth-form-5 ,
+        :wetland-growth-form-6 ;
+    skos:prefLabel "Wetlands growth form"@en ;
 .
 
-veg:wetland-type-1
+:wetland-type-1
     a skos:Concept ;
-    skos:definition "Marine waters—permanent shallow waters less than 6 m deep at low tide; includes sea bays, straits" ;
+    skos:definition "Marine waters—permanent shallow waters less than 6 m deep at low tide; includes sea bays, straits"@en ;
     skos:notation "1" ;
-    skos:prefLabel "Marine waters" ;
+    skos:prefLabel "Marine waters"@en ;
 .
 
-veg:wetland-type-10
+:wetland-type-10
     a skos:Concept ;
-    skos:definition "Brackish to saline lagoons and marshes with one or more relatively narrow connections with the sea" ;
+    skos:definition "Brackish to saline lagoons and marshes with one or more relatively narrow connections with the sea"@en ;
     skos:notation "10" ;
-    skos:prefLabel "Lagoons and marshes" ;
+    skos:prefLabel "Lagoons and marshes"@en ;
 .
 
-veg:wetland-type-11
+:wetland-type-11
     a skos:Concept ;
-    skos:definition "Freshwater lagoons and marshes in the coastal zone" ;
+    skos:definition "Freshwater lagoons and marshes in the coastal zone"@en ;
     skos:notation "11" ;
-    skos:prefLabel "Freshwater lagoons and marshes" ;
+    skos:prefLabel "Freshwater lagoons and marshes"@en ;
 .
 
-veg:wetland-type-12
+:wetland-type-12
     a skos:Concept ;
-    skos:definition "Non-tidal freshwater forested wetlands" ;
+    skos:definition "Non-tidal freshwater forested wetlands"@en ;
     skos:notation "12" ;
-    skos:prefLabel "Forested wetlands" ;
+    skos:prefLabel "Forested wetlands"@en ;
 .
 
-veg:wetland-type-13
+:wetland-type-13
     a skos:Concept ;
-    skos:definition "Permanent rivers and streams; includes waterfalls" ;
+    skos:definition "Permanent rivers and streams; includes waterfalls"@en ;
     skos:notation "13" ;
-    skos:prefLabel "Permanent rivers and streams" ;
+    skos:prefLabel "Permanent rivers and streams"@en ;
 .
 
-veg:wetland-type-14
+:wetland-type-14
     a skos:Concept ;
-    skos:definition "Seasonal and irregular rivers and streams" ;
+    skos:definition "Seasonal and irregular rivers and streams"@en ;
     skos:notation "14" ;
-    skos:prefLabel "Seasonal rivers and streams" ;
+    skos:prefLabel "Seasonal rivers and streams"@en ;
 .
 
-veg:wetland-type-15
+:wetland-type-15
     a skos:Concept ;
-    skos:definition "Inland deltas (permanent)" ;
+    skos:definition "Inland deltas (permanent)"@en ;
     skos:notation "15" ;
-    skos:prefLabel "Inland deltas" ;
+    skos:prefLabel "Inland deltas"@en ;
 .
 
-veg:wetland-type-16
+:wetland-type-16
     a skos:Concept ;
-    skos:definition "Riverine floodplains; includes seasonally flooded grassland, savanna and palm savanna; river flats; flooded river basins" ;
+    skos:definition "Riverine floodplains; includes seasonally flooded grassland, savanna and palm savanna; river flats; flooded river basins"@en ;
     skos:notation "16" ;
-    skos:prefLabel "Riverine floodplains" ;
+    skos:prefLabel "Riverine floodplains"@en ;
 .
 
-veg:wetland-type-17
+:wetland-type-17
     a skos:Concept ;
-    skos:definition "Permanent freshwater lakes (>8 ha); includes large oxbow lakes" ;
+    skos:definition "Permanent freshwater lakes (>8 ha); includes large oxbow lakes"@en ;
     skos:notation "17" ;
-    skos:prefLabel "Permanent freshwater lakes" ;
+    skos:prefLabel "Permanent freshwater lakes"@en ;
 .
 
-veg:wetland-type-18
+:wetland-type-18
     a skos:Concept ;
-    skos:definition "Seasonal/intermittent freshwater lakes (>8 ha), floodplain lakes" ;
+    skos:definition "Seasonal/intermittent freshwater lakes (>8 ha), floodplain lakes"@en ;
     skos:notation "18" ;
-    skos:prefLabel "Seasonal freshwater lakes" ;
+    skos:prefLabel "Seasonal freshwater lakes"@en ;
 .
 
-veg:wetland-type-19
+:wetland-type-19
     a skos:Concept ;
-    skos:definition "Permanent saline/brackish lakes" ;
+    skos:definition "Permanent saline/brackish lakes"@en ;
     skos:notation "19" ;
-    skos:prefLabel "Permanent saline/brackish lakes" ;
+    skos:prefLabel "Permanent saline/brackish lakes"@en ;
 .
 
-veg:wetland-type-2
+:wetland-type-2
     a skos:Concept ;
-    skos:definition "Sub-tidal aquatic beds; includes kelp beds, seagrasses, tropical marine meadows" ;
+    skos:definition "Sub-tidal aquatic beds; includes kelp beds, seagrasses, tropical marine meadows"@en ;
     skos:notation "2" ;
-    skos:prefLabel "Sub-tidal aquatic beds" ;
+    skos:prefLabel "Sub-tidal aquatic beds"@en ;
 .
 
-veg:wetland-type-20
+:wetland-type-20
     a skos:Concept ;
-    skos:definition "Seasonal/intermittent saline lakes" ;
+    skos:definition "Seasonal/intermittent saline lakes"@en ;
     skos:notation "20" ;
-    skos:prefLabel "Seasonal saline lakes" ;
+    skos:prefLabel "Seasonal saline lakes"@en ;
 .
 
-veg:wetland-type-21
+:wetland-type-21
     a skos:Concept ;
-    skos:definition "Permanent freshwater ponds (<8 ha), marshes and swamps on inorganic soils; emergent vegetation is waterlogged for at least most of the growing season" ;
+    skos:definition "Permanent freshwater ponds (<8 ha), marshes and swamps on inorganic soils; emergent vegetation is waterlogged for at least most of the growing season"@en ;
     skos:notation "21" ;
-    skos:prefLabel "Permanent freshwater ponds" ;
+    skos:prefLabel "Permanent freshwater ponds"@en ;
 .
 
-veg:wetland-type-22
+:wetland-type-22
     a skos:Concept ;
-    skos:definition "Seasonal/intermittent freshwater ponds and marshes on inorganic soils; includes billabongs, sloughs, potholes, seasonally flooded meadows, sedge marshes" ;
+    skos:definition "Seasonal/intermittent freshwater ponds and marshes on inorganic soils; includes billabongs, sloughs, potholes, seasonally flooded meadows, sedge marshes"@en ;
     skos:notation "22" ;
-    skos:prefLabel "Seasonal freshwater ponds" ;
+    skos:prefLabel "Seasonal freshwater ponds"@en ;
 .
 
-veg:wetland-type-23
+:wetland-type-23
     a skos:Concept ;
-    skos:definition "Permanent saline/brackish marshes" ;
+    skos:definition "Permanent saline/brackish marshes"@en ;
     skos:notation "23" ;
-    skos:prefLabel "Permanent saline/brackish marshes" ;
+    skos:prefLabel "Permanent saline/brackish marshes"@en ;
 .
 
-veg:wetland-type-24
+:wetland-type-24
     a skos:Concept ;
-    skos:definition "Seasonal saline marshes" ;
+    skos:definition "Seasonal saline marshes"@en ;
     skos:notation "24" ;
-    skos:prefLabel "Seasonal saline marshes" ;
+    skos:prefLabel "Seasonal saline marshes"@en ;
 .
 
-veg:wetland-type-25
+:wetland-type-25
     a skos:Concept ;
-    skos:definition "Shrub swamps; includes shrub-dominated freshwater marsh, shrub carr, alder thicket on inorganic soils" ;
+    skos:definition "Shrub swamps; includes shrub-dominated freshwater marsh, shrub carr, alder thicket on inorganic soils"@en ;
     skos:notation "25" ;
-    skos:prefLabel "Shrub swamps" ;
+    skos:prefLabel "Shrub swamps"@en ;
 .
 
-veg:wetland-type-26
+:wetland-type-26
     a skos:Concept ;
-    skos:definition "Freshwater swamp forest—seasonally flooded forest or wooded swamps on inorganic soils" ;
+    skos:definition "Freshwater swamp forest—seasonally flooded forest or wooded swamps on inorganic soils"@en ;
     skos:notation "26" ;
-    skos:prefLabel "Freshwater swamp forest" ;
+    skos:prefLabel "Freshwater swamp forest"@en ;
 .
 
-veg:wetland-type-27
+:wetland-type-27
     a skos:Concept ;
-    skos:definition "Peatlands; includes forest, shrub or open bogs" ;
+    skos:definition "Peatlands; includes forest, shrub or open bogs"@en ;
     skos:notation "27" ;
-    skos:prefLabel "Peatlands" ;
+    skos:prefLabel "Peatlands"@en ;
 .
 
-veg:wetland-type-28
+:wetland-type-28
     a skos:Concept ;
-    skos:definition "Alpine and tundra wetlands; includes alpine meadows, tundra pools, temporary waters from snow melt" ;
+    skos:definition "Alpine and tundra wetlands; includes alpine meadows, tundra pools, temporary waters from snow melt"@en ;
     skos:notation "28" ;
-    skos:prefLabel "Alpine and tundra wetlands" ;
+    skos:prefLabel "Alpine and tundra wetlands"@en ;
 .
 
-veg:wetland-type-29
+:wetland-type-29
     a skos:Concept ;
-    skos:definition "Freshwater springs, oases and rock pools" ;
+    skos:definition "Freshwater springs, oases and rock pools"@en ;
     skos:notation "29" ;
-    skos:prefLabel "Freshwater springs, oases and rock pools" ;
+    skos:prefLabel "Freshwater springs, oases and rock pools"@en ;
 .
 
-veg:wetland-type-3
+:wetland-type-3
     a skos:Concept ;
-    skos:definition "Coral reefs" ;
+    skos:definition "Coral reefs"@en ;
     skos:notation "3" ;
-    skos:prefLabel "Coral reefs" ;
+    skos:prefLabel "Coral reefs"@en ;
 .
 
-veg:wetland-type-30
+:wetland-type-30
     a skos:Concept ;
-    skos:definition "Geothermal wetlands" ;
+    skos:definition "Geothermal wetlands"@en ;
     skos:notation "30" ;
-    skos:prefLabel "Geothermal wetlands" ;
+    skos:prefLabel "Geothermal wetlands"@en ;
 .
 
-veg:wetland-type-31
+:wetland-type-31
     a skos:Concept ;
-    skos:definition "Inland subterranean karst wetlands" ;
+    skos:definition "Inland subterranean karst wetlands"@en ;
     skos:notation "31" ;
-    skos:prefLabel "Karst wetlands" ;
+    skos:prefLabel "Karst wetlands"@en ;
 .
 
-veg:wetland-type-32
+:wetland-type-32
     a skos:Concept ;
-    skos:definition "Water storage areas; includes reservoirs, barrages, hydroelectric dams, impoundments (generally >8 ha)" ;
+    skos:definition "Water storage areas; includes reservoirs, barrages, hydroelectric dams, impoundments (generally >8 ha)"@en ;
     skos:notation "32" ;
-    skos:prefLabel "Water storage areas" ;
+    skos:prefLabel "Water storage areas"@en ;
 .
 
-veg:wetland-type-33
+:wetland-type-33
     a skos:Concept ;
-    skos:definition "Ponds; includes farm and stock ponds, small tanks (generally <8 ha)" ;
+    skos:definition "Ponds; includes farm and stock ponds, small tanks (generally <8 ha)"@en ;
     skos:notation "33" ;
-    skos:prefLabel "Ponds" ;
+    skos:prefLabel "Ponds"@en ;
 .
 
-veg:wetland-type-34
+:wetland-type-34
     a skos:Concept ;
-    skos:definition "Aquaculture ponds; includes fish ponds, shrimp ponds" ;
+    skos:definition "Aquaculture ponds; includes fish ponds, shrimp ponds"@en ;
     skos:notation "34" ;
-    skos:prefLabel "Aquaculture ponds" ;
+    skos:prefLabel "Aquaculture ponds"@en ;
 .
 
-veg:wetland-type-35
+:wetland-type-35
     a skos:Concept ;
-    skos:definition "Salt exploitation; includes salt pans, salines" ;
+    skos:definition "Salt exploitation; includes salt pans, salines"@en ;
     skos:notation "35" ;
-    skos:prefLabel "Salt exploitation" ;
+    skos:prefLabel "Salt exploitation"@en ;
 .
 
-veg:wetland-type-36
+:wetland-type-36
     a skos:Concept ;
-    skos:definition "Excavations; includes gravel pits, borrow pits, mining pools" ;
+    skos:definition "Excavations; includes gravel pits, borrow pits, mining pools"@en ;
     skos:notation "36" ;
-    skos:prefLabel "Excavations" ;
+    skos:prefLabel "Excavations"@en ;
 .
 
-veg:wetland-type-37
+:wetland-type-37
     a skos:Concept ;
-    skos:definition "Wastewater treatment, sewage farms, settling ponds, oxidation basins" ;
+    skos:definition "Wastewater treatment, sewage farms, settling ponds, oxidation basins"@en ;
     skos:notation "37" ;
-    skos:prefLabel "Wastewater treatment" ;
+    skos:prefLabel "Wastewater treatment"@en ;
 .
 
-veg:wetland-type-38
+:wetland-type-38
     a skos:Concept ;
-    skos:definition "Irrigated land and irrigation channels; includes rice fields, canals, ditches" ;
+    skos:definition "Irrigated land and irrigation channels; includes rice fields, canals, ditches"@en ;
     skos:notation "38" ;
-    skos:prefLabel "Irrigated land and channels" ;
+    skos:prefLabel "Irrigated land and channels"@en ;
 .
 
-veg:wetland-type-39
+:wetland-type-39
     a skos:Concept ;
-    skos:definition "Seasonally flooded arable land, farm land" ;
+    skos:definition "Seasonally flooded arable land, farm land"@en ;
     skos:notation "39" ;
-    skos:prefLabel "Seasonally flooded farm land" ;
+    skos:prefLabel "Seasonally flooded farm land"@en ;
 .
 
-veg:wetland-type-4
+:wetland-type-4
     a skos:Concept ;
-    skos:definition "Rocky marine shores; includes rocky offshore islands, sea cliffs" ;
+    skos:definition "Rocky marine shores; includes rocky offshore islands, sea cliffs"@en ;
     skos:notation "4" ;
-    skos:prefLabel "Rocky marine shores" ;
+    skos:prefLabel "Rocky marine shores"@en ;
 .
 
-veg:wetland-type-40
+:wetland-type-40
     a skos:Concept ;
-    skos:definition "Canals" ;
+    skos:definition "Canals"@en ;
     skos:notation "40" ;
-    skos:prefLabel "Canals" ;
+    skos:prefLabel "Canals"@en ;
 .
 
-veg:wetland-type-5
+:wetland-type-5
     a skos:Concept ;
-    skos:definition "Sand, shingle or pebble beaches, sand bars, spits, sandy islets" ;
+    skos:definition "Sand, shingle or pebble beaches, sand bars, spits, sandy islets"@en ;
     skos:notation "5" ;
-    skos:prefLabel "Beaches" ;
+    skos:prefLabel "Beaches"@en ;
 .
 
-veg:wetland-type-6
+:wetland-type-6
     a skos:Concept ;
-    skos:definition "Estuarine waters; includes permanent waters of estuaries and estuarine systems of deltas" ;
+    skos:definition "Estuarine waters; includes permanent waters of estuaries and estuarine systems of deltas"@en ;
     skos:notation "6" ;
-    skos:prefLabel "Estuarine waters" ;
+    skos:prefLabel "Estuarine waters"@en ;
 .
 
-veg:wetland-type-7
+:wetland-type-7
     a skos:Concept ;
-    skos:definition "Intertidal mud, sand or salt flats" ;
+    skos:definition "Intertidal mud, sand or salt flats"@en ;
     skos:notation "7" ;
-    skos:prefLabel "Intertidal flats" ;
+    skos:prefLabel "Intertidal flats"@en ;
 .
 
-veg:wetland-type-8
+:wetland-type-8
     a skos:Concept ;
-    skos:definition "Intertidal marshes; includes salt marshes, salt meadows, raised salt marshes, tidal brackish and freshwater marshes" ;
+    skos:definition "Intertidal marshes; includes salt marshes, salt meadows, raised salt marshes, tidal brackish and freshwater marshes"@en ;
     skos:notation "8" ;
-    skos:prefLabel "Intertidal marshes" ;
+    skos:prefLabel "Intertidal marshes"@en ;
 .
 
-veg:wetland-type-9
+:wetland-type-9
     a skos:Concept ;
-    skos:definition "Intertidal forested wetlands; includes mangrove swamps, nipa swamps, tidal freshwater swamp forests" ;
+    skos:definition "Intertidal forested wetlands; includes mangrove swamps, nipa swamps, tidal freshwater swamp forests"@en ;
     skos:notation "9" ;
-    skos:prefLabel "Intertidal forested wetlands" ;
+    skos:prefLabel "Intertidal forested wetlands"@en ;
 .
 
-veg:wetland-types
+:wetland-types
     a skos:Collection ;
-    skos:definition "The 40 aquatic and wetland types listed here are taken from the ‘Directory of Important Wetlands in Australia’ (Commonwealth of Australia 2001). The definition of wetland is consistent with that adopted by the Ramsar Convention, Article 1.1 (Anon. 1994). Marine vegetation below 6 m depth is not covered in this manual." ;
+    skos:definition "The 40 aquatic and wetland types listed here are taken from the ‘Directory of Important Wetlands in Australia’ (Commonwealth of Australia 2001). The definition of wetland is consistent with that adopted by the Ramsar Convention, Article 1.1 (Anon. 1994). Marine vegetation below 6 m depth is not covered in this manual."@en ;
     skos:member
-        veg:wetland-types-human ,
-        veg:wetland-types-inland ,
-        veg:wetland-types-marine ;
-    skos:prefLabel "Aquatic and wetland types" ;
+        :wetland-types-human ,
+        :wetland-types-inland ,
+        :wetland-types-marine ;
+    skos:prefLabel "Aquatic and wetland types"@en ;
 .
 
-veg:wetland-types-human
-    a skos:Collection ;
-    skos:member
-        veg:wetland-type-32 ,
-        veg:wetland-type-33 ,
-        veg:wetland-type-34 ,
-        veg:wetland-type-35 ,
-        veg:wetland-type-36 ,
-        veg:wetland-type-37 ,
-        veg:wetland-type-38 ,
-        veg:wetland-type-39 ,
-        veg:wetland-type-40 ;
-    skos:prefLabel "C—Human-made wetlands" ;
-.
-
-veg:wetland-types-inland
+:wetland-types-human
     a skos:Collection ;
     skos:member
-        veg:wetland-type-13 ,
-        veg:wetland-type-14 ,
-        veg:wetland-type-15 ,
-        veg:wetland-type-16 ,
-        veg:wetland-type-17 ,
-        veg:wetland-type-18 ,
-        veg:wetland-type-19 ,
-        veg:wetland-type-20 ,
-        veg:wetland-type-21 ,
-        veg:wetland-type-22 ,
-        veg:wetland-type-23 ,
-        veg:wetland-type-24 ,
-        veg:wetland-type-25 ,
-        veg:wetland-type-26 ,
-        veg:wetland-type-27 ,
-        veg:wetland-type-28 ,
-        veg:wetland-type-29 ,
-        veg:wetland-type-30 ,
-        veg:wetland-type-31 ;
-    skos:prefLabel "B—Inland wetlands" ;
+        :wetland-type-32 ,
+        :wetland-type-33 ,
+        :wetland-type-34 ,
+        :wetland-type-35 ,
+        :wetland-type-36 ,
+        :wetland-type-37 ,
+        :wetland-type-38 ,
+        :wetland-type-39 ,
+        :wetland-type-40 ;
+    skos:prefLabel "C—Human-made wetlands"@en ;
 .
 
-veg:wetland-types-marine
+:wetland-types-inland
     a skos:Collection ;
     skos:member
-        veg:wetland-type-1 ,
-        veg:wetland-type-10 ,
-        veg:wetland-type-11 ,
-        veg:wetland-type-12 ,
-        veg:wetland-type-2 ,
-        veg:wetland-type-3 ,
-        veg:wetland-type-4 ,
-        veg:wetland-type-5 ,
-        veg:wetland-type-6 ,
-        veg:wetland-type-7 ,
-        veg:wetland-type-8 ,
-        veg:wetland-type-9 ;
-    skos:prefLabel "A—Marine and coastal zone wetlands" ;
+        :wetland-type-13 ,
+        :wetland-type-14 ,
+        :wetland-type-15 ,
+        :wetland-type-16 ,
+        :wetland-type-17 ,
+        :wetland-type-18 ,
+        :wetland-type-19 ,
+        :wetland-type-20 ,
+        :wetland-type-21 ,
+        :wetland-type-22 ,
+        :wetland-type-23 ,
+        :wetland-type-24 ,
+        :wetland-type-25 ,
+        :wetland-type-26 ,
+        :wetland-type-27 ,
+        :wetland-type-28 ,
+        :wetland-type-29 ,
+        :wetland-type-30 ,
+        :wetland-type-31 ;
+    skos:prefLabel "B—Inland wetlands"@en ;
 .
 
-veg:cover-abundance
+:wetland-types-marine
+    a skos:Collection ;
+    skos:member
+        :wetland-type-1 ,
+        :wetland-type-10 ,
+        :wetland-type-11 ,
+        :wetland-type-12 ,
+        :wetland-type-2 ,
+        :wetland-type-3 ,
+        :wetland-type-4 ,
+        :wetland-type-5 ,
+        :wetland-type-6 ,
+        :wetland-type-7 ,
+        :wetland-type-8 ,
+        :wetland-type-9 ;
+    skos:prefLabel "A—Marine and coastal zone wetlands"@en ;
+.
+
+<https://orcid.org/0000-0002-0693-1899>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-3884-3420>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0003-3206-2268>
+    a schema:Person ;
+    schema:email ""^^xsd:anyURI ;
+.
+
+:cover-abundance
     a
         skos:Collection ,
         sosa:ObservableProperty ;
@@ -1494,88 +1514,88 @@ For the less dense cover classes, imagine moving all individuals into one area a
 
 Although this method provides an absolute value for classes 2–5 (that is, it is a percentage of a defined sample area), the class boundaries are wide and cover is estimated, not measured. Many studies have shown large variations between observers, as well as in one observer’s estimates at different times. Because of these inherent errors, it is important to regularly compare observers if more than one person is making records and to check observations if one person is recording.
 
-In broad-ranging surveys, it is usually better to have large numbers of samples with good cover–abundance estimates, rather than a few precise measures that do not cover the variability of the vegetation. If the objectives of the survey are narrowly focussed and looking for fine levels of discrimination between samples or sampling times, then actual quantitative measurements are more appropriate than class values.""" ;
+In broad-ranging surveys, it is usually better to have large numbers of samples with good cover–abundance estimates, rather than a few precise measures that do not cover the variability of the vegetation. If the objectives of the survey are narrowly focussed and looking for fine levels of discrimination between samples or sampling times, then actual quantitative measurements are more appropriate than class values."""@en ;
     skos:member
-        veg:cover-abundance-1 ,
-        veg:cover-abundance-2 ,
-        veg:cover-abundance-3 ,
-        veg:cover-abundance-4 ,
-        veg:cover-abundance-5 ,
-        veg:cover-abundance-cross ,
-        veg:cover-abundance-r ;
-    skos:prefLabel "Cover abundance" ;
+        :cover-abundance-1 ,
+        :cover-abundance-2 ,
+        :cover-abundance-3 ,
+        :cover-abundance-4 ,
+        :cover-abundance-5 ,
+        :cover-abundance-cross ,
+        :cover-abundance-r ;
+    skos:prefLabel "Cover abundance"@en ;
 .
 
-veg:cover-class-D
+:cover-class-D
     a skos:Concept ;
-    skos:definition "Crowns touching to overlapping 	Crown separation ratio<0	Crown cover %>80%	Foliage cover %>70%" ;
+    skos:definition "Crowns touching to overlapping 	Crown separation ratio<0	Crown cover %>80%	Foliage cover %>70%"@en ;
     skos:notation "D" ;
-    skos:prefLabel "Closed or dense" ;
+    skos:prefLabel "Closed or dense"@en ;
 .
 
-veg:cover-class-E
+:cover-class-E
     a skos:Concept ;
-    skos:definition "Emergent 	Crown separation ratio >3	Crown cover % <0.5% of total crown cover	Foliage cover % <3% of total foliage cover" ;
+    skos:definition "Emergent 	Crown separation ratio >3	Crown cover % <0.5% of total crown cover	Foliage cover % <3% of total foliage cover"@en ;
     skos:notation "E" ;
-    skos:prefLabel "Emergent" ;
+    skos:prefLabel "Emergent"@en ;
 .
 
-veg:cover-class-I
+:cover-class-I
     a skos:Concept ;
-    skos:definition "Isolated plants: for trees about 100 m apart, shrubs about 20 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%" ;
+    skos:definition "Isolated plants: for trees about 100 m apart, shrubs about 20 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%"@en ;
     skos:notation "I" ;
-    skos:prefLabel "Isolated plants" ;
+    skos:prefLabel "Isolated plants"@en ;
 .
 
-veg:cover-class-L
+:cover-class-L
     a skos:Concept ;
-    skos:definition "Isolated clumps of 2 to many plants about 200 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%" ;
+    skos:definition "Isolated clumps of 2 to many plants about 200 m apart 	Crown separation ratio >20	Crown cover % <0.25%	Foliage cover % <0.20%"@en ;
     skos:notation "L" ;
-    skos:prefLabel "Isolated clumps" ;
+    skos:prefLabel "Isolated clumps"@en ;
 .
 
-veg:cover-class-M
+:cover-class-M
     a skos:Concept ;
-    skos:definition "Crowns touching or slightly separated   	Crown separation ratio 0-0.25	Crown cover % 50-80%	Foliage cover % 30-70%" ;
+    skos:definition "Crowns touching or slightly separated   	Crown separation ratio 0-0.25	Crown cover % 50-80%	Foliage cover % 30-70%"@en ;
     skos:notation "M" ;
-    skos:prefLabel "Mid-dense" ;
+    skos:prefLabel "Mid-dense"@en ;
 .
 
-veg:cover-class-S
+:cover-class-S
     a skos:Concept ;
-    skos:definition "Crowns clearly separated 	Crown separation ratio 0.25-1	Crown cover % 20-50%	Foliage cover % 10-30%" ;
+    skos:definition "Crowns clearly separated 	Crown separation ratio 0.25-1	Crown cover % 20-50%	Foliage cover % 10-30%"@en ;
     skos:notation "S" ;
-    skos:prefLabel "Sparse or open" ;
+    skos:prefLabel "Sparse or open"@en ;
 .
 
-veg:cover-class-V
+:cover-class-V
     a skos:Concept ;
-    skos:definition "Crowns well separated 	Crown separation ratio 1-20	Crown cover % 0.25-20%	Foliage cover % 0.2-10%" ;
+    skos:definition "Crowns well separated 	Crown separation ratio 1-20	Crown cover % 0.25-20%	Foliage cover % 0.2-10%"@en ;
     skos:notation "V" ;
-    skos:prefLabel "Very sparse" ;
+    skos:prefLabel "Very sparse"@en ;
 .
 
-veg:crown-cover-class
+:crown-cover-class
     a
         skos:Collection ,
         sosa:ObservableProperty ;
-    skos:definition "The recorded cover values collected using the methods below can be converted to cover classes as shown in Table 17. Crown cover classes are those used in Walker and Hopkins (1990) and these were selected to coincide as closely as possible with the cover classes of previous classifications, e.g. the projective foliage cover classes of Specht et al. (1974)." ;
+    skos:definition "The recorded cover values collected using the methods below can be converted to cover classes as shown in Table 17. Crown cover classes are those used in Walker and Hopkins (1990) and these were selected to coincide as closely as possible with the cover classes of previous classifications, e.g. the projective foliage cover classes of Specht et al. (1974)."@en ;
     skos:member
-        veg:cover-class-D ,
-        veg:cover-class-E ,
-        veg:cover-class-I ,
-        veg:cover-class-L ,
-        veg:cover-class-M ,
-        veg:cover-class-S ,
-        veg:cover-class-V ;
-    skos:prefLabel "Crown cover class" ;
+        :cover-class-D ,
+        :cover-class-E ,
+        :cover-class-I ,
+        :cover-class-L ,
+        :cover-class-M ,
+        :cover-class-S ,
+        :cover-class-V ;
+    skos:prefLabel "Crown cover class"@en ;
     skos:related
-        veg:crown-cover ,
-        veg:crown-separation-ratio ,
-        veg:foliage-cover ;
+        :crown-cover ,
+        :crown-separation-ratio ,
+        :foliage-cover ;
 .
 
-veg:emergents
+:emergents
     a skos:Collection ;
     skos:definition """Some plants can rise above the level of the dominant stratum and because their total cover is small, they are considered to be emergents rather than a separate stratum. As a guideline, emergents are recognised if their foliage cover is less than 5% of the crown cover of the dominant stratum (see Figure 8 for a tree example). Care is needed in classifying tall plants as emergents, and the 5% guideline can be expected to vary depending on vegetation type and season – especially if the ground layer is the dominant stratum. In some borderline cases, taller plants can occur over a lower stratum that elsewhere forms the dominant stratum of a well-known vegetation type. In this situation it is acceptable to continue to call the tallest stratum emergents where it is considered unhelpful to create a new vegetation type solely on the basis of the unusually slightly higher cover of the tallest plants.
 
@@ -1585,16 +1605,16 @@ When the tallest stratum is not the most significant stratum, the guidelines var
 •	Where the vegetation is dominated by trees or shrubs, and the tallest layer emerges above a dominant canopy (that is, cover >5%) and has generally less than 5% total cover, then the tallest trees or shrubs are called emergents. The genus or species of emergents should be recorded, if possible, followed by the word ‘emergents’: for example ‘with hoop pine emergents’; ‘with Araucaria emergents’; ‘with Eucalyptus emergents’. 
 •	Where the vegetation is dominated by perennial grasses, for example Triodia, and a taller layer of woody plants emerges above it with less than 5% of the Triodia cover, then the tallest plants are called emergents and should be named as in the example above.
 •	Where the vegetation is seasonally or sporadically dominated by annual plants in a mix of perennial plants that form a taller layer, then in most cases the dominant layer is the taller perennial layer. For example, ‘sparse eucalypt trees with seasonally dominant Sorghum in the understorey’ or ‘sparse acacia trees with periodically dominant annual herbs of Asteraceae and other families’. 
-•	For ephemeral wetlands, where the dominant layer is only present periodically and there is no taller woody layer, the dominant layer is the ephemeral layer. It is recorded as ephemeral, for example: ‘ephemeral mixed herbs’.""" ;
+•	For ephemeral wetlands, where the dominant layer is only present periodically and there is no taller woody layer, the dominant layer is the ephemeral layer. It is recorded as ephemeral, for example: ‘ephemeral mixed herbs’."""@en ;
     skos:member
-        veg:crown-cover ,
-        veg:emergent-taxon ,
-        veg:maximum-height ,
-        veg:median-height ;
-    skos:prefLabel "Emergents" ;
+        :crown-cover ,
+        :emergent-taxon ,
+        :maximum-height ,
+        :median-height ;
+    skos:prefLabel "Emergents"@en ;
 .
 
-veg:ground-cover
+:ground-cover
     a
         skos:Concept ,
         sosa:ObservableProperty ;
@@ -1604,180 +1624,180 @@ The ground layer normally comprises low shrubs, grasses, forbs, rushes, sedges e
 
 The method is intended for use in grass and low shrubs. Looking vertically down onto the tape and foliage, the amount of foliage intercepted along the tape is estimated, and expressed as a percentage of the transect length. It is easiest to estimate and record the amount of foliage intercepted per metre of tape and add these amounts at the completion of the transect.
 
-Two to four transects are usually needed per site depending on cover variability. For grass, a 10 m transect is usually enough; for small shrubs, 20 m. A longer transect will be needed where the ground layer is more patchy. In some situations – for example rangeland environments where the formation class may require subdivision – it is often useful to collect information about basal area and/or plant density and to record a number of cover classes in the <10% foliage cover class. Transects should be located independently of the ground layer so that the sample is not biased. The starting point and direction can be fixed in relation to some aspect of the plot or can be determined by using random numbers to locate the starting point and bearing.""" ;
-    skos:prefLabel "Ground cover" ;
+Two to four transects are usually needed per site depending on cover variability. For grass, a 10 m transect is usually enough; for small shrubs, 20 m. A longer transect will be needed where the ground layer is more patchy. In some situations – for example rangeland environments where the formation class may require subdivision – it is often useful to collect information about basal area and/or plant density and to record a number of cover classes in the <10% foliage cover class. Transects should be located independently of the ground layer so that the sample is not biased. The starting point and direction can be fixed in relation to some aspect of the plot or can be determined by using random numbers to locate the starting point and bearing."""@en ;
+    skos:prefLabel "Ground cover"@en ;
 .
 
-veg:ground-cover-class
+:ground-cover-class
     a
         skos:Collection ,
         sosa:ObservableProperty ;
-    skos:definition "The ground layer normally comprises low shrubs, grasses, forbs, rushes, sedges etc., and it is necessary, in this classification, to estimate the foliage cover as a vertical projection. For many purposes a visual estimate will suffice to place the ground cover into a cover class (Table 17). " ;
+    skos:definition "The ground layer normally comprises low shrubs, grasses, forbs, rushes, sedges etc., and it is necessary, in this classification, to estimate the foliage cover as a vertical projection. For many purposes a visual estimate will suffice to place the ground cover into a cover class (Table 17). "@en ;
     skos:member
-        veg:cover-class-D ,
-        veg:cover-class-E ,
-        veg:cover-class-I ,
-        veg:cover-class-L ,
-        veg:cover-class-M ,
-        veg:cover-class-S ,
-        veg:cover-class-V ;
-    skos:prefLabel "Ground cover class" ;
+        :cover-class-D ,
+        :cover-class-E ,
+        :cover-class-I ,
+        :cover-class-L ,
+        :cover-class-M ,
+        :cover-class-S ,
+        :cover-class-V ;
+    skos:prefLabel "Ground cover class"@en ;
     skos:related
-        veg:crown-cover ,
-        veg:crown-separation-ratio ,
-        veg:foliage-cover ;
+        :crown-cover ,
+        :crown-separation-ratio ,
+        :foliage-cover ;
 .
 
-veg:growth-form-g41
+:growth-form-g41
     a skos:Concept ;
-    skos:definition "member of the Poaceae cultivated or maintained for the production of food for animals, whether harvested or grazed directly." ;
+    skos:definition "member of the Poaceae cultivated or maintained for the production of food for animals, whether harvested or grazed directly."@en ;
     skos:notation "g4.1" ;
-    skos:prefLabel "Grass: planted/cultivated (pasture)" ;
+    skos:prefLabel "Grass: planted/cultivated (pasture)"@en ;
 .
 
-veg:growth-form-g42
+:growth-form-g42
     a skos:Concept ;
-    skos:definition "member of the Poaceae cultivated as cereal food for human consumption." ;
+    skos:definition "member of the Poaceae cultivated as cereal food for human consumption."@en ;
     skos:notation "g4.2" ;
-    skos:prefLabel "Grass: planted/cultivated (cereals) " ;
+    skos:prefLabel "Grass: planted/cultivated (cereals) "@en ;
 .
 
-veg:growth-form-g43
+:growth-form-g43
     a skos:Concept ;
-    skos:definition "member of Poaceae cultivated or maintained for industrial purposes but not for food, e.g. turf farm for lawn-grasses, road batten stabilisation." ;
+    skos:definition "member of Poaceae cultivated or maintained for industrial purposes but not for food, e.g. turf farm for lawn-grasses, road batten stabilisation."@en ;
     skos:notation "g4.3" ;
-    skos:prefLabel "Grass: planted/cultivated (other industrial)" ;
+    skos:prefLabel "Grass: planted/cultivated (other industrial)"@en ;
 .
 
-veg:growth-form-h21
+:growth-form-h21
     a skos:Concept ;
-    skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); non-food." ;
+    skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); non-food."@en ;
     skos:notation "h2.1" ;
-    skos:prefLabel "Herb: planted/cultivated (perennial, non-food)" ;
+    skos:prefLabel "Herb: planted/cultivated (perennial, non-food)"@en ;
 .
 
-veg:growth-form-h22
+:growth-form-h22
     a skos:Concept ;
-    skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); non-food." ;
+    skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); non-food."@en ;
     skos:notation "h2.2" ;
-    skos:prefLabel "Herb: planted/cultivated (annual, non-food)" ;
+    skos:prefLabel "Herb: planted/cultivated (annual, non-food)"@en ;
 .
 
-veg:growth-form-h23
+:growth-form-h23
     a skos:Concept ;
-    skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); food." ;
+    skos:definition "planted/cultivated annual herbaceous plant (monocotyledon or dicotyledon); food."@en ;
     skos:notation "h2.3" ;
-    skos:prefLabel "Herb: planted/cultivated (annual, food)" ;
+    skos:prefLabel "Herb: planted/cultivated (annual, food)"@en ;
 .
 
-veg:growth-form-h24
+:growth-form-h24
     a skos:Concept ;
-    skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); food." ;
+    skos:definition "planted/cultivated perennial herbaceous plant (monocotyledon or dicotyledon); food."@en ;
     skos:notation "h2.4" ;
-    skos:prefLabel "Herb: planted/cultivated (perennial, food)" ;
+    skos:prefLabel "Herb: planted/cultivated (perennial, food)"@en ;
 .
 
-veg:growth-form-l10
+:growth-form-l10
     a skos:Concept ;
-    skos:definition "composite plant consisting of a fungus living symbiotically with algae; without true roots, stems or leaves." ;
+    skos:definition "composite plant consisting of a fungus living symbiotically with algae; without true roots, stems or leaves."@en ;
     skos:notation "l1.0" ;
-    skos:prefLabel "Lichen" ;
+    skos:prefLabel "Lichen"@en ;
 .
 
-veg:growth-form-m10
+:growth-form-m10
     a skos:Concept ;
-    skos:definition "a member of the Division Bryophyta, i.e., mosses and liverworts. Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverworts are often moss-like in appearance or consist of a flat, ribbon-like, green thallus." ;
+    skos:definition "a member of the Division Bryophyta, i.e., mosses and liverworts. Mosses are small plants usually with a slender leaf-bearing stem with no true vascular tissue. Liverworts are often moss-like in appearance or consist of a flat, ribbon-like, green thallus."@en ;
     skos:notation "m1.0" ;
-    skos:prefLabel "Bryophyte" ;
+    skos:prefLabel "Bryophyte"@en ;
 .
 
-veg:growth-form-w11
+:growth-form-w11
     a skos:Concept ;
     skos:altLabel "Rainforest" ;
-    skos:definition "no widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation." ;
+    skos:definition "no widely accepted or universal definition for Australian rainforests. Usually distinguished by their dark green colour and species composition which contrasts with the surrounding grey or reddish-green and often eucalypt-dominated vegetation."@en ;
     skos:notation "w1.1" ;
-    skos:prefLabel "Tree: rainforest" ;
+    skos:prefLabel "Tree: rainforest"@en ;
 .
 
-veg:growth-form-w12
+:growth-form-w12
     a skos:Concept ;
-    skos:definition "trees planted in rows for the intense production of non-food crops." ;
+    skos:definition "trees planted in rows for the intense production of non-food crops."@en ;
     skos:notation "w1.2" ;
-    skos:prefLabel "Tree: planted/cultivated (non-food)" ;
+    skos:prefLabel "Tree: planted/cultivated (non-food)"@en ;
 .
 
-veg:growth-form-w14
+:growth-form-w14
     a skos:Concept ;
-    skos:definition "trees planted in mostly urban/suburban settings such as gardens, along streets, and nurseries." ;
+    skos:definition "trees planted in mostly urban/suburban settings such as gardens, along streets, and nurseries."@en ;
     skos:notation "w1.4" ;
-    skos:prefLabel "Tree: planted/cultivated (landscaping)" ;
+    skos:prefLabel "Tree: planted/cultivated (landscaping)"@en ;
 .
 
-veg:growth-form-w31
+:growth-form-w31
     a skos:Concept ;
-    skos:definition "shrub usually less than 2 m tall, commonly with ericoid leaves (nanophyll, less than 225 mm2). Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates." ;
+    skos:definition "shrub usually less than 2 m tall, commonly with ericoid leaves (nanophyll, less than 225 mm2). Often a member of one of the following families: Epacridaceae, Myrtaceae, Fabaceae and Proteaceae. Commonly occur on nutrient-poor substrates."@en ;
     skos:notation "w3.1" ;
-    skos:prefLabel "Heath or kwongan or wallum shrub" ;
+    skos:prefLabel "Heath or kwongan or wallum shrub"@en ;
 .
 
-veg:growth-form-w32
+:growth-form-w32
     a skos:Concept ;
-    skos:definition "single- or multi-stemmed, semi-succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance." ;
+    skos:definition "single- or multi-stemmed, semi-succulent shrub of the family Chenopodiaceae exhibiting drought and salt tolerance."@en ;
     skos:notation "w3.2" ;
-    skos:prefLabel "Chenopod shrub" ;
+    skos:prefLabel "Chenopod shrub"@en ;
 .
 
-veg:growth-form-w33
+:growth-form-w33
     a skos:Concept ;
-    skos:definition "a subdivision of chenopod shrubs. Genera (of Tribe Salicornioideae, namely Halosarcia, Pachycornia, Sarcocornia, Sclerostegia, Tecticornia and Tegicornia) with articulate branches, fleshy stems and reduced flowers within the Chenopodiaceae family; succulent chenopods. Also the genus Suaeda." ;
+    skos:definition "a subdivision of chenopod shrubs. Genera (of Tribe Salicornioideae, namely Halosarcia, Pachycornia, Sarcocornia, Sclerostegia, Tecticornia and Tegicornia) with articulate branches, fleshy stems and reduced flowers within the Chenopodiaceae family; succulent chenopods. Also the genus Suaeda."@en ;
     skos:notation "w3.3" ;
-    skos:prefLabel "Samphire shrub" ;
+    skos:prefLabel "Samphire shrub"@en ;
 .
 
-veg:growth-form-w35
+:growth-form-w35
     a skos:Concept ;
-    skos:definition "shrubs planted in mostly urban/suburban settings such as gardens, along streets, and nurseries." ;
+    skos:definition "shrubs planted in mostly urban/suburban settings such as gardens, along streets, and nurseries."@en ;
     skos:notation "w3.5" ;
-    skos:prefLabel "Shrub: planted/cultivated (non-food)" ;
+    skos:prefLabel "Shrub: planted/cultivated (non-food)"@en ;
 .
 
-veg:life-form-w
+:life-form-w
     a skos:Concept ;
-    skos:definition "Woody plants include all trees, palms, arborescent cycads, tree ferns, xanthorrhoeas, shrubs and woody vines. " ;
+    skos:definition "Woody plants include all trees, palms, arborescent cycads, tree ferns, xanthorrhoeas, shrubs and woody vines. "@en ;
     skos:notation "w" ;
-    skos:prefLabel "woody plants" ;
+    skos:prefLabel "woody plants"@en ;
 .
 
-veg:crown-type
+:crown-type
     a
         skos:Concept ,
         sosa:ObservableProperty ;
-    skos:definition "Estimate the openness of individual tree or shrub crowns by matching the crown with a photograph. The rows show similar crown types for different leaf size (large to small, left to right). Acacia phyllodes is in the right hand column. Most Australian woody plants are in the range 40–70%." ;
-    skos:prefLabel "Crown type" ;
+    skos:definition "Estimate the openness of individual tree or shrub crowns by matching the crown with a photograph. The rows show similar crown types for different leaf size (large to small, left to right). Acacia phyllodes is in the right hand column. Most Australian woody plants are in the range 40–70%."@en ;
+    skos:prefLabel "Crown type"@en ;
 .
 
-veg:foliage-cover-projected
+:foliage-cover-projected
     a skos:Concept ;
-    skos:definition "Projective foliage cover (PFC) (Specht et al. 1974) is the percentage of the sample site occupied by the vertical projection of foliage only." ;
+    skos:definition "Projective foliage cover (PFC) (Specht et al. 1974) is the percentage of the sample site occupied by the vertical projection of foliage only."@en ;
     skos:notation "PFC" ;
-    skos:prefLabel "Projected foliage cover" ;
+    skos:prefLabel "Projected foliage cover"@en ;
 .
 
-veg:growth-form-w13
+:growth-form-w13
     a skos:Concept ;
-    skos:definition "trees planted in rows for the production of food crops." ;
+    skos:definition "trees planted in rows for the production of food crops."@en ;
     skos:notation "w1.3" ;
-    skos:prefLabel "Tree: planted/cultivated (food)" ;
+    skos:prefLabel "Tree: planted/cultivated (food)"@en ;
 .
 
-veg:growth-form-w34
+:growth-form-w34
     a skos:Concept ;
-    skos:definition "shrubs planted in rows for the production of food crops." ;
+    skos:definition "shrubs planted in rows for the production of food crops."@en ;
     skos:notation "w3.4" ;
-    skos:prefLabel "Shrub: planted/cultivated (food)" ;
+    skos:prefLabel "Shrub: planted/cultivated (food)"@en ;
 .
 
-veg:crown-separation-ratio
+:crown-separation-ratio
     a
         skos:Concept ,
         sosa:ObservableProperty ;
@@ -1800,12 +1820,12 @@ To convert between crown separation ratio and crown cover percentage (Table 18),
  
 Crown cover (%) = k / (1+CSR)^2
 
-The constant k = 80.6 for samples taken along a zigzag transect as shown in Figure 5 (Penridge and Walker 1988).""" ;
-    skos:prefLabel "Crown separation ratio" ;
-    skos:related veg:crown-cover ;
+The constant k = 80.6 for samples taken along a zigzag transect as shown in Figure 5 (Penridge and Walker 1988)."""@en ;
+    skos:prefLabel "Crown separation ratio"@en ;
+    skos:related :crown-cover ;
 .
 
-veg:foliage-cover
+:foliage-cover
     a
         skos:Concept ,
         sosa:ObservableProperty ;
@@ -1822,17 +1842,17 @@ Examples:
 If CSR is 1.0, crown cover percentage = 20%.
 
 If crown openness (Figure 6) is 60%, 
-then foliage cover percentage = 20% × 60% = 12%.""" ;
-    skos:narrower veg:foliage-cover-projected ;
+then foliage cover percentage = 20% × 60% = 12%."""@en ;
+    skos:narrower :foliage-cover-projected ;
     skos:notation "FC" ;
     skos:note "* The relationship between crown cover and foliage cover is described in more detail in the text." ;
-    skos:prefLabel "Foliage cover" ;
+    skos:prefLabel "Foliage cover"@en ;
     skos:related
-        veg:crown-cover ,
-        veg:crown-type ;
+        :crown-cover ,
+        :crown-type ;
 .
 
-veg:crown-cover
+:crown-cover
     a
         skos:Concept ,
         sosa:ObservableProperty ;
@@ -1856,11 +1876,11 @@ Examples:
 If CSR is 1.0, crown cover percentage = 20%.
 
 If crown openness (Figure 6) is 60%, 
-then foliage cover percentage = 20% × 60% = 12%.""" ;
+then foliage cover percentage = 20% × 60% = 12%."""@en ;
     skos:notation "C" ;
     skos:note "* The relationship between crown cover and foliage cover is described in more detail in the text." ;
-    skos:prefLabel "Crown cover" ;
+    skos:prefLabel "Crown cover"@en ;
     skos:related
-        veg:crown-separation-ratio ,
-        veg:foliage-cover ;
+        :crown-separation-ratio ,
+        :foliage-cover ;
 .
